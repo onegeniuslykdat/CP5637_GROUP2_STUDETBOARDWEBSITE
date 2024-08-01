@@ -1,0 +1,100 @@
+/**
+ * This file contains styles for the editor and frontend
+ *
+ * @package Variations
+ *
+ */
+
+/*
+* Core blocks customization.
+*/
+/* block: "core/navigation" */
+@media (max-width: 767.5px) {
+    .wp-block-navigation__responsive-container-open:not(.always-shown) {
+        display: block;
+    }
+
+    .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content {
+        display: none;
+    }
+
+    .wp-block-navigation__responsive-container-close {
+        right: 1.7rem;
+        top: 2rem;
+    }
+
+    .has-modal-open .admin-bar .is-menu-open .wp-block-navigation__responsive-dialog,
+    .has-modal-open .is-menu-open .wp-block-navigation__responsive-dialog {
+        padding-top: clamp(1.5rem, 5vw, 2rem);
+    }
+
+    /* Sub menu */
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item.has-child {
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0px 30px;
+    }
+
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item.has-child .wp-block-navigation__submenu-icon {
+        display: block;
+        top: 6px;
+        position: absolute;
+        right: 10px;
+    }
+
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item.has-child .wp-block-navigation__submenu-container {
+        display: none;
+    }
+
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container li {
+        margin-bottom: 20px;
+    }
+
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container li:last-child {
+        margin-bottom: 0px;
+    }
+
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
+        min-width: unset !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 767.5px) and (min-width: 600px) {
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+        display: none;
+    }
+}
+
+/* Header */
+.mx_clean_header_background {
+    background: unset !important;
+}
+
+body header.wp-block-template-part:has(+ div .wp-block-cover:first-child) .is-style-header-fixed,
+body header.wp-block-template-part:has(+ .wp-block-cover) .is-style-header-fixed,
+body header.wp-block-template-part:has(+ main .wp-block-cover) .is-style-header-fixed {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+body header.wp-block-template-part:has(+ div .wp-block-cover:first-child) .is-position-sticky,
+body header.wp-block-template-part:has(+ .wp-block-cover) .is-position-sticky,
+body header.wp-block-template-part:has(+ main .wp-block-cover) .is-position-sticky {
+    position: absolute;
+    width: 100%;
+}
+
+@media (min-width: 767.5px) {
+
+    body header.wp-block-template-part:has(+ div .wp-block-cover:first-child) .is-position-sticky,
+    body header.wp-block-template-part:has(+ .wp-block-cover) .is-position-sticky,
+    body header.wp-block-template-part:has(+ main .wp-block-cover) .is-position-sticky {
+        position: fixed;
+        width: 100%;
+    }
+}
