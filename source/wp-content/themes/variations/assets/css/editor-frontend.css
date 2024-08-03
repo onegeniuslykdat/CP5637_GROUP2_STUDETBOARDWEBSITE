@@ -1,0 +1,216 @@
+/**
+ * This file contains styles for the editor and frontend
+ *
+ * @package Variations
+ *
+ */
+
+/*
+ * Common rules.
+ */
+
+.wp-site-blocks>*+* {
+    margin-block-start: 0 !important;
+}
+
+/* .has-background padding:unset */
+body .has-background {
+    padding: unset;
+}
+
+.entry-content {
+    padding-top: var(--wp--preset--spacing--50);
+    padding-bottom: var(--wp--preset--spacing--50);
+}
+
+/*
+ * Page templates customization.
+ */
+
+/* Prepare the page for cover block */
+body header.wp-block-template-part:has(+ div .wp-block-cover:first-child) .is-position-sticky,
+body header.wp-block-template-part:has(+ .wp-block-cover) .is-position-sticky {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+body header.wp-block-template-part:has(+ div .wp-block-cover:first-child)+.entry-content,
+body header.wp-block-template-part:has(+ .wp-block-cover)+.entry-content {
+    padding-top: unset;
+    padding-bottom: unset;
+}
+
+@media (max-width: 600.5px) {
+
+    body.admin-bar header.wp-block-template-part:has(+ div .wp-block-cover:first-child) .is-position-sticky,
+    body.admin-bar header.wp-block-template-part:has(+ .wp-block-cover) .is-position-sticky {
+        top: var(--wp--preset--spacing--50);
+    }
+}
+
+/* Page (Regular) template. Remove spacing below title */
+body main:has(.wp-block-post-title) .entry-content {
+    padding-top: unset;
+    padding-bottom: unset;
+}
+
+/*
+ * Post templates customization.
+ */
+.variations-posts-grid li>div {
+    height: 100%;
+}
+
+/*
+ * Site Title underline bug fix.
+ */
+div[style*="text-decoration:none"] a,
+div[style*="text-decoration: none"] a,
+p[style*="text-decoration:none"] a,
+p[style*="text-decoration: none"] a,
+ul[style*="text-decoration:none"] a,
+ul[style*="text-decoration: none"] a,
+li[style*="text-decoration:none"] a,
+li[style*="text-decoration: none"] a,
+.wp-block-heading[style*="text-decoration:none"] a,
+.wp-block-heading[style*="text-decoration: none"] a {
+    text-decoration: none !important;
+}
+
+/*
+ * core/search input customization
+ */
+.is-style-high-search input {
+    padding: 15px;
+}
+
+/*
+ * core/categories customization
+ */
+.wp-block-categories {
+    list-style-type: none;
+}
+
+.is-style-modern-list a {
+    color: #959E95;
+}
+
+.is-style-modern-list li {
+    border-bottom: 2px solid #D2DDD2;
+    padding: 20px 0px 10px;
+}
+
+/*
+ * core/query-pagination-numbers customization
+ */
+.is-style-rounded-numbers {
+    display: flex;
+    gap: 15px;
+}
+
+.is-style-rounded-numbers a,
+.is-style-rounded-numbers span {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.is-style-rounded-numbers a.page-numbers {
+    border: 1px solid #959e95;
+}
+
+.is-style-rounded-numbers a.page-numbers:hover {
+    text-decoration: none;
+    border: 1px solid #333333;
+}
+
+.is-style-rounded-numbers .page-numbers.current {
+    border: 1px solid #333333;
+}
+
+/*
+ * core/post-terms customization
+ */
+.taxonomy-post_tag.is-style-rounded-terms a {
+    border: 1px solid #D2DDD2;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+
+/*
+ * core/post-author customization
+ */
+.wp-block-post-author.is-style-blog-style img {
+    border-radius: 50%;
+}
+
+.wp-block-post-author.is-style-blog-style .wp-block-post-author__name {
+    font-weight: 500;
+}
+
+.wp-block-post-author.is-style-blog-style .wp-block-post-author__bio {
+    margin-top: 4px;
+}
+
+/*
+ * core/post-navigation-link customization
+ */
+.wp-block-post-navigation-link.is-style-blog-style:has(a) {
+    border: 1px solid #959E95;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.wp-block-post-navigation-link.is-style-blog-style .post-navigation-link__label {
+    text-transform: uppercase;
+    color: #959E95;
+    font-family: 'Inter';
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+    display: block;
+}
+
+/*
+ * core/comments customization
+ */
+#review_form #respond textarea,
+.comment-form input[type=text],
+.comment-form input[type=email],
+.comment-form input[type=url] {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+p.comment-form-author,
+p.comment-form-email,
+p.comment-form-url {
+    position: relative;
+    margin-top: 30px;
+}
+
+p.comment-form-author label,
+p.comment-form-email label,
+p.comment-form-url label {
+    position: absolute;
+    top: -25px;
+}
+
+.wp-block-comments.is-style-blog-style .comment-reply-title {
+    font-family: "Hedvig Letters Serif";
+    font-size: 20px;
+}
+
+.wp-block-comments.is-style-blog-style input[type="submit"] {
+    background: #000000;
+}
+
+.wp-block-comments.is-style-blog-style textarea,
+.wp-block-comments.is-style-blog-style input[type="text"],
+.wp-block-comments.is-style-blog-style input[type="email"],
+.wp-block-comments.is-style-blog-style input[type="url"] {
+    border-radius: 8px;
+}
