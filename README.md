@@ -25,12 +25,12 @@ The file [a2.html](a2.html) includes:
 
 - Trello Board [Group 2](https://trello.com/b/8iJMbw7E/cp5637-group-2-project-work)
 
-- Theme files [GitHub Repo](https://github.com/cp3402-students/cp3402-2022-1-site-teambrisbane2023.git)
+- Theme files [GitHub Repo]()
 
 ## Presentation
-Link to our Production Site: [MiriPiri Services](https://ramtha3.dream.press)
+Link to our Production Site: [#####](#)
 
-Link to our Presentation: [Youtube Video](https://youtu.be/CQgEUN8uzQs?si=v80exq6wSg576gLp)
+Link to our Presentation: [#####](#)
 
 
     
