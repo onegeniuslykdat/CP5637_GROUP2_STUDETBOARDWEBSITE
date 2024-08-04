@@ -25,7 +25,7 @@ The file [a2.html](a2.html) includes:
 
 - Trello Board [Group 2](https://trello.com/b/8iJMbw7E/cp5637-group-2-project-work)
 
-- Theme files [GitHub Repo]()
+- Theme files [GitHub Repo](https://github.com/onegeniuslykdat/CP5637_GROUP2_STUDETBOARDWEBSITE)
 
 ## Presentation
 Link to our Production Site: [#####](#)
