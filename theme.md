@@ -1,6 +1,3 @@
-Here is the translated content in English:
-
----
 
 # Student Board WordPress Theme Documentation
 
