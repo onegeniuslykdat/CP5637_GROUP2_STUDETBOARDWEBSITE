@@ -1,0 +1,18 @@
+
+
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    list-style: none;
+    width: auto;
+ }
+
+ p.cmb2-metabox-description img.emoji {
+    font-size: x-large;
+}
+#side-sortables .cmb2-wrap>.cmb-field-list>.cmb-row, .inner-sidebar .cmb2-wrap>.cmb-field-list>.cmb-row{
+    padding: 0px !important;
+}
+
+#side-sortables .cmb-row .cmb2-metabox-description{
+    padding-bottom: 0px !important;
+}
