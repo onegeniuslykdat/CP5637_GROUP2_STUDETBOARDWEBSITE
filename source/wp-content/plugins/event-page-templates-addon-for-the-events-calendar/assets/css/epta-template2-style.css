@@ -1,0 +1,230 @@
+/**
+* Date format
+*/
+
+#epta-tribe-events-content.tribe-events-single .epta-events-cta .epta-events-cta-date {
+    float: left;
+    max-width: 40%;
+    max-width: calc( 80px);
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+#epta-tribe-events-content.tribe-events-single .epta-events-cta .epta-events-cta-date .tecset-ev-day {
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+    color: #6a7a7c;
+}
+
+#epta-tribe-events-content.tribe-events-single .epta-events-cta .epta-events-cta-date .tecset-ev-mo {
+    display: block;
+    text-transform: lowercase;
+    color: #6a7a7c;
+}
+
+#epta-tribe-events-content.tribe-events-single .epta-events-cta .epta-events-cta-date .tecset-ev-yr {
+    display: block;
+    font-size: 18px;
+    text-align: right;
+    letter-spacing: 9px;
+    color: #6a7a7c;
+}
+
+
+/**
+* horizontal line
+*/
+
+#epta-tribe-events-content.tribe-events-single .epta-events-single-left {
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    #epta-tribe-events-content.tribe-events-single .epta-events-single-left {
+        min-height: 200px !important;
+        margin-top: 28px;
+    }
+    .epta-events-cta.clearfix {
+        margin-left: 57px;
+    }
+    /* .tribe-events-meta-group.tribe-events-meta-group-details {
+        margin-left: 62px;
+    } */
+    /* .tribe-events-meta-group.tribe-events-meta-group-venue {
+        margin-left: 65px;
+    }
+    .tribe-events-meta-group.tribe-events-meta-group-organizer {
+        margin-left: 65px;
+    } */
+}
+
+@media (min-width: 768px) {
+    #epta-tribe-events-content.tribe-events-single .epta-events-single-left {
+        border-right: 1px solid #222222;
+    }
+}
+
+#epta-tribe-events-content.tribe-events-single .epta-events-meta-group-schedule {
+    padding: 40px 0 40px 0;
+    border-top: 1px solid #222222;
+}
+
+
+/* @media (min-width: 768px) {
+    #epta-tribe-events-content.tribe-events-single .epta-events-meta-group-schedule {
+        padding-right: 20px;
+    }
+} */
+
+
+/**
+* google calender
+*/
+
+#epta-tribe-events-content.tribe-events-single .tribe_events .epta-events-cal-links {
+    margin: 30px 0 0;
+}
+
+#epta-tribe-events-content.tribe-events-single .tribe_events .epta-events-cal-links .tribe-events-button {
+    display: inline-block;
+    float: none;
+    margin: 0 10px 20px 0 !important;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#epta-tribe-events-content.tribe-events-single .tribe_events .epta-events-cal-links .tribe-events-button {
+    display: inline-block;
+    float: none;
+    margin: 0 10px 20px 0 !important;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#tribe-events .tribe-events-button,
+#tribe-events .tribe-button {
+    padding: 0.618em 1em;
+    border: 2px solid #6a7a7c;
+    border-radius: 2px;
+    color: #2e3e40 !important;
+    background: none !important;
+    box-shadow: none;
+    text-shadow: none;
+    line-height: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#tribe-events .tribe-events-button,
+#tribe-events .tribe-button {
+    padding: 0.618em 1em;
+    border: 2px solid #6a7a7c;
+    border-radius: 2px;
+    /* color: #2e3e40 !important; */
+    /* background: none !important; */
+    box-shadow: none;
+    text-shadow: none;
+    line-height: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.epta-events-meta-group.epta-events-meta-group-details {
+    padding-bottom: 40px;
+    padding-top: 22px;
+    border-top: 1px solid #3ec9ce;
+}
+
+.epta-events-meta-group.epta-events-meta-group-venue {
+    padding: 40px 0 20px 0;
+    border-top: 1px solid #3ec9ce;
+}
+
+
+/**
+* share button
+*/
+
+.epta-share-area a {
+    font-size: 36px;
+    color: #222;
+}
+
+.epta-template-2 .epta-share-area {
+    border-top: 1px solid #3ec9ce;
+    /* margin-top: 25px;
+    padding: 25px; */
+}
+
+.epta-featured-image-content {
+    margin-left: 40px;
+}
+
+.epta-events-single-left {
+    text-align: center;
+}
+
+.epta-events-cta-date {
+    margin-left: 95px;
+}
+
+.epta-template-2 h3.tecset-share-title {
+    padding: 6px;
+}
+
+.epta-template-2 .tribe-events-event-cost {
+    display: inline;
+}
+
+.epta-template-2 h3.epta-related-head {
+    background: black;
+    padding: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .epta-events-cta-date {
+        margin-left: 58px;
+    }
+}
+
+
+/*
+|-------- Template 2 --------|
+*/
+
+#epta-tribe-events-content .epta-events-single-left .epta-events-meta-group {
+    border-top: 1px solid #222222;
+    padding: 5px;
+}
+
+.epta-template-2 .tribe-events-meta-group-details dt {
+    width: 25%;
+    display: inline-table;
+    border-bottom: 1px solid #cccccc;
+}
+
+.epta-template-2 .tribe-events-meta-group-details dd {
+    width: 70%;
+    display: inline-table;
+    border-bottom: 1px solid #cccccc;
+}
+
+.epta-template-2 .tribe-events-meta-group-details dd abbr {
+    text-decoration: none;
+}
+
+.epta-template-2 .epta-events-meta-group dd.tribe-venue {
+    font-weight: 500;
+}
+
+.epta-template-2 .epta-events-meta-group dt.tribe-venue-tel-label {
+    display: inline-block;
+}
+
+.epta-template-2 .epta-events-meta-group dd.tribe-venue-tel {
+    display: inline-block;
+}

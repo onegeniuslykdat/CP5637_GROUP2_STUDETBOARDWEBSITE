@@ -1,0 +1,68 @@
+/*
+    |---------------------------
+    |     share button styles
+    |---------------------------
+*/
+
+.ect-share-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.ect-share-wrapper i.ect-icon-share:before {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    background: #222;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.ect-share-wrapper .ect-social-share-list {
+    position: absolute;
+    display: inline-block;
+    padding: 4px;
+    left: 0;
+    top: -59px;
+    margin: 0;
+    border-radius: 5px;
+    width: 210px;
+    visibility: hidden;
+    opacity: 0;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, .06);
+    z-index: 99;
+    -webkit-transition: all .5s ease;
+    transition: all 0.5s ease;
+}
+
+.ect-share-wrapper:hover .ect-social-share-list {
+    opacity: 1;
+    visibility: visible;
+}
+
+.ect-share-wrapper .ect-social-share-list:before {
+    content: "";
+    display: block;
+    border: 10px solid transparent;
+    border-top-color: #fff;
+    position: absolute;
+    left: 6px;
+    bottom: -20px;
+}
+
+.ect-share-wrapper .ect-social-share-list a {
+    display: inline-block;
+    float: left;
+    font-size: 28px;
+    /* color:#222; */
+    color: #4e4f4e;
+}
+
+.ect-share-wrapper .ect-social-share-list a:hover {
+    opacity: 0.75;
+}

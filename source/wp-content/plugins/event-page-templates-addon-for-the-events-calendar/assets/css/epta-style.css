@@ -1,0 +1,337 @@
+#epta-template {
+    margin: 0;
+    padding: 30px 0;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#epta-template * {
+    box-sizing: border-box;
+}
+
+#epta-template a {
+    text-decoration: none;
+    box-shadow: none;
+    border-bottom: 0;
+}
+
+.epta-image-area,
+.epta-content-area,
+.epta-map-area,
+.epta-share-area {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0 0 15px 0;
+    overflow: hidden;
+}
+
+.epta-image-area .tribe-events-event-image,
+.epta-image-area .tribe-events-event-image img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    transition: transform 1s, -webkit-transform 1s;
+}
+
+.epta-image-area:hover .tribe-events-event-image img {
+    transform: scale3d(1.1, 1.1, 1);
+    transition: transform 1s, -webkit-transform 1s;
+}
+
+.epta-title-date {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.epta-title-date.no-image {
+    position: relative;
+}
+
+.epta-light-bg {
+    background: #222;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: 5;
+    opacity: 0.88;
+}
+
+.epta-title-date h2 {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.epta-title-date h2,
+.epta-title-date .tecset-date {
+    z-index: 6;
+    position: relative;
+    color: #fff;
+}
+
+.epta-title-date .tecset-date {
+    opacity: 0.9;
+}
+
+.epta-map-area .tribe-events-venue-map {
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.epta-share-area .epta-share-title {
+    /* font-size:1.3em; */
+    margin-bottom: 10px;
+    /* font-weight: bold; */
+}
+
+.epta-share-area a {
+    display: inline-block;
+    /* float:left; */
+    font-size: 36px;
+    color: #222;
+}
+
+.epta-share-area a:hover {
+    opacity: 0.75;
+}
+
+.epta-share-area .ect-icon-facebook:before {
+    margin-left: 0 !IMPORTANT;
+}
+
+.epta-sidebar-area {
+    background: #f2f2f2;
+    padding: 25px;
+    display: inline-block;
+    width: 100%;
+    clear: both;
+}
+
+.epta-sidebar-box {
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 100%;
+}
+
+.epta-sidebar-box h2.tribe-events-single-section-title {
+    background: #222;
+    color: #fff;
+    margin: 0 0 15px;
+    padding: 8px;
+    font-size: 1.3em;
+    border-radius: 2px;
+}
+
+.epta-sidebar-box dl dt,
+.epta-sidebar-box .tribe-venue,
+.epta-sidebar-box .tribe-organizer {
+    font-weight: bold;
+}
+
+.epta-sidebar-box .tribe-venue,
+.epta-sidebar-box .tribe-organizer {
+    font-size: 1.1em;
+}
+
+.epta-sidebar-box dl dd {
+    margin: 0 0 6px 0;
+}
+
+.epta-countdown-timer {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 5px 0;
+    border-spacing: 2px;
+    border-collapse: separate;
+}
+
+.epta-countdown-cell {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    font-size: 32px;
+    background: #222;
+    color: #fff;
+    line-height: normal;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.epta-countdown-number {
+    font-size: 1em;
+    width: 100%;
+}
+
+.epta-countdown-under {
+    font-size: 0.45em;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.epta-addto-calendar a {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: normal;
+    font-size: 16px;
+    background: #222;
+    transition: all 0.2s ease 0s;
+    border-radius: 2px;
+    padding: 15px 5px;
+    margin: 5px 0;
+}
+
+.epta-addto-calendar a:hover {
+    opacity: 0.9;
+}
+
+.epta-related-box {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.epta-related-box .tribe-events-event-image {
+    height: 280px;
+    margin-bottom: 0;
+}
+
+.epta-related-box .tribe-events-event-image img {
+    margin-bottom: 0;
+    transition: transform 1s, -webkit-transform 1s;
+    object-fit: cover;
+    height: 100%;
+}
+
+.epta-related-box:hover .tribe-events-event-image img {
+    transform: scale3d(1.1, 1.1, 1);
+    transition: opacity 1s, transform 1s, -webkit-transform 1s;
+}
+
+.epta-related-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 12px 8px;
+    line-height: normal;
+}
+
+.epta-related-title.no-image {
+    position: relative;
+}
+
+.no-image .epta-light-bg {
+    opacity: 1 !Important;
+}
+
+.epta-related-date {
+    z-index: 6;
+    position: relative;
+    color: #fff;
+    opacity: 0.85;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+    line-height: normal;
+}
+
+.epta-related-title h4,
+.epta-related-title h4 a {
+    z-index: 6;
+    position: relative;
+    color: #fff;
+    opacity: 1;
+    font-size: 20px;
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+
+.ept-next-prev {
+    display: inline-block;
+    width: 100%;
+    clear: both;
+    padding: 25px 0;
+    margin: 25px 0;
+    border: 1px solid #c6c6c6;
+    border-left: 0;
+    border-right: 0;
+}
+
+.ept-next-prev ul {
+    width: 100%;
+    clear: both;
+}
+
+.ept-next-prev ul,
+.ept-next-prev ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ept-next-prev ul li.epta-next {
+    float: right;
+}
+
+.ept-next-prev ul li.epta-prev {
+    float: left;
+}
+
+.epta-all-events {
+    /*  margin-bottom: 24px; */
+    padding: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    .epta-title-date {
+        position: relative;
+    }
+}
+
+.epta-registration-form #rtec .rtec-register-button {
+    padding: 12px 45px 12px 50px;
+    background: black;
+    text-align: center;
+}
+
+/*update template sidebar width issues*/
+.epta-sidebar-box .tribe-events-meta-group {
+    width: auto!important;
+    padding: 0px;
+    margin-right: 0px;
+}
+abbr[title]{
+    text-decoration: none;
+}
+address{
+    font-style: normal;
+}
+
+/*updated website url link overflow*/
+dd.tribe-events-event-url {
+    word-break: break-all;
+}
+
+/*remove tec message from elementor container*/
+.tec-events-elementor-template-selection-helper{
+    display: none !important;
+}

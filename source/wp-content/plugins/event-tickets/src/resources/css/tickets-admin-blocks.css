@@ -1,0 +1,23 @@
+/**
+ * This CSS file was auto-generated via PostCSS
+ *
+ * Contributors should avoid editing this file, but instead edit the associated
+ * src/resources/postcss/ file. For more information, check out our engineering
+ * docs on how we handle CSS in our engineering docs.
+ *
+ * @see: https://the-events-calendar.github.io/products-engineering/docs/code-standards/css/
+ */
+
+/**
+*  Event Tickets - Tickets Admin Blocks Stylesheet.
+*
+*  @since 5.2.3
+*/
+
+.block-editor-inserter__panel-header .dashicons-tec-tickets {
+	background-image: url('../images/tec-tickets-logo.svg');
+	background-size: cover;
+	display: inline-block;
+	height: 20px;
+	width: 26px;
+}
