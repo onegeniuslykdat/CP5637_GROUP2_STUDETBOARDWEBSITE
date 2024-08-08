@@ -4,16 +4,15 @@
 ## Introduction
 Welcome to the Student Board WordPress theme documentation. This theme is designed to help schools quickly and easily create their own student service websites. Student Board is based on and improved from the following theme:
 
-- **Theme URL**: [Variations](https://en-au.wordpress.org/themes/variations/)
-- **Author**: Tyler Moore
-- **Author URL**: [Tyler Moore](https://en-au.wordpress.org/themes/author/conutant/)
-- **Version**: 4.3.2
+- **Parent Theme URL**: [Variations](https://en-au.wordpress.org/themes/variations/)
+- **Our theme URL**: [JCUB Student Board_Variations](https://jcubstudentboardgroup2.cloudaccess.host/wp-admin/themes.php?theme=jcub-student-board_variations)
+- **Version**: 1.0
 - **Required PHP Version**: 5.7
 
 This guide provides detailed insights into the theme's structure and features, aimed at helping developers and contributors understand it easily.
 
 ## Theme Overview
-Student Board is a cleanly designed WordPress theme developed for educational institutions and schools, aimed at providing an efficient and intuitive student service website solution. With this theme, anyone can quickly and easily create a beautiful and fully functional service website without any website development skills or knowledge. The theme offers a rich set of modules to help developers create a student service website that matches their vision:
+JCUB Student Board is a cleanly designed WordPress theme developed for educational institutions and schools, aimed at providing an efficient and intuitive student service website solution. With this theme, anyone can quickly and easily create a beautiful and fully functional service website without any website development skills or knowledge. The theme offers a rich set of modules to help developers create a student service website that matches their vision:
 
 - **Responsive Design**: Ensures the website displays well across various devices (including desktops, tablets, and smartphones).
 - **Easy Customization**: Adjust the theme's colors, fonts, and layout easily through the WordPress Customizer to fit different schools' branding needs.
@@ -55,5 +54,5 @@ Student Board is a cleanly designed WordPress theme developed for educational in
 ## Support and Contact
 For questions or assistance, please reach out to:
 
-Pragadh Shrestha - pragadh.shrestha@my.jcu.edu.au
+JCUB Student Board - info@jcubsa.edu.au
 
