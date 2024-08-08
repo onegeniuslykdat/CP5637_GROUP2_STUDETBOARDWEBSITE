@@ -1,0 +1,1901 @@
+# Copyright (C) 2024 Team Staatic
+# This file is distributed under the BSD-3-Clause.
+msgid ""
+msgstr ""
+"Project-Id-Version: Staatic - Static Site Generator 0.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-25T06:50:16+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: staatic\n"
+
+#. Plugin Name of the plugin
+#: staatic.php
+msgid "Staatic - Static Site Generator"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: staatic.php
+msgid "https://staatic.com/wordpress"
+msgstr ""
+
+#. Description of the plugin
+#: staatic.php
+msgid "Staatic for WordPress allows you to generate a highly optimized static version of your WordPress site."
+msgstr ""
+
+#. Author of the plugin
+#: staatic.php
+msgid "Team Staatic"
+msgstr ""
+
+#. Author URI of the plugin
+#: staatic.php
+msgid "https://staatic.com/"
+msgstr ""
+
+#: partials/admin/publication/list.php:16
+msgid "Publish now"
+msgstr ""
+
+#: partials/admin/publication/list.php:26
+msgid "Search publications"
+msgstr ""
+
+#: partials/admin/publication/list.php:36
+msgid "Are you sure you want to (re)deploy this publication using the currently configured deployment method?"
+msgstr ""
+
+#: partials/admin/publication/list.php:42
+msgid "Are you sure you want to delete this publication?"
+msgstr ""
+
+#. translators: %s: Publication creation date.
+#: partials/admin/publication/logs.php:18
+#: partials/admin/publication/results.php:18
+#: partials/admin/publication/summary.php:25
+msgid "Publication \"%s\""
+msgstr ""
+
+#: partials/admin/publication/logs.php:22
+#: partials/admin/publication/results.php:22
+#: partials/admin/publication/summary.php:29
+msgid "(Preview)"
+msgstr ""
+
+#: partials/admin/publication/logs.php:26
+msgid "Export"
+msgstr ""
+
+#: partials/admin/publication/logs.php:44
+msgid "Search logs"
+msgstr ""
+
+#: partials/admin/publication/results.php:26
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:85
+#: src/Module/Deployer/ZipfileDeployer/ZipfileSetting.php:30
+msgid "Download"
+msgstr ""
+
+#: partials/admin/publication/results.php:44
+msgid "Search resources"
+msgstr ""
+
+#: partials/admin/publication/summary.php:39
+#: src/Module/Admin/Page/Publications/PublicationSummaryPage.php:37
+msgid "Publication Summary"
+msgstr ""
+
+#: partials/admin/publication/summary.php:44
+msgid "Published By"
+msgstr ""
+
+#: partials/admin/publication/summary.php:45
+#: src/ListTable/Column/UserColumn.php:12
+msgid "system"
+msgstr ""
+
+#: partials/admin/publication/summary.php:48
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:59
+msgid "Status"
+msgstr ""
+
+#: partials/admin/publication/summary.php:52
+msgid "Time Taken"
+msgstr ""
+
+#. translators: 1: Date interval for crawling, 2: Date interval for deployment.
+#: partials/admin/publication/summary.php:59
+msgid "(%1$s for crawling, %2$s for deployment)"
+msgstr ""
+
+#: partials/admin/publication/summary.php:68
+#: partials/admin/publication/_header.php:18
+msgid "Resources"
+msgstr ""
+
+#. translators: %s: Number of resources.
+#: partials/admin/publication/summary.php:73
+msgid "%s resources"
+msgstr ""
+
+#. translators: 1: Number of resources, 2: Redirect/redirects, 3: Number of failed resources, 4: Failure/failures.
+#: partials/admin/publication/summary.php:79
+msgid "(%1$s %2$s, %3$s %4$s)"
+msgstr ""
+
+#: partials/admin/publication/summary.php:81
+msgid "redirect"
+msgstr ""
+
+#: partials/admin/publication/summary.php:81
+msgid "redirects"
+msgstr ""
+
+#: partials/admin/publication/summary.php:83
+msgid "failure"
+msgstr ""
+
+#: partials/admin/publication/summary.php:83
+msgid "failures"
+msgstr ""
+
+#: partials/admin/publication/summary.php:90
+#: src/Module/Admin/ExtendSiteHealth.php:100
+#: src/Setting/Build/DestinationUrlSetting.php:23
+msgid "Destination URL"
+msgstr ""
+
+#: partials/admin/publication/summary.php:97
+msgid "Log Summary"
+msgstr ""
+
+#: partials/admin/publication/summary.php:136
+msgid "No logs for this publication (yet)"
+msgstr ""
+
+#: partials/admin/publication/summary.php:141
+msgid "View all logs"
+msgstr ""
+
+#: partials/admin/publication/_header.php:14
+msgid "Summary"
+msgstr ""
+
+#: partials/admin/publication/_header.php:22
+msgid "Logs"
+msgstr ""
+
+#: partials/admin/publication/_header.php:31
+msgid "Live Publication Status"
+msgstr ""
+
+#: partials/admin/publication/_header.php:55
+msgid "Publication is currently in progress. Refresh the page to see the latest information."
+msgstr ""
+
+#: partials/admin/publish-subset.php:17
+msgid "Error: "
+msgstr ""
+
+#: partials/admin/publish-subset.php:22
+#: src/Module/Admin/Page/PublishSubsetPage.php:39
+#: src/Module/Admin/Page/PublishSubsetPage.php:63
+#: src/Module/Admin/RegisterAdminBar.php:90
+msgid "Publish Selection"
+msgstr ""
+
+#: partials/admin/publish-subset.php:32
+msgid "URLs"
+msgstr ""
+
+#: partials/admin/publish-subset.php:39
+#: partials/admin/settings/additional_urls.php:18
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:50
+msgid "URL"
+msgstr ""
+
+#: partials/admin/publish-subset.php:40
+#: partials/admin/settings/additional_urls.php:19
+msgid "Add URL"
+msgstr ""
+
+#. translators: %s: Example URLs.
+#: partials/admin/publish-subset.php:51
+msgid "Add the (absolute or relative) URLs to be included in this publication.<br>%s"
+msgstr ""
+
+#: partials/admin/publish-subset.php:54
+#: src/Setting/AbstractSetting.php:76
+msgid "Examples"
+msgstr ""
+
+#: partials/admin/publish-subset.php:63
+msgid "Filesystem Paths"
+msgstr ""
+
+#: partials/admin/publish-subset.php:72
+#: partials/admin/settings/additional_paths.php:17
+msgid "Path"
+msgstr ""
+
+#: partials/admin/publish-subset.php:73
+#: partials/admin/settings/additional_paths.php:18
+msgid "Add Path"
+msgstr ""
+
+#. translators: %s: Root path.
+#: partials/admin/publish-subset.php:83
+msgid "Add the (filesystem) paths to be included in this publication.<br>Base path: <code>%s</code>"
+msgstr ""
+
+#: partials/admin/publish-subset.php:88
+#: src/Module/RegisterSettings.php:37
+msgid "Deployment"
+msgstr ""
+
+#: partials/admin/publish-subset.php:91
+msgid "Deploy Publication"
+msgstr ""
+
+#: partials/admin/publish-subset.php:101
+msgid "Deploy publication using configured deployment method"
+msgstr ""
+
+#: partials/admin/publish-subset.php:104
+msgid "Choose to automatically deploy the generated static files to your pre-configured deployment method upon completion of the publication.<br>As an alternative, you have the option to download these files in a zipfile format once the process is finished."
+msgstr ""
+
+#: partials/admin/publish-subset.php:108
+#: src/Module/Admin/Page/PublishPage.php:40
+#: src/Module/Admin/Page/PublishPage.php:68
+#: src/Module/Admin/Page/PublishPage.php:78
+#: src/Module/Admin/RegisterAdminBar.php:79
+msgid "Publish"
+msgstr ""
+
+#: partials/admin/publish-subset.php:118
+msgid "This may delete resources depending on the configured deployment method. Are you sure you want to continue?"
+msgstr ""
+
+#: partials/admin/settings.php:22
+#: src/Module/Admin/Page/SettingsPage.php:36
+msgid "Staatic Settings"
+msgstr ""
+
+#: partials/admin/settings/_premium.php:12
+msgid "Advance Your WordPress Site"
+msgstr ""
+
+#: partials/admin/settings/_premium.php:15
+msgid "Thank you for choosing Staatic to enhance the speed and security of your WordPress site. To further improve your site’s performance and support the continuous development of Staatic, consider upgrading to Staatic for WordPress Premium."
+msgstr ""
+
+#: partials/admin/settings/_premium.php:19
+msgid "Support Development with Premium"
+msgstr ""
+
+#: partials/admin/settings/_premium.php:22
+msgid "By choosing Premium, you not only gain access to exclusive features but also contribute to the sustainability and advancement of Staatic. This support allows us to continually refine and expand the capabilities of Staatic."
+msgstr ""
+
+#: partials/admin/settings/_premium.php:26
+msgid "Premium Features"
+msgstr ""
+
+#: partials/admin/settings/_premium.php:29
+msgid "Staatic for WordPress Premium introduces a suite of advanced features designed to optimize your site management and user experience:"
+msgstr ""
+
+#: partials/admin/settings/_premium.php:32
+msgid "<strong>Quick Publications</strong>: Efficiently publish changes by updating only the modified content."
+msgstr ""
+
+#: partials/admin/settings/_premium.php:33
+msgid "<strong>Selective Publications</strong>: Choose specific content to update, merging it seamlessly with your site’s latest publication for targeted updates."
+msgstr ""
+
+#: partials/admin/settings/_premium.php:34
+msgid "<strong>Automated Publications</strong>: Automate your site updates based on content revisions or schedule, keeping your site up-to-date effortlessly."
+msgstr ""
+
+#: partials/admin/settings/_premium.php:35
+msgid "<strong>Form Submission Handling</strong>: Maintain interactive elements like forms on your static site, ensuring functionality without compromising on speed."
+msgstr ""
+
+#: partials/admin/settings/_premium.php:36
+msgid "<strong>Search Integration</strong>: Improve your site’s search functionality, allowing visitors to find information faster and more accurately."
+msgstr ""
+
+#: partials/admin/settings/_premium.php:40
+msgid "Learn More"
+msgstr ""
+
+#. translators: 1: Link to Staatic Premium.
+#: partials/admin/settings/_premium.php:45
+msgid "Interested in enhancing your site with Staatic for WordPress Premium? <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Explore the benefits and features of upgrading to Premium</a> and see how this can further elevate your website’s efficiency and power."
+msgstr ""
+
+#: partials/admin/settings/_welcome.php:14
+msgid "Welcome to Staatic for WordPress"
+msgstr ""
+
+#: partials/admin/settings/_welcome.php:17
+msgid "Thank you for choosing Staatic to enhance your WordPress site’s speed and security to the next level."
+msgstr ""
+
+#. translators: 1: Link to Getting Started.
+#: partials/admin/settings/_welcome.php:20
+msgid "If you’re new to Staatic, we recommend beginning with our <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Getting Started Guide</a> to maximize your site’s potential efficiently."
+msgstr ""
+
+#: partials/admin/settings/_welcome.php:26
+msgid "Support"
+msgstr ""
+
+#. translators: 1: Link to Documentation, %2$s: Link to FAQ.
+#: partials/admin/settings/_welcome.php:31
+msgid "For any inquiries or troubleshooting needs, our <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Documentation</a> and <a href=\"%2$s\" target=\"_blank\" rel=\"noopener\">FAQ</a> are your go-to resources. Additionally, ensuring your <a href=\"%3$s\">Site Health</a> is optimal can prevent common issues."
+msgstr ""
+
+#. translators: 1: Link to Forums.
+#: partials/admin/settings/_welcome.php:38
+msgid "Need more help? <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Open a support forum topic</a>, and our community will assist you."
+msgstr ""
+
+#. translators: 1: Link to Contact.
+#: partials/admin/settings/_welcome.php:43
+msgid "Prefer direct contact? <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Reach out to us</a>, and we’ll respond promptly."
+msgstr ""
+
+#: partials/admin/settings/_welcome.php:49
+msgid "Giving Back"
+msgstr ""
+
+#. translators: 1: Link to Review.
+#: partials/admin/settings/_welcome.php:54
+msgid "If you like Staatic for WordPress, <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">leave us a positive review</a> to support our future development efforts. We genuinely value your contribution and thank you for helping us grow."
+msgstr ""
+
+#. translators: 1: Link to Premium Settings.
+#: partials/admin/settings/_welcome.php:60
+msgid "Take your website to the next level by exploring <a href=\"%1$s\">Staatic for WordPress Premium</a>, which includes enhanced functionality for an even more robust experience."
+msgstr ""
+
+#: partials/admin/settings/_welcome.php:64
+msgid "Thank you for being part of our journey to make WordPress faster and more secure."
+msgstr ""
+
+#: partials/admin/widgets/publication-logs.php:19
+#: partials/admin/widgets/publication-status.php:20
+msgid "Publication Details"
+msgstr ""
+
+#: partials/admin/widgets/publication-logs.php:22
+#: partials/admin/widgets/publication-status.php:24
+msgid "Nothing has been published yet."
+msgstr ""
+
+#. translators: 1: Minimum version, 2: Installed version.
+#: platform_check.php:34
+msgid "<p>Staatic for WordPress requires at least PHP version <strong>%1$s</strong>; detected PHP version <strong>%2$s</strong>.</p>"
+msgstr ""
+
+#. translators: 1: Minimum version, 2: Installed version.
+#: platform_check.php:47
+msgid "<p>Staatic for WordPress requires at least WordPress version <strong>%1$s</strong>; detected WordPress version <strong>%2$s</strong>.</p>"
+msgstr ""
+
+#. translators: 1: Code fragment.
+#: platform_check.php:58
+msgid "<p>Staatic for WordPress requires either <code>STAATIC_KEY</code> or <code>AUTH_KEY</code> to be defined within <code>wp-config.php</code>. In order to fix this error, please add the following line to your <code>wp-config.php</code> file and reactivate the plugin:</p><p><code>%1$s</code></p>"
+msgstr ""
+
+#: platform_check.php:66
+msgid "Plugin activation failed"
+msgstr ""
+
+#: src/Cli/PublishCommand.php:89
+#: src/Cli/RedeployCommand.php:72
+msgid "Unable to publish; another publication is pending"
+msgstr ""
+
+#: src/Cli/PublishCommand.php:117
+#: src/Cli/RedeployCommand.php:104
+msgid "Unable to claim publication; another publication is pending"
+msgstr ""
+
+#: src/Cli/PublishesFromCli.php:22
+#: src/Publication/BackgroundPublisher.php:68
+msgid "Starting publication"
+msgstr ""
+
+#: src/Cli/PublishesFromCli.php:48
+#: src/Publication/BackgroundPublisher.php:220
+msgid "The publication process took too long and was canceled."
+msgstr ""
+
+#: src/Cli/PublishesFromCli.php:73
+msgid "Crawling..."
+msgstr ""
+
+#: src/Cli/PublishesFromCli.php:76
+msgid "Deploying..."
+msgstr ""
+
+#: src/Cli/PublishesFromCli.php:133
+#: src/Publication/BackgroundPublisher.php:298
+msgid "Finished publication"
+msgstr ""
+
+#. translators: %s: Date interval time taken.
+#: src/Cli/PublishesFromCli.php:140
+msgid "Publication finished in %s!"
+msgstr ""
+
+#. translators: 1: Publication task.
+#: src/Cli/PublishesFromCli.php:155
+#: src/Publication/BackgroundPublisher.php:313
+msgid "Publication failed during %1$s task"
+msgstr ""
+
+#. translators: 1: Publication task, 2: Error type, 3: Error message.
+#: src/Cli/PublishesFromCli.php:164
+msgid "Publication failed during %1$s task with error %2$s: %3$s"
+msgstr ""
+
+#: src/Cli/PublishesFromCli.php:175
+msgid "Publication has been canceled"
+msgstr ""
+
+#: src/Cli/PublishesFromCli.php:177
+msgid "Publication was canceled"
+msgstr ""
+
+#. translators: 1: Publication identifier.
+#: src/Cli/RedeployCommand.php:80
+msgid "Unable to find source publication \"%1$s\""
+msgstr ""
+
+#. translators: 1: Publication identifier.
+#: src/Cli/RedeployCommand.php:88
+msgid "Source publication \"%1$s\" has not finished crawling"
+msgstr ""
+
+#: src/ListTable/Column/UserColumn.php:22
+#: src/Module/Deployer/GithubDeployer/GithubStatusEndpoint.php:86
+#: src/Module/Deployer/GithubDeployer/GithubStatusEndpoint.php:87
+#: src/Module/Deployer/GithubDeployer/GithubStatusEndpoint.php:88
+msgid "unknown"
+msgstr ""
+
+#. translators: %s: List table item identifier.
+#: src/ListTable/WpListTable.php:158
+msgid "Select %s"
+msgstr ""
+
+#: src/ListTable/WpListTable.php:186
+msgid "All"
+msgstr ""
+
+#. translators: %s: Number of items.
+#: src/ListTable/WpListTable.php:191
+msgctxt "items"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: View label, 2: Number of items.
+#: src/ListTable/WpListTable.php:217
+msgctxt "items"
+msgid "%1$s <span class=\"count\">(%2$s)</span>"
+msgid_plural "%1$s <span class=\"count\">(%2$s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:37
+msgid "Permalink structure"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:42
+msgid "Writable work directory"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:47
+#: src/Module/Admin/ExtendSiteHealth.php:147
+msgid "Publication task timeout"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:52
+msgid "Staatic loopback requests"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:70
+#: src/Module/Admin/ExtendSiteHealth.php:109
+#: src/Module/Admin/ExtendSiteHealth.php:113
+#: src/Module/Admin/ExtendSiteHealth.php:127
+#: src/Setting/Advanced/SslVerifyBehaviorSetting.php:53
+msgid "Enabled"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:71
+#: src/Module/Admin/ExtendSiteHealth.php:109
+#: src/Module/Admin/ExtendSiteHealth.php:113
+#: src/Module/Admin/ExtendSiteHealth.php:127
+#: src/Setting/Advanced/SslVerifyBehaviorSetting.php:54
+msgid "Disabled"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:72
+#: src/Setting/Advanced/SslVerifyBehaviorSetting.php:55
+msgid "Enabled using custom certificate"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:85
+#: src/Module/Admin/RegisterAdminBar.php:154
+#: src/Module/Admin/RegisterAdminBar.php:160
+#: src/Module/EnsureMigrated.php:120
+#: src/Service/AdminNavigation.php:57
+#: src/Service/AdminNavigation.php:58
+#: src/Service/HealthChecks.php:193
+msgid "Staatic"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:88
+msgid "Version"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:92
+msgid "Site URL"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:96
+msgid "WordPress URL"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:101
+#: src/Module/Admin/ExtendSiteHealth.php:105
+#: src/Module/Admin/ExtendSiteHealth.php:117
+#: src/Module/Admin/ExtendSiteHealth.php:121
+#: src/Module/Admin/ExtendSiteHealth.php:126
+#: src/Module/Admin/ExtendSiteHealth.php:131
+#: src/Module/Admin/ExtendSiteHealth.php:135
+#: src/Module/Admin/ExtendSiteHealth.php:140
+#: src/Module/Admin/ExtendSiteHealth.php:144
+#: src/Module/Admin/ExtendSiteHealth.php:148
+msgid "Undefined"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:104
+msgid "Deployment method"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:108
+msgid "Process \"Page not found\" resources"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:112
+#: src/Setting/Advanced/CrawlerLowercaseUrlsSetting.php:21
+msgid "Lowercase URLs"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:116
+msgid "HTTP auth username"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:120
+msgid "HTTP concurrency"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:124
+#: src/Setting/Advanced/HttpToHttpsSetting.php:26
+msgid "Downgrade HTTPS to HTTP while crawling site"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:130
+msgid "HTTP timeout"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:134
+msgid "SSL verification"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:139
+msgid "CA bundle path"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:143
+#: src/Setting/Advanced/CrawlerDomParserSetting.php:31
+msgid "HTML DOM parser"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:151
+msgid "Publication test task"
+msgstr ""
+
+#: src/Module/Admin/ExtendSiteHealth.php:164
+msgid "Unknown"
+msgstr ""
+
+#. translators: 1: Test request start time.
+#: src/Module/Admin/ExtendSiteHealth.php:175
+msgid "Pending (started %1$s)"
+msgstr ""
+
+#. translators: 1: Run time in seconds, 2: Test request start time.
+#: src/Module/Admin/ExtendSiteHealth.php:184
+msgid "Duration of %1$s seconds (last executed %2$s)"
+msgstr ""
+
+#: src/Module/Admin/Page/BuildResultPage.php:35
+msgid "Missing result id."
+msgstr ""
+
+#: src/Module/Admin/Page/BuildResultPage.php:39
+msgid "Invalid result."
+msgstr ""
+
+#: src/Module/Admin/Page/BuildResultPage.php:43
+msgid "Invalid resource."
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsExportPage.php:36
+msgid "Export Publication Logs"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsExportPage.php:50
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsPage.php:55
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsPage.php:55
+#: src/Module/Admin/Page/Publications/PublicationDeletePage.php:46
+#: src/Module/Admin/Page/Publications/PublicationDownloadPage.php:49
+#: src/Module/Admin/Page/Publications/PublicationSummaryPage.php:51
+msgid "Missing publication id."
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsExportPage.php:54
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsPage.php:59
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsPage.php:59
+#: src/Module/Admin/Page/Publications/PublicationDeletePage.php:52
+#: src/Module/Admin/Page/Publications/PublicationDownloadPage.php:53
+#: src/Module/Admin/Page/Publications/PublicationSummaryPage.php:55
+msgid "Invalid publication."
+msgstr ""
+
+#. translators: %s: Error Message.
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsExportPage.php:62
+msgid "Unable to generate export: %s."
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsPage.php:41
+msgid "Publication Logs"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:49
+msgid "Message"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:60
+msgid "Level"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:66
+msgid "Date"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:145
+msgid "Debug"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:146
+msgid "Informational"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:147
+msgid "Notice"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:148
+msgid "Warning"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:149
+#: src/Module/EnsureMigrated.php:97
+msgid "Error"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:150
+msgid "Critical"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsPage.php:41
+msgid "Publication Resources"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:46
+msgid "HTTP Status Code"
+msgstr ""
+
+#. translators: %s: original value.
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:63
+msgid "Originally: %s"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:72
+msgid "Redirect URL"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:82
+msgid "Mime Type"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:87
+msgid "Size"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:96
+msgid "Found On URL"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:109
+msgid "Found On Date"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:133
+msgid "1xx Informational"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:134
+msgid "2xx Success"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:135
+msgid "3xx Redirection"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:136
+msgid "4xx Client Errors"
+msgstr ""
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:137
+msgid "5xx Server Errors"
+msgstr ""
+
+#: src/Module/Admin/Page/Publications/PublicationDeletePage.php:32
+msgid "Delete Publication"
+msgstr ""
+
+#: src/Module/Admin/Page/Publications/PublicationDeletePage.php:61
+msgid "Unable to delete this publication."
+msgstr ""
+
+#: src/Module/Admin/Page/Publications/PublicationDownloadPage.php:35
+msgid "Download Publication"
+msgstr ""
+
+#. translators: %s: Error Message.
+#: src/Module/Admin/Page/Publications/PublicationDownloadPage.php:61
+msgid "Unable to generate archive: %s."
+msgstr ""
+
+#: src/Module/Admin/Page/Publications/PublicationsPage.php:35
+msgid "Publications"
+msgstr ""
+
+#: src/Module/Admin/Page/Publications/PublicationsPage.php:36
+msgid "Latest Publications"
+msgstr ""
+
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:48
+msgid "Publication"
+msgstr ""
+
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:53
+msgid "Publisher"
+msgstr ""
+
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:80
+msgid "Details"
+msgstr ""
+
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:90
+msgid "(Re)deploy"
+msgstr ""
+
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:100
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:114
+msgid "Delete"
+msgstr ""
+
+#. translators: %s: Date interval time taken.
+#: src/Module/Admin/Page/Publications/PublicationStatusColumn.php:44
+msgid "Time taken: %s"
+msgstr ""
+
+#: src/Module/Admin/Page/Publications/PublicationTitleColumn.php:35
+msgid "Preview"
+msgstr ""
+
+#: src/Module/Admin/Page/Publications/PublicationTitleColumn.php:43
+msgid "Active Publication"
+msgstr ""
+
+#. translators: %s: Publication ID.
+#: src/Module/Admin/Page/PublishPage.php:59
+msgid "Publication (#%s) not found"
+msgstr ""
+
+#: src/Module/Admin/Page/PublishPage.php:69
+msgid "Publication cancellation is in progress and will be completed soon."
+msgstr ""
+
+#: src/Module/Admin/Page/PublishPage.php:87
+msgid "Missing source publication ID."
+msgstr ""
+
+#: src/Module/Admin/Page/PublishPage.php:91
+#: src/Module/Admin/Page/PublishPage.php:95
+msgid "Invalid source publication."
+msgstr ""
+
+#: src/Module/Admin/Page/SettingsPage.php:35
+#: src/Module/Admin/RegisterPluginActionLinks.php:38
+msgid "Settings"
+msgstr ""
+
+#: src/Module/Admin/Page/TestRequestPage.php:40
+#: src/Module/Admin/Page/TestRequestPage.php:57
+msgid "Publication Test Task"
+msgstr ""
+
+#: src/Module/Admin/Page/TestRequestPage.php:58
+msgid "Publication test task has been dispatched; this will take a couple of minutes to complete."
+msgstr ""
+
+#: src/Module/Admin/Page/TriggersPublications.php:18
+#: src/Module/Admin/Page/TriggersPublications.php:30
+msgid "Publication could not be started because another publication is pending."
+msgstr ""
+
+#: src/Module/Admin/Page/TriggersPublications.php:25
+msgid "A new publication will be started and deployed automatically."
+msgstr ""
+
+#: src/Module/Admin/RegisterAdminBar.php:55
+msgid "Publication Status"
+msgstr ""
+
+#: src/Module/Admin/RegisterAdminBar.php:65
+msgid "Cancel Publication"
+msgstr ""
+
+#: src/Module/Admin/RegisterAdminBar.php:99
+msgid "Publish to Preview Site"
+msgstr ""
+
+#: src/Module/Admin/RegisterAdminBar.php:111
+msgid "View on Static Site"
+msgstr ""
+
+#: src/Module/Admin/RegisterAdminBar.php:125
+msgid "Live Publication Details"
+msgstr ""
+
+#. translators: %s: Last successful publication date.
+#: src/Module/Admin/RegisterAdminBar.php:140
+msgid "Live Publication: %s"
+msgstr ""
+
+#: src/Module/Admin/RegisterPluginActionLinks.php:29
+msgid "Staatic Premium"
+msgstr ""
+
+#: src/Module/Admin/Widget/PublicationLogsWidget.php:28
+msgid "Staatic Publication Logs"
+msgstr ""
+
+#: src/Module/Admin/Widget/PublicationStatusWidget.php:28
+msgid "Staatic Publication Status"
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/ApacheConfigurationFileSetting.php:21
+msgid "Generate Apache Configuration"
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/ApacheConfigurationFileSetting.php:26
+msgid "Generate .htaccess file providing actual HTTP redirects, HTTP status overrides, etc."
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/ApacheConfigurationFileSetting.php:31
+msgid "Enable this option if you're on an Apache webserver with AllowOverride enabled."
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/ConfigurationFilesSetting.php:28
+msgid "Configuration Files"
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/FilesystemDeployerModule.php:87
+msgid "Local Directory"
+msgstr ""
+
+#. translators: %s: Target directory.
+#: src/Module/Deployer/FilesystemDeployer/FilesystemDeployerModule.php:189
+msgid "Target directory could not be created: %s"
+msgstr ""
+
+#. translators: %s: Target directory.
+#: src/Module/Deployer/FilesystemDeployer/FilesystemDeployerModule.php:196
+msgid "Target directory is not writable: %s"
+msgstr ""
+
+#. translators: %s: Staging directory.
+#: src/Module/Deployer/FilesystemDeployer/FilesystemDeployerModule.php:208
+msgid "Staging directory could not be created: %s"
+msgstr ""
+
+#. translators: %s: Staging directory.
+#: src/Module/Deployer/FilesystemDeployer/FilesystemDeployerModule.php:215
+msgid "Staging directory is not writable: %s"
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/NginxConfigurationFileSetting.php:21
+msgid "Generate Nginx Configuration"
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/NginxConfigurationFileSetting.php:26
+msgid "Generate nginx_rules.conf file providing actual HTTP redirects, HTTP status overrides, etc."
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/NginxConfigurationFileSetting.php:31
+msgid "Enable this option if you're on a Nginx webserver which imports this configuration file."
+msgstr ""
+
+#. translators: 1: Retain path.
+#: src/Module/Deployer/FilesystemDeployer/RetainPaths.php:35
+msgid "Path \"%1$s\" does not exist."
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/RetainPathsSetting.php:31
+#: src/Module/Deployer/GithubDeployer/RetainPathsSetting.php:32
+#: src/Module/Deployer/S3Deployer/RetainPathsSetting.php:31
+msgid "Retain Files/Directories"
+msgstr ""
+
+#. translators: %s: Example paths.
+#: src/Module/Deployer/FilesystemDeployer/RetainPathsSetting.php:38
+msgid "Optionally add file or directory paths (absolute or relative to the target directory) that need to be left intact (one path per line).<br>Files existing in the target directory that are not part of the build and not in this list will be deleted during deployment.<br>Examples: %s."
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/RetainPathsSetting.php:42
+#: src/Module/Deployer/GithubDeployer/RetainPathsSetting.php:44
+#: src/Module/Deployer/S3Deployer/RetainPathsSetting.php:42
+msgid "a Bing/Google/Yahoo/etc. verification file"
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/RetainPathsSetting.php:55
+#: src/Module/Deployer/GithubDeployer/RetainPathsSetting.php:65
+#: src/Module/Deployer/S3Deployer/RetainPathsSetting.php:55
+#: src/Setting/Build/AdditionalPathsSetting.php:81
+#: src/Setting/Build/AdditionalRedirectsSetting.php:54
+#: src/Setting/Build/AdditionalUrlsSetting.php:78
+#: src/Setting/Build/ExcludeUrlsSetting.php:70
+msgid "Skipped: "
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/SymlinkUploadsDirectorySetting.php:21
+msgid "Symlink/Copy Uploads"
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/SymlinkUploadsDirectorySetting.php:26
+msgid "Symlink (on Linux) or copy (on Windows) the complete uploads directory."
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/SymlinkUploadsDirectorySetting.php:31
+msgid "This makes sure every upload is available and greatly improves build time as well."
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/TargetDirectorySetting.php:22
+#: src/Module/Deployer/SftpDeployer/TargetDirectorySetting.php:21
+msgid "Target Directory"
+msgstr ""
+
+#: src/Module/Deployer/FilesystemDeployer/TargetDirectorySetting.php:27
+msgid "The path to the directory on the filesystem where the static version of your site is deployed."
+msgstr ""
+
+#. translators: 1: Supplied target directory, 2: WordPress directory.
+#: src/Module/Deployer/FilesystemDeployer/TargetDirectorySetting.php:49
+msgid "The chosen target directory (\"%1$s\") is at the same level or above the WordPress installation directory (\"%2$s\"). Publishing here risks overwriting your WordPress files and potentially other critical data. To ensure the safety of your WordPress installation and related content, please select a different target directory for publishing your static site."
+msgstr ""
+
+#: src/Module/Deployer/GithubDeployer/AuthSetting.php:27
+#: src/Module/Deployer/NetlifyDeployer/AuthSetting.php:28
+#: src/Module/Deployer/S3Deployer/AuthSetting.php:28
+#: src/Module/Deployer/SftpDeployer/AuthSetting.php:32
+msgid "Authentication"
+msgstr ""
+
+#. translators: 1: Link to Personal Access Token Documentation, 2: Link to App Token Documentation.
+#: src/Module/Deployer/GithubDeployer/AuthSetting.php:34
+msgid "In order to authenticate with a <a href=\"%1$s\" target=\"blank\">personal access token</a> or a <a href=\"%2$s\" target=\"blank\">token generated by an app</a>, supply the token here.<br>Leave empty to use the API in a GitHub Actions workflow."
+msgstr ""
+
+#: src/Module/Deployer/GithubDeployer/BranchSetting.php:21
+msgid "Branch"
+msgstr ""
+
+#: src/Module/Deployer/GithubDeployer/BranchSetting.php:26
+msgid "The name of the Git branch to commit to.<br>Example: <code>main</code>."
+msgstr ""
+
+#: src/Module/Deployer/GithubDeployer/CommitMessageSetting.php:21
+msgid "Commit Message"
+msgstr ""
+
+#: src/Module/Deployer/GithubDeployer/CommitMessageSetting.php:26
+msgid "The commit message to use when applying updates to the repository.<br>Example: <code>Deployment {shortId}</code>."
+msgstr ""
+
+#: src/Module/Deployer/GithubDeployer/GithubDeployerModule.php:63
+msgid "GitHub"
+msgstr ""
+
+#: src/Module/Deployer/GithubDeployer/GithubStatusEndpoint.php:48
+#: src/Module/Deployer/NetlifyDeployer/NetlifyStatusEndpoint.php:46
+#: src/Module/Deployer/SftpDeployer/SftpStatusEndpoint.php:46
+#: src/Module/Rest/PublicationLogsEndpoint.php:51
+#: src/Module/Rest/PublicationStatusEndpoint.php:52
+msgid "Invalid request"
+msgstr ""
+
+#. translators: 1: Requests remaining, 2: Rate limit reset time, 3: Request limit.
+#: src/Module/Deployer/GithubDeployer/GithubStatusEndpoint.php:85
+msgid "Connection established; %1$s requests remaining until %2$s (limit: %3$s requests)."
+msgstr ""
+
+#: src/Module/Deployer/GithubDeployer/GithubStatusEndpoint.php:91
+#: src/Module/Deployer/NetlifyDeployer/NetlifyStatusEndpoint.php:117
+#: src/Module/Deployer/SftpDeployer/SftpStatusEndpoint.php:99
+msgid "Unable to authenticate with the provided credentials."
+msgstr ""
+
+#: src/Module/Deployer/GithubDeployer/GithubStatusEndpoint.php:94
+#: src/Module/Deployer/NetlifyDeployer/NetlifyStatusEndpoint.php:120
+#: src/Module/Deployer/SftpDeployer/SftpStatusEndpoint.php:102
+msgid "Unable to connect; please try again later."
+msgstr ""
+
+#: src/Module/Deployer/GithubDeployer/GitSetting.php:28
+msgid "Git"
+msgstr ""
+
+#: src/Module/Deployer/GithubDeployer/PrefixSetting.php:21
+#: src/Module/Deployer/S3Deployer/S3PrefixSetting.php:21
+msgid "Prefix"
+msgstr ""
+
+#. translators: %s: Example prefix.
+#: src/Module/Deployer/GithubDeployer/PrefixSetting.php:28
+#: src/Module/Deployer/S3Deployer/S3PrefixSetting.php:28
+msgid "Optionally add a prefix in order to store the static site's data in a subdirectory.<br>Example: <code>%s</code>."
+msgstr ""
+
+#: src/Module/Deployer/GithubDeployer/RepositorySetting.php:21
+msgid "Repository"
+msgstr ""
+
+#. translators: 1: Example repository.
+#: src/Module/Deployer/GithubDeployer/RepositorySetting.php:28
+msgid "The name of the Git repository to store the static site's data, in the format <code>OWNER/REPO</code>.<br>Examples: %1$s."
+msgstr ""
+
+#. translators: %s: Example paths.
+#: src/Module/Deployer/GithubDeployer/RetainPathsSetting.php:39
+msgid "Optionally add file or directory paths (absolute or relative to the repository prefix) that need to be left intact (one path per line).<br>Files existing in the target repository that are not part of the build and not in this list will be deleted during deployment.<br>Examples: %s."
+msgstr ""
+
+#: src/Module/Deployer/GithubDeployer/TokenSetting.php:27
+msgid "GitHub Token"
+msgstr ""
+
+#: src/Module/Deployer/NetlifyDeployer/AccessTokenSetting.php:27
+msgid "Netlify Access Token"
+msgstr ""
+
+#. translators: 1: Link to Netlify Documentation.
+#: src/Module/Deployer/NetlifyDeployer/AuthSetting.php:35
+msgid "You can find or create your Netlify (Personal) Access Token <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">here</a>."
+msgstr ""
+
+#: src/Module/Deployer/NetlifyDeployer/NetlifyDeployerModule.php:73
+msgid "Netlify"
+msgstr ""
+
+#. translators: 1: Site name, 2: Site URL.
+#: src/Module/Deployer/NetlifyDeployer/NetlifyStatusEndpoint.php:84
+msgid "Connection established; identified site \"%1$s\" (%2$s)."
+msgstr ""
+
+#: src/Module/Deployer/NetlifyDeployer/NetlifyStatusEndpoint.php:115
+msgid "Connection established; please provide site ID."
+msgstr ""
+
+#: src/Module/Deployer/NetlifyDeployer/SiteIdSetting.php:21
+msgid "Netlify Site ID"
+msgstr ""
+
+#. translators: 1: Link to Netlify App.
+#: src/Module/Deployer/NetlifyDeployer/SiteIdSetting.php:28
+msgid "You can find your Netlify Site (API) ID on the <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Netlify App</a> at Site Settings > Site Details > Site ID."
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/AuthAccessKeyIdSetting.php:21
+msgid "Access Key ID"
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/AuthProfileSetting.php:21
+msgid "Profile"
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/AuthSecretAccessKeySetting.php:27
+msgid "Secret Access Key"
+msgstr ""
+
+#. translators: 1: Link to AWS Documentation.
+#: src/Module/Deployer/S3Deployer/AuthSetting.php:35
+msgid "In order to authenticate using <a href=\"%1$s\" target=\"blank\">a credentials file and profile</a>, supply the name of the Profile (preferred),<br><strong>or</strong> in order to authenticate directly, supply the Access Key ID and Secret Access Key.<br>Leave both empty to use IAM security credentials from AWS EC2 instances or AWS ECS containers."
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/CloudFrontDistributionIdSetting.php:21
+msgid "Distribution ID"
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/CloudFrontDistributionIdSetting.php:27
+msgid "The CloudFront Distribution ID allows cache to be invalidated automatically.<br>In order to disable CloudFront integration, leave this value empty."
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/CloudFrontInvalidateEverythingPath.php:21
+msgid "Invalidate Everything Path"
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/CloudFrontInvalidateEverythingPath.php:26
+msgid "The path to invalidate when Maximum Invalidation Paths has been exceeded (usually <code>/*</code>)."
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/CloudFrontMaxInvalidationPathsSetting.php:21
+msgid "Maximum Invalidation Paths"
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/CloudFrontMaxInvalidationPathsSetting.php:26
+msgid "The maximum number of invalidation paths before invalidating everything."
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/CloudFrontSetting.php:28
+msgid "CloudFront"
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/EndpointSetting.php:26
+msgid "Endpoint"
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/EndpointSetting.php:31
+msgid "The name of the S3 provider or a custom endpoint address for S3-compatible services."
+msgstr ""
+
+#. translators: %s: Example paths.
+#: src/Module/Deployer/S3Deployer/RetainPathsSetting.php:38
+msgid "Optionally add file or directory paths (absolute or relative to the bucket prefix) that need to be left intact (one path per line).<br>Files existing in the target bucket that are not part of the build and not in this list will be deleted during deployment.<br>Examples: %s."
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/S3BucketSetting.php:21
+msgid "Bucket"
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/S3BucketSetting.php:26
+msgid "The name of the S3 bucket to store the static site's data."
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/S3DeployerModule.php:64
+msgid "Amazon S3 (or compatible)"
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/S3ObjectAcl.php:21
+msgid "Object ACL"
+msgstr ""
+
+#. translators: 1: Link to AWS documentation.
+#: src/Module/Deployer/S3Deployer/S3ObjectAcl.php:28
+msgid "Optionally apply the specified (canned) ACL to uploaded files.<br>For more information, see <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Canned ACL documentation</a>."
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/S3RegionSetting.php:26
+msgid "Region"
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/S3RegionSetting.php:31
+msgid "The name of the region the S3 bucket resides in."
+msgstr ""
+
+#: src/Module/Deployer/S3Deployer/S3Setting.php:28
+msgid "S3"
+msgstr ""
+
+#: src/Module/Deployer/SftpDeployer/AuthSetting.php:37
+msgid "To authenticate via SFTP using an SSH key, leave the password field empty and supply your private SSH key. This method enhances security by using key-based authentication."
+msgstr ""
+
+#: src/Module/Deployer/SftpDeployer/HostSetting.php:21
+msgid "Host"
+msgstr ""
+
+#: src/Module/Deployer/SftpDeployer/HostSetting.php:26
+msgid "The SFTP server's hostname or IP address."
+msgstr ""
+
+#: src/Module/Deployer/SftpDeployer/NetworkSetting.php:28
+#: src/Setting/Advanced/HttpNetworkSetting.php:28
+msgid "Network"
+msgstr ""
+
+#: src/Module/Deployer/SftpDeployer/PasswordSetting.php:27
+#: src/Setting/Advanced/HttpAuthenticationPasswordSetting.php:27
+msgid "Password"
+msgstr ""
+
+#: src/Module/Deployer/SftpDeployer/PortSetting.php:21
+msgid "Port"
+msgstr ""
+
+#: src/Module/Deployer/SftpDeployer/PortSetting.php:26
+msgid "The SFTP server's port number."
+msgstr ""
+
+#: src/Module/Deployer/SftpDeployer/SftpDeployerModule.php:64
+msgid "SFTP Server (beta)"
+msgstr ""
+
+#: src/Module/Deployer/SftpDeployer/SftpSetting.php:28
+msgid "SFTP Server"
+msgstr ""
+
+#. translators: 1: Current working directory.
+#: src/Module/Deployer/SftpDeployer/SftpStatusEndpoint.php:95
+msgid "Connection established (entry directory: \"%s\")."
+msgstr ""
+
+#: src/Module/Deployer/SftpDeployer/SshKeyPasswordSetting.php:27
+msgid "SSH Key Password"
+msgstr ""
+
+#: src/Module/Deployer/SftpDeployer/SshKeySetting.php:27
+msgid "SSH Key"
+msgstr ""
+
+#. translators: %s: Example prefix.
+#: src/Module/Deployer/SftpDeployer/TargetDirectorySetting.php:28
+msgid "The path to the directory on the SFTP server where the static version of your site is deployed.<br>Example: <code>%s</code>."
+msgstr ""
+
+#: src/Module/Deployer/SftpDeployer/TimeoutSetting.php:21
+msgid "Timeout"
+msgstr ""
+
+#: src/Module/Deployer/SftpDeployer/TimeoutSetting.php:26
+msgid "The maximum number of seconds to wait for an SFTP command before timing out."
+msgstr ""
+
+#: src/Module/Deployer/SftpDeployer/UsernameSetting.php:21
+#: src/Setting/Advanced/HttpAuthenticationUsernameSetting.php:21
+msgid "Username"
+msgstr ""
+
+#: src/Module/Deployer/ZipfileDeployer/ZipfileDeployerModule.php:64
+msgid "Zipfile"
+msgstr ""
+
+#: src/Module/Deployer/ZipfileDeployer/ZipfileSetting.php:22
+msgid "Download Zipfile"
+msgstr ""
+
+#. translators: 1: Download label translated, 2: Link to Publication List.
+#: src/Module/Deployer/ZipfileDeployer/ZipfileSetting.php:29
+msgid "Download the relevant publication from the <a href=\"%2$s\">publication overview</a> by choosing <em>%1$s</em>."
+msgstr ""
+
+#. translators: 1: Plugin Name.
+#: src/Module/EnsureMigrated.php:55
+msgid "The %1$s database is being upgraded; please try again later."
+msgstr ""
+
+#. translators: 1: Plugin Name.
+#: src/Module/EnsureMigrated.php:80
+msgid "%1$s was unable to upgrade the database."
+msgstr ""
+
+#. translators: 1: Link to Retry, 2: Link to Contact.
+#: src/Module/EnsureMigrated.php:86
+msgid "Please try the upgrade again by <a href=\"%1$s\">clicking here</a>. If the problem persists, <a href=\"%2$s\" target=\"_blank\" rel=\"noopener\">contact Staatic support</a> and provide the following details:"
+msgstr ""
+
+#: src/Module/EnsureMigrated.php:95
+msgid "Current version"
+msgstr ""
+
+#: src/Module/EnsureMigrated.php:96
+msgid "Target version"
+msgstr ""
+
+#. translators: 1: Reset link.
+#: src/Module/EnsureMigrated.php:102
+msgid "Alternatively, you can %1$s to recreate the plugin's tables, which will also delete any existing publication data."
+msgstr ""
+
+#: src/Module/EnsureMigrated.php:109
+msgid "This will delete all past publication data. Are you sure that you want to reset the database?"
+msgstr ""
+
+#: src/Module/EnsureMigrated.php:110
+msgid "reset the database"
+msgstr ""
+
+#: src/Module/RegisterSettings.php:35
+msgid "Welcome"
+msgstr ""
+
+#: src/Module/RegisterSettings.php:36
+msgid "Build"
+msgstr ""
+
+#: src/Module/RegisterSettings.php:38
+msgid "Advanced"
+msgstr ""
+
+#. translators: %s: Publication ID.
+#: src/Publication/BackgroundPublisher.php:60
+msgid "Ignoring publication #%s; publication already started"
+msgstr ""
+
+#: src/Publication/BackgroundPublisher.php:98
+msgid "Cannot cancel publication; publication has already finished"
+msgstr ""
+
+#: src/Publication/BackgroundPublisher.php:104
+msgid "Canceling publication"
+msgstr ""
+
+#. translators: %s: Publication task.
+#: src/Publication/BackgroundPublisher.php:182
+msgid "Current publication is unknown during task %s"
+msgstr ""
+
+#. translators: %s: Publication ID, %2$s: Publication task.
+#: src/Publication/BackgroundPublisher.php:203
+msgid "Unable to find publication #%1$s for task %2$s"
+msgstr ""
+
+#. translators: %s: Publication ID, %2$s: Publication task.
+#: src/Publication/BackgroundPublisher.php:214
+msgid "Using publication task timeout value of %d seconds"
+msgstr ""
+
+#: src/Publication/BackgroundPublisher.php:232
+msgid "Task failed due to a timeout or fatal error; consider increasing \"Publication Task Timeout\" under Staatic > Settings > Advanced."
+msgstr ""
+
+#. translators: %s: Publication ID.
+#: src/Publication/PublicationCleanup.php:37
+msgid "Cleaning up publication #%s"
+msgstr ""
+
+#. translators: %s: Publication ID.
+#: src/Publication/PublicationCleanup.php:50
+msgid "Marking publication #%s as failed (no longer running)"
+msgstr ""
+
+#: src/Publication/PublicationManager.php:125
+msgid "Please add one or more URLs or paths."
+msgstr ""
+
+#: src/Publication/PublicationStatus.php:85
+msgid "Pending"
+msgstr ""
+
+#: src/Publication/PublicationStatus.php:86
+msgid "In Progress"
+msgstr ""
+
+#: src/Publication/PublicationStatus.php:87
+msgid "Finished"
+msgstr ""
+
+#: src/Publication/PublicationStatus.php:88
+msgid "Canceled"
+msgstr ""
+
+#: src/Publication/PublicationStatus.php:89
+msgid "Failed"
+msgstr ""
+
+#: src/Publication/Task/CrawlTask.php:22
+msgid "Crawling WordPress site"
+msgstr ""
+
+#: src/Publication/Task/DeployTask.php:22
+msgid "Deploying WordPress site"
+msgstr ""
+
+#: src/Publication/Task/FinishCrawlerTask.php:22
+msgid "Finishing crawler"
+msgstr ""
+
+#: src/Publication/Task/FinishDeploymentTask.php:22
+msgid "Finishing deployment"
+msgstr ""
+
+#: src/Publication/Task/FinishTask.php:22
+msgid "Finishing"
+msgstr ""
+
+#: src/Publication/Task/InitializeCrawlerTask.php:23
+msgid "Initializing crawler"
+msgstr ""
+
+#: src/Publication/Task/InitiateDeploymentTask.php:22
+msgid "Initializing deployment"
+msgstr ""
+
+#: src/Publication/Task/PostProcessTask.php:22
+msgid "Post-processing"
+msgstr ""
+
+#: src/Publication/Task/SetupTask.php:26
+msgid "Setting up"
+msgstr ""
+
+#: src/Publication/Task/SetupTask.php:66
+msgid "No deployment method has been selected yet"
+msgstr ""
+
+#: src/Publication/Task/SetupTask.php:86
+msgid "Deployment method did not register \"staatic_deployment_strategy\" hook"
+msgstr ""
+
+#. translators: %s: Error message.
+#: src/Publication/Task/SetupTask.php:99
+msgid "Deployment has not been configured correctly: %s"
+msgstr ""
+
+#. translators: 1: Additional path.
+#: src/Service/AdditionalPaths.php:36
+msgid "Path \"%1$s\" should be absolute."
+msgstr ""
+
+#. translators: 1: Additional path.
+#: src/Service/AdditionalPaths.php:46
+msgid "Path \"%1$s\" is not readable."
+msgstr ""
+
+#. translators: 1: Additional path.
+#: src/Service/AdditionalPaths.php:58
+msgid "Path \"%1$s\" is the WordPress installation directory."
+msgstr ""
+
+#. translators: 1: Additional path.
+#: src/Service/AdditionalPaths.php:76
+msgid "Path \"%1$s\" is not convertible to a URL path."
+msgstr ""
+
+#. translators: 1: Redirect origin.
+#: src/Service/AdditionalRedirects.php:34
+msgid "Redirect \"%1$s\" has a malformed origin."
+msgstr ""
+
+#. translators: 1: Redirect origin.
+#: src/Service/AdditionalRedirects.php:44
+msgid "Redirect \"%1$s\" should not contain scheme or authority part."
+msgstr ""
+
+#. translators: 1: Redirect origin.
+#: src/Service/AdditionalRedirects.php:54
+msgid "Redirect \"%1$s\" does not have an absolute origin path."
+msgstr ""
+
+#. translators: 1: Redirect origin, 2: Redirect URL.
+#: src/Service/AdditionalRedirects.php:66
+msgid "Redirect \"%1$s\" has a malformed redirect URL: %2$s."
+msgstr ""
+
+#. translators: 1: Redirect origin, 2: HTTP status code.
+#: src/Service/AdditionalRedirects.php:77
+msgid "Redirect \"%1$s\" has an invalid HTTP status code: \"%2$s\"."
+msgstr ""
+
+#. translators: 1: URL.
+#: src/Service/AdditionalUrls.php:35
+#: src/Service/ExcludeUrls.php:31
+msgid "URL \"%1$s\" is not part of this site."
+msgstr ""
+
+#: src/Service/Formatter.php:68
+msgid "now"
+msgstr ""
+
+#: src/Service/HealthChecks.php:28
+msgid "Permalink structure is not configured correctly"
+msgstr ""
+
+#: src/Service/HealthChecks.php:30
+msgid "<p>In order to successfully generate a static version of your WordPress site, a permalink structure other than Plain needs to be configured.</p>"
+msgstr ""
+
+#. translators: 1: Link to Permalink Settings.
+#: src/Service/HealthChecks.php:33
+msgid "<p>Please ensure a <a href=\"%1$s\">Permalink Structure</a> other than Plain is selected.</p>"
+msgstr ""
+
+#: src/Service/HealthChecks.php:41
+msgid "Permalink structure appears to be configured correctly"
+msgstr ""
+
+#: src/Service/HealthChecks.php:43
+msgid "<p>In order to successfully generate a static version of your WordPress site, a permalink structure compatible with static sites needs to be configured.</p>"
+msgstr ""
+
+#: src/Service/HealthChecks.php:55
+msgid "Staatic work directory is not writable"
+msgstr ""
+
+#: src/Service/HealthChecks.php:57
+#: src/Service/HealthChecks.php:70
+msgid "<p>In order to successfully generate a static version of your WordPress site, the Staatic work directory needs to be writable.</p>"
+msgstr ""
+
+#. translators: 1: Link to Advanced Settings.
+#: src/Service/HealthChecks.php:60
+msgid "<p>Please ensure that the Work Directory configured under <a href=\"%1$s\">Advanced Settings</a> is writable.</p>"
+msgstr ""
+
+#: src/Service/HealthChecks.php:68
+msgid "Staatic work directory is not writable and can't be created"
+msgstr ""
+
+#. translators: 1: Link to Advanced Settings.
+#: src/Service/HealthChecks.php:73
+msgid "<p>Please ensure that the Work Directory, configured under <a href=\"%1$s\">Advanced Settings</a>, is writable.</p>"
+msgstr ""
+
+#: src/Service/HealthChecks.php:81
+msgid "Staatic work directory is writable"
+msgstr ""
+
+#: src/Service/HealthChecks.php:83
+msgid "<p>The Staatic work directory is used by Staatic to write publication resources and other temporary files.</p>"
+msgstr ""
+
+#: src/Service/HealthChecks.php:90
+msgid "<p>The publication test task is used to verify the amount of time publication tasks are able to run without timing out. When the task times out too early, publications started from WP-Admin may not have enough time to finish and as a result fail.</p>"
+msgstr ""
+
+#: src/Service/HealthChecks.php:96
+msgid "Publication test task has not yet started"
+msgstr ""
+
+#: src/Service/HealthChecks.php:98
+msgid "<p>Since the task has not yet started, the publication task run time could not be verified.</p>"
+msgstr ""
+
+#. translators: 1: Link to Trigger Test Request.
+#: src/Service/HealthChecks.php:101
+msgid "<p>Please ensure WP-Cron is functioning correctly. Alternatively, <a href=\"%1$s\">trigger the test manually</a>.</p>"
+msgstr ""
+
+#: src/Service/HealthChecks.php:115
+msgid "Publication test task has not yet finished"
+msgstr ""
+
+#: src/Service/HealthChecks.php:117
+msgid "<p>Since the task has not yet finished, the publication task run time could not be verified.</p>"
+msgstr ""
+
+#: src/Service/HealthChecks.php:126
+msgid "Publication test task reveals a low timeout value"
+msgstr ""
+
+#. translators: 1: Test run time in seconds.
+#: src/Service/HealthChecks.php:130
+msgid "<p>The publication test task stopped after <strong>%1$s seconds</strong>. This can be caused by a variety of reasons, including a low PHP <code>maximum_execution_time</code> value or too strict web server request time limits.</p>"
+msgstr ""
+
+#. translators: 1: Recommended minimum run time in seconds, 2: Link to Documentation.
+#: src/Service/HealthChecks.php:135
+msgid "<p>Please ensure that HTTP requests and PHP scripts are allowed to run at least %1$s seconds, or consider publishing using the <code>staatic publish</code> <a href=\"%2$s\" target=\"_blank\" rel=\"noopener\">WP-CLI command</a> instead.</p>"
+msgstr ""
+
+#: src/Service/HealthChecks.php:144
+msgid "Publication task timeout appears to be in order"
+msgstr ""
+
+#: src/Service/HealthChecks.php:146
+msgid "<p>When starting a publication from within WP-Admin, Staatic executes the publication process in multiple separate tasks, which require enough time to complete successfully.</p>"
+msgstr ""
+
+#: src/Service/HealthChecks.php:155
+msgid "<p>Loopback requests are used by the Staatic crawler component to generate the static version of your WordPress site.</p>"
+msgstr ""
+
+#: src/Service/HealthChecks.php:164
+msgid "Staatic is unable to perform loopback requests"
+msgstr ""
+
+#. translators: 1: Error message.
+#: src/Service/HealthChecks.php:168
+msgid "<p>A test request resulted in the following error:</p><p><code>%1$s</code></p>"
+msgstr ""
+
+#. translators: 1: Link to Advanced Settings.
+#: src/Service/HealthChecks.php:173
+msgid "<p>Please ensure that your server’s IP address is whitelisted and that HTTP authentication credentials are valid under <a href=\"%1$s\">Advanced Settings</a>, in case HTTP authentication is enabled.</p>"
+msgstr ""
+
+#: src/Service/HealthChecks.php:181
+msgid "Staatic can perform loopback requests"
+msgstr ""
+
+#. translators: 1: expands to 'Staatic'
+#: src/Service/HealthChecks.php:201
+msgid "This was reported by %1$s"
+msgstr ""
+
+#. translators: 1: Error message, 2: Detected URL .
+#: src/Service/SiteUrlProvider.php:75
+msgid "<strong>Staatic was unable to determine the site's base URL</strong><br><br>Got \"<strong>%2$s</strong>\", which resulted in the following error: <em>%1$s</em> - please check the following locations and ensure the configured URL is valid:<br><ul><li>the value of <code>WP_HOME</code> in the <code>wp-config.php</code> file;</li><li>the value of <code>home</code> in the <code>wp_options</code> database table;</li><li>the value of the <code>STAATIC_SITE_URL</code> environment variable;</li><li>any <code>staatic_site_url</code> or <code>home_url</code> filter hook implementation.</li></ul>"
+msgstr ""
+
+#: src/Setting/Advanced/BackgroundProcessTimeout.php:21
+msgid "Publication Task Timeout"
+msgstr ""
+
+#: src/Setting/Advanced/BackgroundProcessTimeout.php:26
+msgid "The number of seconds before publication tasks triggered from WP-Admin timeout.<br>Only change this value to troubleshoot publication issues. Alternatively use the <code>staatic publish</code> WP-CLI command."
+msgstr ""
+
+#: src/Setting/Advanced/CrawlerDomParserSetting.php:36
+msgid "This determines which HTML DOM parser is used while transforming your site.<br>If you are experiencing issues with the generated static HTML, you can try a different parser."
+msgstr ""
+
+#: src/Setting/Advanced/CrawlerLowercaseUrlsSetting.php:26
+msgid "Enforce lowercase URLs"
+msgstr ""
+
+#: src/Setting/Advanced/CrawlerLowercaseUrlsSetting.php:31
+msgid "If enabled, automatically converts all URLs to lowercase for consistent formatting and to prevent case-sensitive duplicate content."
+msgstr ""
+
+#: src/Setting/Advanced/CrawlerProcessNotFoundSetting.php:21
+msgid "Process not found resources"
+msgstr ""
+
+#: src/Setting/Advanced/CrawlerProcessNotFoundSetting.php:26
+msgid "Process page not found resources"
+msgstr ""
+
+#: src/Setting/Advanced/CrawlerProcessNotFoundSetting.php:31
+msgid "If enabled, in addition to the configured page not found page, other resources with a 404 status code will be included in the build as well."
+msgstr ""
+
+#: src/Setting/Advanced/CrawlerSetting.php:28
+msgid "Crawler"
+msgstr ""
+
+#: src/Setting/Advanced/HttpAuthenticationSetting.php:28
+msgid "HTTP Authentication"
+msgstr ""
+
+#: src/Setting/Advanced/HttpAuthenticationSetting.php:33
+msgid "If your WordPress installation is protected with HTTP authentication, enter the relevant credentials."
+msgstr ""
+
+#: src/Setting/Advanced/HttpConcurrencySetting.php:21
+msgid "HTTP Concurrency"
+msgstr ""
+
+#: src/Setting/Advanced/HttpConcurrencySetting.php:26
+msgid "The number of simultaneous HTTP connections allowed."
+msgstr ""
+
+#: src/Setting/Advanced/HttpDelaySetting.php:21
+msgid "HTTP Delay"
+msgstr ""
+
+#: src/Setting/Advanced/HttpDelaySetting.php:26
+msgid "The number of milliseconds for HTTP requests to be delayed."
+msgstr ""
+
+#: src/Setting/Advanced/HttpTimeoutSetting.php:21
+msgid "HTTP Timeout"
+msgstr ""
+
+#: src/Setting/Advanced/HttpTimeoutSetting.php:26
+msgid "The number of seconds for HTTP connections and requests to timeout."
+msgstr ""
+
+#: src/Setting/Advanced/HttpToHttpsSetting.php:21
+msgid "Downgrade HTTPS to HTTP"
+msgstr ""
+
+#: src/Setting/Advanced/HttpToHttpsSetting.php:31
+msgid "This option can be enabled in cases where WordPress is behind a HTTPS terminating load balancer preventing crawling to succeed otherwise."
+msgstr ""
+
+#: src/Setting/Advanced/LoggingLevelSetting.php:31
+msgid "Logging"
+msgstr ""
+
+#: src/Setting/Advanced/LoggingLevelSetting.php:36
+msgid "Raising logging levels aids in troubleshooting but can slow down publication."
+msgstr ""
+
+#: src/Setting/Advanced/LoggingLevelSetting.php:54
+msgid "Extensive logging"
+msgstr ""
+
+#: src/Setting/Advanced/LoggingLevelSetting.php:55
+msgid "Detailed logging"
+msgstr ""
+
+#: src/Setting/Advanced/LoggingLevelSetting.php:56
+msgid "Minimal logging"
+msgstr ""
+
+#: src/Setting/Advanced/LoggingLevelSetting.php:57
+msgid "No logging"
+msgstr ""
+
+#: src/Setting/Advanced/OverrideSiteUrlSetting.php:21
+msgid "Custom Origin URL"
+msgstr ""
+
+#. translators: 1: The default origin URL.
+#: src/Setting/Advanced/OverrideSiteUrlSetting.php:28
+msgid "Optionally specify a custom URL for your dynamic WordPress site.<br>If left blank, <code>%s</code> will be used as the default URL."
+msgstr ""
+
+#: src/Setting/Advanced/PageNotFoundPathSetting.php:27
+msgid "Page Not Found Path"
+msgstr ""
+
+#: src/Setting/Advanced/PageNotFoundPathSetting.php:32
+msgid "This should be any path generating a 404 page not found page, e.g. /404_not_found/."
+msgstr ""
+
+#: src/Setting/Advanced/SslVerifyBehaviorSetting.php:30
+msgid "Verification"
+msgstr ""
+
+#: src/Setting/Advanced/SslVerifyBehaviorSetting.php:35
+msgid "Set to \"Enabled\" to enable SSL certificate verification and use the default CA bundle provided by operating system.<br>Set to \"Disabled\" to disable certificate verification (this is insecure!).<br>Set to \"Enabled using custom certificate\" to provide the path to a CA bundle to enable verification using a custom certificate."
+msgstr ""
+
+#: src/Setting/Advanced/SslVerifyPathSetting.php:21
+msgid "CA Bundle Path"
+msgstr ""
+
+#: src/Setting/Advanced/SslVerifyPathSetting.php:26
+msgid "In case \"Verification\" is set to \"Enabled using custom certificate\" this should be the path to the certificate, e.g. \"/path/to/cert.pem\"."
+msgstr ""
+
+#. translators: %s: CA bundle path.
+#: src/Setting/Advanced/SslVerifyPathSetting.php:37
+msgid "The specified CA Bundle Path \"%s\" does not exist."
+msgstr ""
+
+#: src/Setting/Advanced/SslVerifySetting.php:28
+msgid "SSL Certificates"
+msgstr ""
+
+#: src/Setting/Advanced/UninstallDataSetting.php:21
+msgid "Delete Data"
+msgstr ""
+
+#: src/Setting/Advanced/UninstallDataSetting.php:26
+msgid "Delete plugin data"
+msgstr ""
+
+#: src/Setting/Advanced/UninstallDataSetting.php:31
+msgid "This will delete the plugin's database tables when uninstalling the plugin.<br><em>Note: the work directory currently needs to be deleted manually.</em>"
+msgstr ""
+
+#: src/Setting/Advanced/UninstallSetting.php:28
+msgid "Plugin Uninstall"
+msgstr ""
+
+#: src/Setting/Advanced/UninstallSettingsSetting.php:21
+msgid "Delete Settings"
+msgstr ""
+
+#: src/Setting/Advanced/UninstallSettingsSetting.php:26
+msgid "Delete plugin settings"
+msgstr ""
+
+#: src/Setting/Advanced/UninstallSettingsSetting.php:31
+msgid "This will delete all plugin's settings when uninstalling the plugin."
+msgstr ""
+
+#: src/Setting/Advanced/WorkDirectorySetting.php:22
+msgid "Work Directory"
+msgstr ""
+
+#: src/Setting/Advanced/WorkDirectorySetting.php:27
+msgid "Temporary files created during publications are stored in this directory."
+msgstr ""
+
+#: src/Setting/Build/AdditionalPathsSetting.php:25
+msgid "Additional Paths"
+msgstr ""
+
+#. translators: %s: Example additional paths.
+#: src/Setting/Build/AdditionalPathsSetting.php:32
+msgid "Optionally add (filesystem) paths that need to be included in the build.<br>%s"
+msgstr ""
+
+#: src/Setting/Build/AdditionalRedirectsSetting.php:23
+msgid "Additional Redirects"
+msgstr ""
+
+#. translators: %s: Example additional redirects.
+#: src/Setting/Build/AdditionalRedirectsSetting.php:30
+msgid "Optionally add redirects that need to be included in the build.<br>%s"
+msgstr ""
+
+#: src/Setting/Build/AdditionalUrlsSetting.php:29
+msgid "Additional URLs"
+msgstr ""
+
+#. translators: %s: Example additional URLs.
+#: src/Setting/Build/AdditionalUrlsSetting.php:41
+msgid "Optionally add (absolute or relative) URLs that need to be included in the build.<br>%s"
+msgstr ""
+
+#: src/Setting/Build/DestinationUrlSetting.php:28
+msgid "The destination URL determines how links within your static site are constructed."
+msgstr ""
+
+#. translators: %s: Destination URL.
+#: src/Setting/Build/DestinationUrlSetting.php:46
+#: src/Setting/Build/PreviewUrlSetting.php:52
+msgid "The specified destination URL \"%s\" is invalid; using \"/\" instead."
+msgstr ""
+
+#: src/Setting/Build/ExcludeUrlsSetting.php:29
+msgid "Excluded URLs"
+msgstr ""
+
+#. translators: %s: Example exclude URLs.
+#: src/Setting/Build/ExcludeUrlsSetting.php:41
+msgid "Optionally add URLs that need to be excluded from the build.<br>%s"
+msgstr ""
+
+#: src/Setting/Build/PreviewUrlSetting.php:23
+msgid "Preview URL"
+msgstr ""
+
+#: src/Setting/Build/PreviewUrlSetting.php:28
+msgid "The preview URL determines how links within your <strong>preview</strong> site are constructed."
+msgstr ""
+
+#: src/Setting/Deployment/DeploymentMethodSetting.php:27
+msgid "Deployment Method"
+msgstr ""
+
+#: src/Setting/Deployment/DeploymentMethodSetting.php:32
+msgid "Deploy static site to"
+msgstr ""
+
+#: src/Setting/Deployment/DeploymentMethodSetting.php:37
+msgid "Choose where and how you want to publish the static version of your site."
+msgstr ""

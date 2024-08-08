@@ -1,0 +1,2113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Staatic 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/plugin\n"
+"Last-Translator: Staatic <contact@staatic.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-25T06:47:01+00:00\n"
+"PO-Revision-Date: 2024-07-25 08:47+0200\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: staatic\n"
+
+#. Plugin Name of the plugin
+#: staatic.php
+msgid "Staatic - Static Site Generator"
+msgstr "Staatic - statische site generator"
+
+#. Plugin URI of the plugin
+#: staatic.php
+msgid "https://staatic.com/wordpress"
+msgstr "https://staatic.com/wordpress"
+
+#. Description of the plugin
+#: staatic.php
+msgid "Staatic for WordPress allows you to generate a highly optimized static version of your WordPress site."
+msgstr "De Staatic voor WordPress plug-in maakt het mogelijk om een geoptimaliseerde statische versie van uw WordPress site te genereren."
+
+#. Author of the plugin
+#: staatic.php
+msgid "Team Staatic"
+msgstr "Team Staatic"
+
+#. Author URI of the plugin
+#: staatic.php
+msgid "https://staatic.com/"
+msgstr "https://staatic.com/"
+
+#: partials/admin/publication/list.php:16
+msgid "Publish now"
+msgstr "Nu publiceren"
+
+#: partials/admin/publication/list.php:26
+msgid "Search publications"
+msgstr "Zoek publicaties"
+
+#: partials/admin/publication/list.php:36
+msgid "Are you sure you want to (re)deploy this publication using the currently configured deployment method?"
+msgstr "Weet u zeker dat u deze publicatie (opnieuw) wilt publiceren op basis van de huidige geconfigureerde publicatiemethode?"
+
+#: partials/admin/publication/list.php:42
+msgid "Are you sure you want to delete this publication?"
+msgstr "Weet u zeker dat u deze publicatie wilt verwijderen?"
+
+#. translators: %s: Publication creation date.
+#: partials/admin/publication/logs.php:18
+#: partials/admin/publication/results.php:18
+#: partials/admin/publication/summary.php:25
+msgid "Publication \"%s\""
+msgstr "Publicatie \"%s\""
+
+#: partials/admin/publication/logs.php:22
+#: partials/admin/publication/results.php:22
+#: partials/admin/publication/summary.php:29
+msgid "(Preview)"
+msgstr "(Preview)"
+
+#: partials/admin/publication/logs.php:26
+msgid "Export"
+msgstr "Exporteren"
+
+#: partials/admin/publication/logs.php:44
+msgid "Search logs"
+msgstr "Zoek logs"
+
+#: partials/admin/publication/results.php:26
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:85
+#: src/Module/Deployer/ZipfileDeployer/ZipfileSetting.php:30
+msgid "Download"
+msgstr "Downloaden"
+
+#: partials/admin/publication/results.php:44
+msgid "Search resources"
+msgstr "Zoek bronnen"
+
+#: partials/admin/publication/summary.php:39
+#: src/Module/Admin/Page/Publications/PublicationSummaryPage.php:37
+msgid "Publication Summary"
+msgstr "Publicatiesamenvatting"
+
+#: partials/admin/publication/summary.php:44
+msgid "Published By"
+msgstr "Gepubliceerd door"
+
+#: partials/admin/publication/summary.php:45
+#: src/ListTable/Column/UserColumn.php:12
+msgid "system"
+msgstr "systeem"
+
+#: partials/admin/publication/summary.php:48
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:59
+msgid "Status"
+msgstr "Status"
+
+#: partials/admin/publication/summary.php:52
+msgid "Time Taken"
+msgstr "Publicatieduur"
+
+#. translators: 1: Date interval for crawling, 2: Date interval for deployment.
+#: partials/admin/publication/summary.php:59
+msgid "(%1$s for crawling, %2$s for deployment)"
+msgstr "(%1$s voor crawlen, %2$s voor live-zetten)"
+
+#: partials/admin/publication/summary.php:68
+#: partials/admin/publication/_header.php:18
+msgid "Resources"
+msgstr "Bronnen"
+
+#. translators: %s: Number of resources.
+#: partials/admin/publication/summary.php:73
+msgid "%s resources"
+msgstr "%s bronnen"
+
+#. translators: 1: Number of resources, 2: Redirect/redirects, 3: Number of failed resources, 4: Failure/failures.
+#: partials/admin/publication/summary.php:79
+msgid "(%1$s %2$s, %3$s %4$s)"
+msgstr "(%1$s %2$s, %3$s %4$s)"
+
+#: partials/admin/publication/summary.php:81
+msgid "redirect"
+msgstr "doorverwijzing"
+
+#: partials/admin/publication/summary.php:81
+msgid "redirects"
+msgstr "doorverwijzingen"
+
+#: partials/admin/publication/summary.php:83
+msgid "failure"
+msgstr "fout"
+
+#: partials/admin/publication/summary.php:83
+msgid "failures"
+msgstr "fouten"
+
+#: partials/admin/publication/summary.php:90
+#: src/Module/Admin/ExtendSiteHealth.php:100
+#: src/Setting/Build/DestinationUrlSetting.php:23
+msgid "Destination URL"
+msgstr "Bestemmings-URL"
+
+#: partials/admin/publication/summary.php:97
+msgid "Log Summary"
+msgstr "Log samenvatting"
+
+#: partials/admin/publication/summary.php:136
+msgid "No logs for this publication (yet)"
+msgstr "Er zijn (nog) geen logs voor deze publicatie"
+
+#: partials/admin/publication/summary.php:141
+msgid "View all logs"
+msgstr "Bekijk alle logs"
+
+#: partials/admin/publication/_header.php:14
+msgid "Summary"
+msgstr "Samenvatting"
+
+#: partials/admin/publication/_header.php:22
+msgid "Logs"
+msgstr "Logs"
+
+#: partials/admin/publication/_header.php:31
+msgid "Live Publication Status"
+msgstr "Live publicatie status"
+
+#: partials/admin/publication/_header.php:55
+msgid "Publication is currently in progress. Refresh the page to see the latest information."
+msgstr "Publicatie is momenteel bezig. Ververs de pagina voor de laatste informatie."
+
+#: partials/admin/publish-subset.php:17
+msgid "Error: "
+msgstr "Fout: "
+
+#: partials/admin/publish-subset.php:22
+#: src/Module/Admin/Page/PublishSubsetPage.php:39
+#: src/Module/Admin/Page/PublishSubsetPage.php:63
+#: src/Module/Admin/RegisterAdminBar.php:90
+msgid "Publish Selection"
+msgstr "Publiceer selectie"
+
+#: partials/admin/publish-subset.php:32
+msgid "URLs"
+msgstr "URL's"
+
+#: partials/admin/publish-subset.php:39
+#: partials/admin/settings/additional_urls.php:18
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:50
+#: assets/admin.js:1094
+#: assets/admin.js:1015
+msgid "URL"
+msgstr "URL"
+
+#: partials/admin/publish-subset.php:40
+#: partials/admin/settings/additional_urls.php:19
+#: assets/admin.js:1038
+#: assets/admin.js:975
+msgid "Add URL"
+msgstr "URL toevoegen"
+
+#. translators: %s: Example URLs.
+#: partials/admin/publish-subset.php:51
+msgid "Add the (absolute or relative) URLs to be included in this publication.<br>%s"
+msgstr "Voeg de (absolute of relatieve) URL's toe die in deze publicatie moeten worden opgenomen.<br>%s"
+
+#: partials/admin/publish-subset.php:54
+#: src/Setting/AbstractSetting.php:76
+msgid "Examples"
+msgstr "Voorbeelden"
+
+#: partials/admin/publish-subset.php:63
+msgid "Filesystem Paths"
+msgstr "Bestandssysteempaden"
+
+#: partials/admin/publish-subset.php:72
+#: partials/admin/settings/additional_paths.php:17
+#: assets/admin.js:2213
+#: assets/admin.js:2092
+msgid "Path"
+msgstr "Pad"
+
+#: partials/admin/publish-subset.php:73
+#: partials/admin/settings/additional_paths.php:18
+#: assets/admin.js:2157
+#: assets/admin.js:2052
+msgid "Add Path"
+msgstr "Pad toevoegen"
+
+#. translators: %s: Root path.
+#: partials/admin/publish-subset.php:83
+msgid "Add the (filesystem) paths to be included in this publication.<br>Base path: <code>%s</code>"
+msgstr "Voeg de (bestandssysteem) paden toe die opgenomen moeten worden in deze publicatie.<br>Basispad: <code>%s</code>"
+
+#: partials/admin/publish-subset.php:88
+#: src/Module/RegisterSettings.php:37
+msgid "Deployment"
+msgstr "Live-zetten"
+
+#: partials/admin/publish-subset.php:91
+msgid "Deploy Publication"
+msgstr "Publicatie live-zetten"
+
+#: partials/admin/publish-subset.php:101
+msgid "Deploy publication using configured deployment method"
+msgstr "Zet de publicatie live met de ingestelde publicatiemethode"
+
+#: partials/admin/publish-subset.php:104
+msgid "Choose to automatically deploy the generated static files to your pre-configured deployment method upon completion of the publication.<br>As an alternative, you have the option to download these files in a zipfile format once the process is finished."
+msgstr "Kies ervoor om de gegenereerde statische bestanden automatisch live te zetten naar uw vooraf geconfigureerde publicatiemethode na voltooiing van de publicatie.<br>Als alternatief heeft u de mogelijkheid om deze bestanden in een zip-formaat te downloaden zodra het proces is voltooid."
+
+#: partials/admin/publish-subset.php:108
+#: src/Module/Admin/Page/PublishPage.php:40
+#: src/Module/Admin/Page/PublishPage.php:68
+#: src/Module/Admin/Page/PublishPage.php:78
+#: src/Module/Admin/RegisterAdminBar.php:79
+msgid "Publish"
+msgstr "Publiceren"
+
+#: partials/admin/publish-subset.php:118
+msgid "This may delete resources depending on the configured deployment method. Are you sure you want to continue?"
+msgstr "Hierdoor kunnen er afhankelijk van de geconfigureerde publicatiemethode bronnen worden verwijderd. Weet u zeker dat u wilt doorgaan?"
+
+#: partials/admin/settings.php:22
+#: src/Module/Admin/Page/SettingsPage.php:36
+msgid "Staatic Settings"
+msgstr "Staatic instellingen"
+
+#: partials/admin/settings/_premium.php:12
+msgid "Advance Your WordPress Site"
+msgstr "Verbeter uw WordPress-site"
+
+#: partials/admin/settings/_premium.php:15
+msgid "Thank you for choosing Staatic to enhance the speed and security of your WordPress site. To further improve your site’s performance and support the continuous development of Staatic, consider upgrading to Staatic for WordPress Premium."
+msgstr "Dank u voor het kiezen van Staatic om de snelheid en veiligheid van uw WordPress-site te verbeteren. Om de prestaties van uw site verder te verbeteren en de continue ontwikkeling van Staatic te ondersteunen, overweeg dan een upgrade naar Staatic voor WordPress Premium."
+
+#: partials/admin/settings/_premium.php:19
+msgid "Support Development with Premium"
+msgstr "Ondersteun de ontwikkeling met Premium"
+
+#: partials/admin/settings/_premium.php:22
+msgid "By choosing Premium, you not only gain access to exclusive features but also contribute to the sustainability and advancement of Staatic. This support allows us to continually refine and expand the capabilities of Staatic."
+msgstr "Door te kiezen voor Premium krijgt u niet alleen toegang tot exclusieve functies, maar draagt u ook bij aan de duurzaamheid en vooruitgang van Staatic. Deze ondersteuning stelt ons in staat om de mogelijkheden van Staatic voortdurend te verfijnen en uit te breiden."
+
+#: partials/admin/settings/_premium.php:26
+msgid "Premium Features"
+msgstr "Premium functionaliteiten"
+
+#: partials/admin/settings/_premium.php:29
+msgid "Staatic for WordPress Premium introduces a suite of advanced features designed to optimize your site management and user experience:"
+msgstr "Staatic voor WordPress Premium introduceert een reeks geavanceerde functies ontworpen om uw sitebeheer en gebruikerservaring te optimaliseren:"
+
+#: partials/admin/settings/_premium.php:32
+msgid "<strong>Quick Publications</strong>: Efficiently publish changes by updating only the modified content."
+msgstr "<strong>Snelle publicaties</strong>: publiceer wijzigingen efficiënt door alleen de gewijzigde inhoud bij te werken."
+
+#: partials/admin/settings/_premium.php:33
+msgid "<strong>Selective Publications</strong>: Choose specific content to update, merging it seamlessly with your site’s latest publication for targeted updates."
+msgstr "<strong>Selectieve publicaties</strong>: kies specifieke inhoud om bij te werken, en voeg deze naadloos samen met de laatste publicatie van uw site voor gerichte updates."
+
+#: partials/admin/settings/_premium.php:34
+msgid "<strong>Automated Publications</strong>: Automate your site updates based on content revisions or schedule, keeping your site up-to-date effortlessly."
+msgstr "<strong>Automatische publicaties</strong>: automatiseer uw site-updates op basis van revisies of een tijdschema, zodat uw site moeiteloos up-to-date blijft."
+
+#: partials/admin/settings/_premium.php:35
+msgid "<strong>Form Submission Handling</strong>: Maintain interactive elements like forms on your static site, ensuring functionality without compromising on speed."
+msgstr "<strong>Formulierinzendingen verwerking</strong>: behoud interactieve elementen zoals formulieren op uw statische site, waarbij de functionaliteit behouden blijft zonder in te boeten aan snelheid."
+
+#: partials/admin/settings/_premium.php:36
+msgid "<strong>Search Integration</strong>: Improve your site’s search functionality, allowing visitors to find information faster and more accurately."
+msgstr "<strong>Zoekintegratie</strong>: verbeter de zoekfunctionaliteit van uw site, zodat bezoekers informatie sneller en nauwkeuriger kunnen vinden."
+
+#: partials/admin/settings/_premium.php:40
+msgid "Learn More"
+msgstr "Meer informatie"
+
+#. translators: 1: Link to Staatic Premium.
+#: partials/admin/settings/_premium.php:45
+msgid "Interested in enhancing your site with Staatic for WordPress Premium? <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Explore the benefits and features of upgrading to Premium</a> and see how this can further elevate your website’s efficiency and power."
+msgstr "Geïnteresseerd in het verbeteren van uw site met Staatic voor WordPress Premium? <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Ontdek de voordelen en functies van een upgrade naar Premium</a> en zie hoe dit de efficiëntie en mogelijkheden van uw website verder kan verhogen."
+
+#: partials/admin/settings/_welcome.php:14
+msgid "Welcome to Staatic for WordPress"
+msgstr "Welkom bij Staatic voor WordPress"
+
+#: partials/admin/settings/_welcome.php:17
+msgid "Thank you for choosing Staatic to enhance your WordPress site’s speed and security to the next level."
+msgstr "Dank u voor het kiezen van Staatic om de snelheid en veiligheid van uw WordPress-site naar een hoger niveau te tillen."
+
+#. translators: 1: Link to Getting Started.
+#: partials/admin/settings/_welcome.php:20
+msgid "If you’re new to Staatic, we recommend beginning with our <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Getting Started Guide</a> to maximize your site’s potential efficiently."
+msgstr "Als u nieuw bent met Staatic, raden we aan te beginnen met onze <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Startgids</a> om het potentieel van uw site efficiënt te maximaliseren."
+
+#: partials/admin/settings/_welcome.php:26
+msgid "Support"
+msgstr "Ondersteuning"
+
+#. translators: 1: Link to Documentation, %2$s: Link to FAQ.
+#: partials/admin/settings/_welcome.php:31
+msgid "For any inquiries or troubleshooting needs, our <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Documentation</a> and <a href=\"%2$s\" target=\"_blank\" rel=\"noopener\">FAQ</a> are your go-to resources. Additionally, ensuring your <a href=\"%3$s\">Site Health</a> is optimal can prevent common issues."
+msgstr "Voor vragen of hulp bij problemen zijn onze <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Documentatie</a> en <a href=\"%2$s\" target=\"_blank\" rel=\"noopener\">FAQ</a> uw eerste bronnen van informatie. Daarnaast kan het garanderen van een optimale <a href=\"%3$s\">Site Health</a> veelvoorkomende problemen voorkomen."
+
+#. translators: 1: Link to Forums.
+#: partials/admin/settings/_welcome.php:38
+msgid "Need more help? <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Open a support forum topic</a>, and our community will assist you."
+msgstr "Heeft u meer hulp nodig? <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Open een onderwerp in het ondersteuningsforum</a>, en onze gemeenschap zal u assisteren."
+
+#. translators: 1: Link to Contact.
+#: partials/admin/settings/_welcome.php:43
+msgid "Prefer direct contact? <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Reach out to us</a>, and we’ll respond promptly."
+msgstr "Geeft u de voorkeur aan direct contact? <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Neem contact met ons op</a>, en we zullen snel reageren."
+
+#: partials/admin/settings/_welcome.php:49
+msgid "Giving Back"
+msgstr "Teruggeven"
+
+#. translators: 1: Link to Review.
+#: partials/admin/settings/_welcome.php:54
+msgid "If you like Staatic for WordPress, <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">leave us a positive review</a> to support our future development efforts. We genuinely value your contribution and thank you for helping us grow."
+msgstr "Als u Staatic voor WordPress waardeert, <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">laat dan een positieve beoordeling achter</a> om onze toekomstige ontwikkelingsinspanningen te ondersteunen. We waarderen uw bijdrage oprecht en bedanken u voor uw hulp bij onze groei."
+
+#. translators: 1: Link to Premium Settings.
+#: partials/admin/settings/_welcome.php:60
+msgid "Take your website to the next level by exploring <a href=\"%1$s\">Staatic for WordPress Premium</a>, which includes enhanced functionality for an even more robust experience."
+msgstr "Til uw website naar een hoger niveau door <a href=\"%1$s\">Staatic voor WordPress Premium</a> te verkennen, dat verbeterde functionaliteiten bevat voor een nog robuustere ervaring."
+
+#: partials/admin/settings/_welcome.php:64
+msgid "Thank you for being part of our journey to make WordPress faster and more secure."
+msgstr "Dank u voor het deel uitmaken van onze reis om WordPress sneller en veiliger te maken."
+
+#: partials/admin/widgets/publication-logs.php:19
+#: partials/admin/widgets/publication-status.php:20
+msgid "Publication Details"
+msgstr "Publicatiedetails"
+
+#: partials/admin/widgets/publication-logs.php:22
+#: partials/admin/widgets/publication-status.php:24
+msgid "Nothing has been published yet."
+msgstr "Er is nog niets gepubliceerd."
+
+#. translators: 1: Minimum version, 2: Installed version.
+#: platform_check.php:34
+msgid "<p>Staatic for WordPress requires at least PHP version <strong>%1$s</strong>; detected PHP version <strong>%2$s</strong>.</p>"
+msgstr "<p>Staatic voor WordPress vereist ten minste PHP versie <strong>%1$s</strong>; gedetecteerde PHP versie <strong>%2$s</strong>.</p>"
+
+#. translators: 1: Minimum version, 2: Installed version.
+#: platform_check.php:47
+msgid "<p>Staatic for WordPress requires at least WordPress version <strong>%1$s</strong>; detected WordPress version <strong>%2$s</strong>.</p>"
+msgstr "<p>Staatic voor WordPress vereist ten minste WordPress versie <strong>%1$s</strong>; gedetecteerde WordPress versie <strong>%2$s</strong>.</p>"
+
+#. translators: 1: Code fragment.
+#: platform_check.php:58
+msgid "<p>Staatic for WordPress requires either <code>STAATIC_KEY</code> or <code>AUTH_KEY</code> to be defined within <code>wp-config.php</code>. In order to fix this error, please add the following line to your <code>wp-config.php</code> file and reactivate the plugin:</p><p><code>%1$s</code></p>"
+msgstr "<p>Staatic voor WordPress vereist dat <code>STAATIC_KEY</code> of <code>AUTH_KEY</code> gedefinieerd is binnen <code>wp-config.php</code>. Voeg de volgende regel toe aan uw <code>wp-config.php</code> bestand en activeer de plugin opnieuw om dit op te lossen:</p><p><code>%1$s</code></p>"
+
+#: platform_check.php:66
+msgid "Plugin activation failed"
+msgstr "Plugin activatie mislukt"
+
+#: src/Cli/PublishCommand.php:89
+#: src/Cli/RedeployCommand.php:72
+msgid "Unable to publish; another publication is pending"
+msgstr "Kan niet publiceren; een andere publicatie is bezig"
+
+#: src/Cli/PublishCommand.php:117
+#: src/Cli/RedeployCommand.php:104
+msgid "Unable to claim publication; another publication is pending"
+msgstr "Kan de publicatie niet starten; een andere publicatie is bezig"
+
+#: src/Cli/PublishesFromCli.php:22
+#: src/Publication/BackgroundPublisher.php:68
+msgid "Starting publication"
+msgstr "Starten van publicatie"
+
+#: src/Cli/PublishesFromCli.php:48
+#: src/Publication/BackgroundPublisher.php:220
+msgid "The publication process took too long and was canceled."
+msgstr ""
+
+#: src/Cli/PublishesFromCli.php:73
+msgid "Crawling..."
+msgstr "Crawlen..."
+
+#: src/Cli/PublishesFromCli.php:76
+msgid "Deploying..."
+msgstr "Live-zetten..."
+
+#: src/Cli/PublishesFromCli.php:133
+#: src/Publication/BackgroundPublisher.php:298
+msgid "Finished publication"
+msgstr "Publicatie afgerond"
+
+#. translators: %s: Date interval time taken.
+#: src/Cli/PublishesFromCli.php:140
+msgid "Publication finished in %s!"
+msgstr "Publicatie afgerond in %s!"
+
+#. translators: 1: Publication task.
+#: src/Cli/PublishesFromCli.php:155
+#: src/Publication/BackgroundPublisher.php:313
+msgid "Publication failed during %1$s task"
+msgstr "Publicatie mislukt tijdens %1$s taak"
+
+#. translators: 1: Publication task, 2: Error type, 3: Error message.
+#: src/Cli/PublishesFromCli.php:164
+msgid "Publication failed during %1$s task with error %2$s: %3$s"
+msgstr "Publicatie mislukt tijdens %1$s taak met fout %2$s: %3$s"
+
+#: src/Cli/PublishesFromCli.php:175
+msgid "Publication has been canceled"
+msgstr "Publicatie is geannuleerd"
+
+#: src/Cli/PublishesFromCli.php:177
+msgid "Publication was canceled"
+msgstr "Publicatie was geannuleerd"
+
+#. translators: 1: Publication identifier.
+#: src/Cli/RedeployCommand.php:80
+msgid "Unable to find source publication \"%1$s\""
+msgstr "Kan bronpublicatie \"%1$s\" niet vinden"
+
+#. translators: 1: Publication identifier.
+#: src/Cli/RedeployCommand.php:88
+msgid "Source publication \"%1$s\" has not finished crawling"
+msgstr "Bronpublicatie \"%1$s\" heeft crawl-proces nog niet afgerond"
+
+#: src/ListTable/Column/UserColumn.php:22
+#: src/Module/Deployer/GithubDeployer/GithubStatusEndpoint.php:86
+#: src/Module/Deployer/GithubDeployer/GithubStatusEndpoint.php:87
+#: src/Module/Deployer/GithubDeployer/GithubStatusEndpoint.php:88
+msgid "unknown"
+msgstr "onbekend"
+
+#. translators: %s: List table item identifier.
+#: src/ListTable/WpListTable.php:158
+msgid "Select %s"
+msgstr "Selecteer %s"
+
+#: src/ListTable/WpListTable.php:186
+msgid "All"
+msgstr "Alles"
+
+#. translators: %s: Number of items.
+#: src/ListTable/WpListTable.php:191
+msgctxt "items"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alle <span class=\"count\">(%s)</span>"
+msgstr[1] "Alle <span class=\"count\">(%s)</span>"
+
+#. translators: 1: View label, 2: Number of items.
+#: src/ListTable/WpListTable.php:217
+msgctxt "items"
+msgid "%1$s <span class=\"count\">(%2$s)</span>"
+msgid_plural "%1$s <span class=\"count\">(%2$s)</span>"
+msgstr[0] "%1$s <span class=\"count\">(%2$s)</span>"
+msgstr[1] "%1$s <span class=\"count\">(%2$s)</span>"
+
+#: src/Module/Admin/ExtendSiteHealth.php:37
+msgid "Permalink structure"
+msgstr "Permalink-structuur"
+
+#: src/Module/Admin/ExtendSiteHealth.php:42
+msgid "Writable work directory"
+msgstr "Schrijfbare werkmap"
+
+#: src/Module/Admin/ExtendSiteHealth.php:47
+#: src/Module/Admin/ExtendSiteHealth.php:147
+msgid "Publication task timeout"
+msgstr "Publicatietaak time-out"
+
+#: src/Module/Admin/ExtendSiteHealth.php:52
+msgid "Staatic loopback requests"
+msgstr "Staatic loopback-verzoeken"
+
+#: src/Module/Admin/ExtendSiteHealth.php:70
+#: src/Module/Admin/ExtendSiteHealth.php:109
+#: src/Module/Admin/ExtendSiteHealth.php:113
+#: src/Module/Admin/ExtendSiteHealth.php:127
+#: src/Setting/Advanced/SslVerifyBehaviorSetting.php:53
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: src/Module/Admin/ExtendSiteHealth.php:71
+#: src/Module/Admin/ExtendSiteHealth.php:109
+#: src/Module/Admin/ExtendSiteHealth.php:113
+#: src/Module/Admin/ExtendSiteHealth.php:127
+#: src/Setting/Advanced/SslVerifyBehaviorSetting.php:54
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: src/Module/Admin/ExtendSiteHealth.php:72
+#: src/Setting/Advanced/SslVerifyBehaviorSetting.php:55
+msgid "Enabled using custom certificate"
+msgstr "Ingeschakeld met handmatig certificaat"
+
+#: src/Module/Admin/ExtendSiteHealth.php:85
+#: src/Module/Admin/RegisterAdminBar.php:154
+#: src/Module/Admin/RegisterAdminBar.php:160
+#: src/Module/EnsureMigrated.php:120
+#: src/Service/AdminNavigation.php:57
+#: src/Service/AdminNavigation.php:58
+#: src/Service/HealthChecks.php:193
+msgid "Staatic"
+msgstr "Staatic"
+
+#: src/Module/Admin/ExtendSiteHealth.php:88
+msgid "Version"
+msgstr "Versie"
+
+#: src/Module/Admin/ExtendSiteHealth.php:92
+msgid "Site URL"
+msgstr "Site URL"
+
+#: src/Module/Admin/ExtendSiteHealth.php:96
+msgid "WordPress URL"
+msgstr "WordPress URL"
+
+#: src/Module/Admin/ExtendSiteHealth.php:101
+#: src/Module/Admin/ExtendSiteHealth.php:105
+#: src/Module/Admin/ExtendSiteHealth.php:117
+#: src/Module/Admin/ExtendSiteHealth.php:121
+#: src/Module/Admin/ExtendSiteHealth.php:126
+#: src/Module/Admin/ExtendSiteHealth.php:131
+#: src/Module/Admin/ExtendSiteHealth.php:135
+#: src/Module/Admin/ExtendSiteHealth.php:140
+#: src/Module/Admin/ExtendSiteHealth.php:144
+#: src/Module/Admin/ExtendSiteHealth.php:148
+msgid "Undefined"
+msgstr "Ongedefinieerd"
+
+#: src/Module/Admin/ExtendSiteHealth.php:104
+msgid "Deployment method"
+msgstr "Publicatiemethode"
+
+#: src/Module/Admin/ExtendSiteHealth.php:108
+msgid "Process \"Page not found\" resources"
+msgstr "Verwerk \"pagina-niet-gevonden\" bronnen"
+
+#: src/Module/Admin/ExtendSiteHealth.php:112
+#: src/Setting/Advanced/CrawlerLowercaseUrlsSetting.php:21
+msgid "Lowercase URLs"
+msgstr "URL's in kleine letters"
+
+#: src/Module/Admin/ExtendSiteHealth.php:116
+msgid "HTTP auth username"
+msgstr "HTTP auth gebruikersnaam"
+
+#: src/Module/Admin/ExtendSiteHealth.php:120
+msgid "HTTP concurrency"
+msgstr "HTTP-concurrency"
+
+#: src/Module/Admin/ExtendSiteHealth.php:124
+#: src/Setting/Advanced/HttpToHttpsSetting.php:26
+msgid "Downgrade HTTPS to HTTP while crawling site"
+msgstr "Downgrade HTTPS naar HTTP tijdens het crawlen van de site"
+
+#: src/Module/Admin/ExtendSiteHealth.php:130
+msgid "HTTP timeout"
+msgstr "HTTP-time-out"
+
+#: src/Module/Admin/ExtendSiteHealth.php:134
+msgid "SSL verification"
+msgstr "SSL-verificatie"
+
+#: src/Module/Admin/ExtendSiteHealth.php:139
+msgid "CA bundle path"
+msgstr "CA-bundle pad"
+
+#: src/Module/Admin/ExtendSiteHealth.php:143
+#: src/Setting/Advanced/CrawlerDomParserSetting.php:31
+msgid "HTML DOM parser"
+msgstr "HTML DOM parser"
+
+#: src/Module/Admin/ExtendSiteHealth.php:151
+msgid "Publication test task"
+msgstr "Publicatie testtaak"
+
+#: src/Module/Admin/ExtendSiteHealth.php:164
+msgid "Unknown"
+msgstr "Onbekend"
+
+#. translators: 1: Test request start time.
+#: src/Module/Admin/ExtendSiteHealth.php:175
+msgid "Pending (started %1$s)"
+msgstr "In afwachting (gestart %1$s)"
+
+#. translators: 1: Run time in seconds, 2: Test request start time.
+#: src/Module/Admin/ExtendSiteHealth.php:184
+msgid "Duration of %1$s seconds (last executed %2$s)"
+msgstr "Duur van %1$s seconden (laatst uitgevoerd %2$s)"
+
+#: src/Module/Admin/Page/BuildResultPage.php:35
+msgid "Missing result id."
+msgstr "Ontbrekend resultaat id."
+
+#: src/Module/Admin/Page/BuildResultPage.php:39
+msgid "Invalid result."
+msgstr "Ongeldig resultaat."
+
+#: src/Module/Admin/Page/BuildResultPage.php:43
+msgid "Invalid resource."
+msgstr "Ongeldige resource."
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsExportPage.php:36
+msgid "Export Publication Logs"
+msgstr "Exporteer publicatie-logs"
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsExportPage.php:50
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsPage.php:55
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsPage.php:55
+#: src/Module/Admin/Page/Publications/PublicationDeletePage.php:46
+#: src/Module/Admin/Page/Publications/PublicationDownloadPage.php:49
+#: src/Module/Admin/Page/Publications/PublicationSummaryPage.php:51
+msgid "Missing publication id."
+msgstr "Ontbrekend publicatie-id."
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsExportPage.php:54
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsPage.php:59
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsPage.php:59
+#: src/Module/Admin/Page/Publications/PublicationDeletePage.php:52
+#: src/Module/Admin/Page/Publications/PublicationDownloadPage.php:53
+#: src/Module/Admin/Page/Publications/PublicationSummaryPage.php:55
+msgid "Invalid publication."
+msgstr "Ongeldige publicatie."
+
+#. translators: %s: Error Message.
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsExportPage.php:62
+msgid "Unable to generate export: %s."
+msgstr "Kon export niet genereren: %s."
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsPage.php:41
+msgid "Publication Logs"
+msgstr "Publicatie-logs"
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:49
+msgid "Message"
+msgstr "Bericht"
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:60
+msgid "Level"
+msgstr "Niveau"
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:66
+msgid "Date"
+msgstr "Datum"
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:145
+msgid "Debug"
+msgstr "Debug"
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:146
+msgid "Informational"
+msgstr "Informatie"
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:147
+msgid "Notice"
+msgstr "Opmerking"
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:148
+msgid "Warning"
+msgstr "Waarchuwing"
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:149
+#: src/Module/EnsureMigrated.php:97
+msgid "Error"
+msgstr "Fout"
+
+#: src/Module/Admin/Page/PublicationLogs/PublicationLogsTable.php:150
+msgid "Critical"
+msgstr "Kritisch"
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsPage.php:41
+msgid "Publication Resources"
+msgstr "Publicatiebronnen"
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:46
+msgid "HTTP Status Code"
+msgstr "HTTP statuscode"
+
+#. translators: %s: original value.
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:63
+msgid "Originally: %s"
+msgstr "Voorheen: %s"
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:72
+#: assets/admin.js:1979
+#: assets/admin.js:1883
+msgid "Redirect URL"
+msgstr "Doorverwijs-URL"
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:82
+msgid "Mime Type"
+msgstr "Mime-type"
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:87
+msgid "Size"
+msgstr "Grootte"
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:96
+msgid "Found On URL"
+msgstr "Gevonden op URL"
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:109
+msgid "Found On Date"
+msgstr "Gevonden op datum"
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:133
+msgid "1xx Informational"
+msgstr "1xx Informatie"
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:134
+msgid "2xx Success"
+msgstr "2xx Succes"
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:135
+msgid "3xx Redirection"
+msgstr "3xx Doorverwijziging"
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:136
+msgid "4xx Client Errors"
+msgstr "4xx Client foutmelding"
+
+#: src/Module/Admin/Page/PublicationResults/PublicationResultsTable.php:137
+msgid "5xx Server Errors"
+msgstr "5xx Server foutmelding"
+
+#: src/Module/Admin/Page/Publications/PublicationDeletePage.php:32
+msgid "Delete Publication"
+msgstr "Publicatie verwijderen"
+
+#: src/Module/Admin/Page/Publications/PublicationDeletePage.php:61
+msgid "Unable to delete this publication."
+msgstr "Kan deze publicatie niet verwijderen."
+
+#: src/Module/Admin/Page/Publications/PublicationDownloadPage.php:35
+msgid "Download Publication"
+msgstr "Publicatie downloaden"
+
+#. translators: %s: Error Message.
+#: src/Module/Admin/Page/Publications/PublicationDownloadPage.php:61
+msgid "Unable to generate archive: %s."
+msgstr "Kon archief niet genereren: %s."
+
+#: src/Module/Admin/Page/Publications/PublicationsPage.php:35
+msgid "Publications"
+msgstr "Publicaties"
+
+#: src/Module/Admin/Page/Publications/PublicationsPage.php:36
+msgid "Latest Publications"
+msgstr "Laatste publicaties"
+
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:48
+msgid "Publication"
+msgstr "Publicatie"
+
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:53
+msgid "Publisher"
+msgstr "Auteur"
+
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:80
+msgid "Details"
+msgstr "Details"
+
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:90
+msgid "(Re)deploy"
+msgstr "(Her)publiceren"
+
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:100
+#: src/Module/Admin/Page/Publications/PublicationsTable.php:114
+#: assets/admin.js:456
+#: assets/admin.js:771
+#: assets/admin.js:1106
+#: assets/admin.js:2006
+#: assets/admin.js:2225
+#: assets/admin.js:424
+#: assets/admin.js:725
+#: assets/admin.js:1029
+#: assets/admin.js:1912
+#: assets/admin.js:2106
+msgid "Delete"
+msgstr "Verwijderen"
+
+#. translators: %s: Date interval time taken.
+#: src/Module/Admin/Page/Publications/PublicationStatusColumn.php:44
+msgid "Time taken: %s"
+msgstr "Totale duur: %s"
+
+#: src/Module/Admin/Page/Publications/PublicationTitleColumn.php:35
+msgid "Preview"
+msgstr "Preview"
+
+#: src/Module/Admin/Page/Publications/PublicationTitleColumn.php:43
+msgid "Active Publication"
+msgstr "Actieve publicatie"
+
+#. translators: %s: Publication ID.
+#: src/Module/Admin/Page/PublishPage.php:59
+msgid "Publication (#%s) not found"
+msgstr "Publicatie (#%s) niet gevonden"
+
+#: src/Module/Admin/Page/PublishPage.php:69
+msgid "Publication cancellation is in progress and will be completed soon."
+msgstr "De annulering van de publicatie is bezig en zal binnenkort voltooid zijn."
+
+#: src/Module/Admin/Page/PublishPage.php:87
+msgid "Missing source publication ID."
+msgstr "Ontbrekend bronpublicatie-id."
+
+#: src/Module/Admin/Page/PublishPage.php:91
+#: src/Module/Admin/Page/PublishPage.php:95
+msgid "Invalid source publication."
+msgstr "Ongeldige bronpublicatie."
+
+#: src/Module/Admin/Page/SettingsPage.php:35
+#: src/Module/Admin/RegisterPluginActionLinks.php:38
+msgid "Settings"
+msgstr "Instellingen"
+
+#: src/Module/Admin/Page/TestRequestPage.php:40
+#: src/Module/Admin/Page/TestRequestPage.php:57
+msgid "Publication Test Task"
+msgstr "Publicatie testtaak"
+
+#: src/Module/Admin/Page/TestRequestPage.php:58
+msgid "Publication test task has been dispatched; this will take a couple of minutes to complete."
+msgstr "Publicatie testtaak is verzonden; dit zal enkele minuten duren om te voltooien."
+
+#: src/Module/Admin/Page/TriggersPublications.php:18
+#: src/Module/Admin/Page/TriggersPublications.php:30
+msgid "Publication could not be started because another publication is pending."
+msgstr "Publicatie kon niet gestart worden vanwege een andere publicatie die bezig is."
+
+#: src/Module/Admin/Page/TriggersPublications.php:25
+msgid "A new publication will be started and deployed automatically."
+msgstr "Een nieuwe publicatie wordt gestart en zal automatisch live gezet worden."
+
+#: src/Module/Admin/RegisterAdminBar.php:55
+msgid "Publication Status"
+msgstr "Publicatiestatus"
+
+#: src/Module/Admin/RegisterAdminBar.php:65
+msgid "Cancel Publication"
+msgstr "Publicatie annuleren"
+
+#: src/Module/Admin/RegisterAdminBar.php:99
+msgid "Publish to Preview Site"
+msgstr "Publiceren naar preview-site"
+
+#: src/Module/Admin/RegisterAdminBar.php:111
+msgid "View on Static Site"
+msgstr "Bekijk op statische site"
+
+#: src/Module/Admin/RegisterAdminBar.php:125
+msgid "Live Publication Details"
+msgstr "Live publicatiedetails"
+
+#. translators: %s: Last successful publication date.
+#: src/Module/Admin/RegisterAdminBar.php:140
+msgid "Live Publication: %s"
+msgstr "Live publicatie: %s"
+
+#: src/Module/Admin/RegisterPluginActionLinks.php:29
+msgid "Staatic Premium"
+msgstr "Staatic Premium"
+
+#: src/Module/Admin/Widget/PublicationLogsWidget.php:28
+msgid "Staatic Publication Logs"
+msgstr "Staatic publicatie-logs"
+
+#: src/Module/Admin/Widget/PublicationStatusWidget.php:28
+msgid "Staatic Publication Status"
+msgstr "Staatic publicatiestatus"
+
+#: src/Module/Deployer/FilesystemDeployer/ApacheConfigurationFileSetting.php:21
+msgid "Generate Apache Configuration"
+msgstr "Genereer Apache configuratie"
+
+#: src/Module/Deployer/FilesystemDeployer/ApacheConfigurationFileSetting.php:26
+msgid "Generate .htaccess file providing actual HTTP redirects, HTTP status overrides, etc."
+msgstr "Genereer .htaccess-bestand om daadwerkelijke HTTP doorverwijzingen, HTTP status, etc. mogelijk te maken."
+
+#: src/Module/Deployer/FilesystemDeployer/ApacheConfigurationFileSetting.php:31
+msgid "Enable this option if you're on an Apache webserver with AllowOverride enabled."
+msgstr "Schakel deze optie in, indien u gebruik maakt van een Apache-webserver met AllowOverride ingeschakeld."
+
+#: src/Module/Deployer/FilesystemDeployer/ConfigurationFilesSetting.php:28
+msgid "Configuration Files"
+msgstr "Configuratiebestanden"
+
+#: src/Module/Deployer/FilesystemDeployer/FilesystemDeployerModule.php:87
+msgid "Local Directory"
+msgstr "Lokale map"
+
+#. translators: %s: Target directory.
+#: src/Module/Deployer/FilesystemDeployer/FilesystemDeployerModule.php:189
+msgid "Target directory could not be created: %s"
+msgstr "Doelmap kon niet worden aangemaakt: %s"
+
+#. translators: %s: Target directory.
+#: src/Module/Deployer/FilesystemDeployer/FilesystemDeployerModule.php:196
+msgid "Target directory is not writable: %s"
+msgstr "Doelmap is niet schrijfbaar: %s"
+
+#. translators: %s: Staging directory.
+#: src/Module/Deployer/FilesystemDeployer/FilesystemDeployerModule.php:208
+msgid "Staging directory could not be created: %s"
+msgstr "Tijdelijke map kon niet gemaakt worden: %s"
+
+#. translators: %s: Staging directory.
+#: src/Module/Deployer/FilesystemDeployer/FilesystemDeployerModule.php:215
+msgid "Staging directory is not writable: %s"
+msgstr "Tijdelijke map is niet schrijfbaar: %s"
+
+#: src/Module/Deployer/FilesystemDeployer/NginxConfigurationFileSetting.php:21
+msgid "Generate Nginx Configuration"
+msgstr "Genereer Nginx configuratie"
+
+#: src/Module/Deployer/FilesystemDeployer/NginxConfigurationFileSetting.php:26
+msgid "Generate nginx_rules.conf file providing actual HTTP redirects, HTTP status overrides, etc."
+msgstr "Genereer nginx_rules.conf-bestand om daadwerkelijke HTTP doorverwijzingen, HTTP status, etc. mogelijk te maken."
+
+#: src/Module/Deployer/FilesystemDeployer/NginxConfigurationFileSetting.php:31
+msgid "Enable this option if you're on a Nginx webserver which imports this configuration file."
+msgstr "Schakel deze optie in, indien u gebruik maakt van een Nginx-webserver die deze configuratie kan meenemen."
+
+#. translators: 1: Retain path.
+#: src/Module/Deployer/FilesystemDeployer/RetainPaths.php:35
+msgid "Path \"%1$s\" does not exist."
+msgstr "Pad \"%1$s\" bestaat niet."
+
+#: src/Module/Deployer/FilesystemDeployer/RetainPathsSetting.php:31
+#: src/Module/Deployer/GithubDeployer/RetainPathsSetting.php:32
+#: src/Module/Deployer/S3Deployer/RetainPathsSetting.php:31
+msgid "Retain Files/Directories"
+msgstr "Bewaarbestanden/-mappen"
+
+#. translators: %s: Example paths.
+#: src/Module/Deployer/FilesystemDeployer/RetainPathsSetting.php:38
+msgid "Optionally add file or directory paths (absolute or relative to the target directory) that need to be left intact (one path per line).<br>Files existing in the target directory that are not part of the build and not in this list will be deleted during deployment.<br>Examples: %s."
+msgstr "Optioneel kunt u bestands- of mappaden (absoluut of relatief aan de doelmap) toevoegen die intact moeten blijven (één pad per regel).<br>Bestanden die bestaan in de doelmap die geen onderdeel uitmaken van de build en niet in deze lijst staan zullen tijdens publicatie verwijderd worden.<br>Voorbeelden: %s."
+
+#: src/Module/Deployer/FilesystemDeployer/RetainPathsSetting.php:42
+#: src/Module/Deployer/GithubDeployer/RetainPathsSetting.php:44
+#: src/Module/Deployer/S3Deployer/RetainPathsSetting.php:42
+msgid "a Bing/Google/Yahoo/etc. verification file"
+msgstr "een Bing/Google/Yahoo/etc. verificatiebestand"
+
+#: src/Module/Deployer/FilesystemDeployer/RetainPathsSetting.php:55
+#: src/Module/Deployer/GithubDeployer/RetainPathsSetting.php:65
+#: src/Module/Deployer/S3Deployer/RetainPathsSetting.php:55
+#: src/Setting/Build/AdditionalPathsSetting.php:81
+#: src/Setting/Build/AdditionalRedirectsSetting.php:54
+#: src/Setting/Build/AdditionalUrlsSetting.php:78
+#: src/Setting/Build/ExcludeUrlsSetting.php:70
+msgid "Skipped: "
+msgstr "Overgeslagen: "
+
+#: src/Module/Deployer/FilesystemDeployer/SymlinkUploadsDirectorySetting.php:21
+msgid "Symlink/Copy Uploads"
+msgstr "Link/kopieer uploads"
+
+#: src/Module/Deployer/FilesystemDeployer/SymlinkUploadsDirectorySetting.php:26
+msgid "Symlink (on Linux) or copy (on Windows) the complete uploads directory."
+msgstr "Symlink (op Linux) of kopieer (op Windows) de volledige uploads map."
+
+#: src/Module/Deployer/FilesystemDeployer/SymlinkUploadsDirectorySetting.php:31
+msgid "This makes sure every upload is available and greatly improves build time as well."
+msgstr "Dit zorgt dat alle uploads beschikbaar zullen zijn en versnelt het build proces aanzienlijk."
+
+#: src/Module/Deployer/FilesystemDeployer/TargetDirectorySetting.php:22
+#: src/Module/Deployer/SftpDeployer/TargetDirectorySetting.php:21
+msgid "Target Directory"
+msgstr "Doelmap"
+
+#: src/Module/Deployer/FilesystemDeployer/TargetDirectorySetting.php:27
+msgid "The path to the directory on the filesystem where the static version of your site is deployed."
+msgstr "Het pad naar de map op het bestandssysteem waar de statische versie van uw site gepubliceerd wordt."
+
+#. translators: 1: Supplied target directory, 2: WordPress directory.
+#: src/Module/Deployer/FilesystemDeployer/TargetDirectorySetting.php:49
+msgid "The chosen target directory (\"%1$s\") is at the same level or above the WordPress installation directory (\"%2$s\"). Publishing here risks overwriting your WordPress files and potentially other critical data. To ensure the safety of your WordPress installation and related content, please select a different target directory for publishing your static site."
+msgstr "De gekozen doelmap (\"%1$s\") bevindt zich op hetzelfde niveau of boven de WordPress installatiemap (\"%2$s\"). Publiceren op deze locatie brengt het risico met zich mee dat uw WordPress-bestanden en mogelijk andere cruciale gegevens worden overschreven. Om de veiligheid van uw WordPress-installatie en gerelateerde inhoud te waarborgen, selecteer alstublieft een andere doelmap voor het publiceren van uw statische site."
+
+#: src/Module/Deployer/GithubDeployer/AuthSetting.php:27
+#: src/Module/Deployer/NetlifyDeployer/AuthSetting.php:28
+#: src/Module/Deployer/S3Deployer/AuthSetting.php:28
+#: src/Module/Deployer/SftpDeployer/AuthSetting.php:32
+msgid "Authentication"
+msgstr "Authenticatie"
+
+#. translators: 1: Link to Personal Access Token Documentation, 2: Link to App Token Documentation.
+#: src/Module/Deployer/GithubDeployer/AuthSetting.php:34
+msgid "In order to authenticate with a <a href=\"%1$s\" target=\"blank\">personal access token</a> or a <a href=\"%2$s\" target=\"blank\">token generated by an app</a>, supply the token here.<br>Leave empty to use the API in a GitHub Actions workflow."
+msgstr "Om te authenticeren met een <a href=\"%1$s\" target=\"blank\">persoonlijke toegangssleutel</a> of een <a href=\"%2$s\" target=\"blank\">door een app gegenereerde sleutel</a>, voert u de sleutel hier in.<br>Laat leeg om de API te gebruiken in een GitHub Actions-workflow."
+
+#: src/Module/Deployer/GithubDeployer/BranchSetting.php:21
+msgid "Branch"
+msgstr "Branch"
+
+#: src/Module/Deployer/GithubDeployer/BranchSetting.php:26
+msgid "The name of the Git branch to commit to.<br>Example: <code>main</code>."
+msgstr "De naam van de Git-branch om naar te committen.<br>Voorbeeld: <code>main</code>."
+
+#: src/Module/Deployer/GithubDeployer/CommitMessageSetting.php:21
+msgid "Commit Message"
+msgstr "Commit-bericht"
+
+#: src/Module/Deployer/GithubDeployer/CommitMessageSetting.php:26
+msgid "The commit message to use when applying updates to the repository.<br>Example: <code>Deployment {shortId}</code>."
+msgstr "Het commit-bericht dat gebruikt moet worden bij het toepassen van updates in de repository."
+
+#: src/Module/Deployer/GithubDeployer/GithubDeployerModule.php:63
+msgid "GitHub"
+msgstr "GitHub"
+
+#: src/Module/Deployer/GithubDeployer/GithubStatusEndpoint.php:48
+#: src/Module/Deployer/NetlifyDeployer/NetlifyStatusEndpoint.php:46
+#: src/Module/Deployer/SftpDeployer/SftpStatusEndpoint.php:46
+#: src/Module/Rest/PublicationLogsEndpoint.php:51
+#: src/Module/Rest/PublicationStatusEndpoint.php:52
+msgid "Invalid request"
+msgstr "Ongeldig verzoek"
+
+#. translators: 1: Requests remaining, 2: Rate limit reset time, 3: Request limit.
+#: src/Module/Deployer/GithubDeployer/GithubStatusEndpoint.php:85
+msgid "Connection established; %1$s requests remaining until %2$s (limit: %3$s requests)."
+msgstr "Connectie geslaagd; %1$s requests beschikbaar tot %2$s (limit: %3$s requests)."
+
+#: src/Module/Deployer/GithubDeployer/GithubStatusEndpoint.php:91
+#: src/Module/Deployer/NetlifyDeployer/NetlifyStatusEndpoint.php:117
+#: src/Module/Deployer/SftpDeployer/SftpStatusEndpoint.php:99
+msgid "Unable to authenticate with the provided credentials."
+msgstr "Authenticatie mislukt met de opgegeven inloggegevens."
+
+#: src/Module/Deployer/GithubDeployer/GithubStatusEndpoint.php:94
+#: src/Module/Deployer/NetlifyDeployer/NetlifyStatusEndpoint.php:120
+#: src/Module/Deployer/SftpDeployer/SftpStatusEndpoint.php:102
+msgid "Unable to connect; please try again later."
+msgstr "Verbinden mislukt; probeer het later opnieuw."
+
+#: src/Module/Deployer/GithubDeployer/GitSetting.php:28
+msgid "Git"
+msgstr "Git"
+
+#: src/Module/Deployer/GithubDeployer/PrefixSetting.php:21
+#: src/Module/Deployer/S3Deployer/S3PrefixSetting.php:21
+msgid "Prefix"
+msgstr "Prefix"
+
+#. translators: %s: Example prefix.
+#: src/Module/Deployer/GithubDeployer/PrefixSetting.php:28
+#: src/Module/Deployer/S3Deployer/S3PrefixSetting.php:28
+msgid "Optionally add a prefix in order to store the static site's data in a subdirectory.<br>Example: <code>%s</code>."
+msgstr "Optioneel kunt u een prefix opgeven zodat de statische site in een subdirectory wordt opgeslagen.<br>Voorbeeld: <code>%s</code>."
+
+#: src/Module/Deployer/GithubDeployer/RepositorySetting.php:21
+msgid "Repository"
+msgstr "Repository"
+
+#. translators: 1: Example repository.
+#: src/Module/Deployer/GithubDeployer/RepositorySetting.php:28
+msgid "The name of the Git repository to store the static site's data, in the format <code>OWNER/REPO</code>.<br>Examples: %1$s."
+msgstr "De naam van de Git-repository waarin de gegevens van de statische site worden opgeslagen, in het formaat <code>EIGENAAR/REPO</code>.<br>Voorbeelden: %1$s."
+
+#. translators: %s: Example paths.
+#: src/Module/Deployer/GithubDeployer/RetainPathsSetting.php:39
+msgid "Optionally add file or directory paths (absolute or relative to the repository prefix) that need to be left intact (one path per line).<br>Files existing in the target repository that are not part of the build and not in this list will be deleted during deployment.<br>Examples: %s."
+msgstr "Optioneel kunt u bestands- of mappaden (absoluut of relatief aan de repository prefix) toevoegen die intact moeten blijven (één pad per regel).<br>Bestanden die bestaan in de doel repository die geen onderdeel uitmaken van de build en niet in deze lijst staan zullen tijdens publicatie verwijderd worden.<br>Voorbeelden: %s."
+
+#: src/Module/Deployer/GithubDeployer/TokenSetting.php:27
+msgid "GitHub Token"
+msgstr "GitHub toegangssleutel (Token)"
+
+#: src/Module/Deployer/NetlifyDeployer/AccessTokenSetting.php:27
+msgid "Netlify Access Token"
+msgstr "Netlify toegangssleutel (Access Token)"
+
+#. translators: 1: Link to Netlify Documentation.
+#: src/Module/Deployer/NetlifyDeployer/AuthSetting.php:35
+msgid "You can find or create your Netlify (Personal) Access Token <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">here</a>."
+msgstr "U kunt uw (persoonlijke) Netlify Access Token <a href=\"%s\" target=\"_blank\" rel=\"noopener\">hier</a> vinden of creëren..."
+
+#: src/Module/Deployer/NetlifyDeployer/NetlifyDeployerModule.php:73
+msgid "Netlify"
+msgstr "Netlify"
+
+#. translators: 1: Site name, 2: Site URL.
+#: src/Module/Deployer/NetlifyDeployer/NetlifyStatusEndpoint.php:84
+msgid "Connection established; identified site \"%1$s\" (%2$s)."
+msgstr "Connectie geslaagd; geïdentificeerde site \"%1$s\" (%2$s)."
+
+#: src/Module/Deployer/NetlifyDeployer/NetlifyStatusEndpoint.php:115
+msgid "Connection established; please provide site ID."
+msgstr "Connectie geslaagd; geef alstublieft site ID op."
+
+#: src/Module/Deployer/NetlifyDeployer/SiteIdSetting.php:21
+msgid "Netlify Site ID"
+msgstr "Netlify site ID"
+
+#. translators: 1: Link to Netlify App.
+#: src/Module/Deployer/NetlifyDeployer/SiteIdSetting.php:28
+msgid "You can find your Netlify Site (API) ID on the <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Netlify App</a> at Site Settings > Site Details > Site ID."
+msgstr "U kunt uw Netlify Site (API) ID vinden in de <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Netlify App</a> onder Site Instellingen > Site Details > Site ID."
+
+#: src/Module/Deployer/S3Deployer/AuthAccessKeyIdSetting.php:21
+msgid "Access Key ID"
+msgstr "Access Key ID"
+
+#: src/Module/Deployer/S3Deployer/AuthProfileSetting.php:21
+msgid "Profile"
+msgstr "Profiel"
+
+#: src/Module/Deployer/S3Deployer/AuthSecretAccessKeySetting.php:27
+msgid "Secret Access Key"
+msgstr "Secret Access Key"
+
+#. translators: 1: Link to AWS Documentation.
+#: src/Module/Deployer/S3Deployer/AuthSetting.php:35
+msgid "In order to authenticate using <a href=\"%1$s\" target=\"blank\">a credentials file and profile</a>, supply the name of the Profile (preferred),<br><strong>or</strong> in order to authenticate directly, supply the Access Key ID and Secret Access Key.<br>Leave both empty to use IAM security credentials from AWS EC2 instances or AWS ECS containers."
+msgstr "Om te authentiseren met behulp van <a href=\"%1$s\" target=\"blank\">een authenticatiebestand en profiel</a>, geef dan de naam van het Profiel op (aangeraden),<br><strong>of</strong> om direct te authentiseren, geef de Access Key ID en Secret Access Key op.<br>Laat beide leeg om gebruik te maken van IAM security credentials vanaf AWS EC2 instances of AWS ECS containers."
+
+#: src/Module/Deployer/S3Deployer/CloudFrontDistributionIdSetting.php:21
+msgid "Distribution ID"
+msgstr "Distributie-ID"
+
+#: src/Module/Deployer/S3Deployer/CloudFrontDistributionIdSetting.php:27
+msgid "The CloudFront Distribution ID allows cache to be invalidated automatically.<br>In order to disable CloudFront integration, leave this value empty."
+msgstr "Het CloudFront distributie-ID maakt het mogelijk de cache automatisch te invalideren.<br>Laat deze waarde leeg om CloudFront-integratie uit te schakelen."
+
+#: src/Module/Deployer/S3Deployer/CloudFrontInvalidateEverythingPath.php:21
+msgid "Invalidate Everything Path"
+msgstr "Pad om alles te invalideren"
+
+#: src/Module/Deployer/S3Deployer/CloudFrontInvalidateEverythingPath.php:26
+msgid "The path to invalidate when Maximum Invalidation Paths has been exceeded (usually <code>/*</code>)."
+msgstr "Het pad om alles te invalideren wanneer Invalidatiepadlimiet overschreden is (meestal <code>/*</code>)."
+
+#: src/Module/Deployer/S3Deployer/CloudFrontMaxInvalidationPathsSetting.php:21
+msgid "Maximum Invalidation Paths"
+msgstr "Invalidatiepadlimiet"
+
+#: src/Module/Deployer/S3Deployer/CloudFrontMaxInvalidationPathsSetting.php:26
+msgid "The maximum number of invalidation paths before invalidating everything."
+msgstr "Het maximaal aantal invalidatiepaden voordat alles geinvalideerd wordt."
+
+#: src/Module/Deployer/S3Deployer/CloudFrontSetting.php:28
+msgid "CloudFront"
+msgstr "CloudFront"
+
+#: src/Module/Deployer/S3Deployer/EndpointSetting.php:26
+msgid "Endpoint"
+msgstr "Endpoint"
+
+#: src/Module/Deployer/S3Deployer/EndpointSetting.php:31
+msgid "The name of the S3 provider or a custom endpoint address for S3-compatible services."
+msgstr "De naam van de S3-provider of een aangepast endpoint-adres voor services compatibel met S3."
+
+#. translators: %s: Example paths.
+#: src/Module/Deployer/S3Deployer/RetainPathsSetting.php:38
+msgid "Optionally add file or directory paths (absolute or relative to the bucket prefix) that need to be left intact (one path per line).<br>Files existing in the target bucket that are not part of the build and not in this list will be deleted during deployment.<br>Examples: %s."
+msgstr "Optioneel kunt u bestands- of mappaden (absoluut of relatief aan de bucket prefix) toevoegen die intact moeten blijven (één pad per regel).<br>Bestanden die bestaan in de doel bucket die geen onderdeel uitmaken van de build en niet in deze lijst staan zullen tijdens publicatie verwijderd worden.<br>Voorbeelden: %s."
+
+#: src/Module/Deployer/S3Deployer/S3BucketSetting.php:21
+msgid "Bucket"
+msgstr "Bucket"
+
+#: src/Module/Deployer/S3Deployer/S3BucketSetting.php:26
+msgid "The name of the S3 bucket to store the static site's data."
+msgstr "De naam van de S3-bucket voor het opslaan van de statische site."
+
+#: src/Module/Deployer/S3Deployer/S3DeployerModule.php:64
+msgid "Amazon S3 (or compatible)"
+msgstr "Amazon S3 (of compatibel)"
+
+#: src/Module/Deployer/S3Deployer/S3ObjectAcl.php:21
+msgid "Object ACL"
+msgstr "Object ACL"
+
+#. translators: 1: Link to AWS documentation.
+#: src/Module/Deployer/S3Deployer/S3ObjectAcl.php:28
+msgid "Optionally apply the specified (canned) ACL to uploaded files.<br>For more information, see <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Canned ACL documentation</a>."
+msgstr "Pas optioneel de gespecificeerde (vooraf bepaalde) ACL toe op geüploade bestanden.<br>Voor meer informatie, zie <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">canned ACL documentatie</a>."
+
+#: src/Module/Deployer/S3Deployer/S3RegionSetting.php:26
+msgid "Region"
+msgstr "Regio"
+
+#: src/Module/Deployer/S3Deployer/S3RegionSetting.php:31
+msgid "The name of the region the S3 bucket resides in."
+msgstr "De naam van de AWS regio waar de bucket zich bevindt."
+
+#: src/Module/Deployer/S3Deployer/S3Setting.php:28
+msgid "S3"
+msgstr "S3"
+
+#: src/Module/Deployer/SftpDeployer/AuthSetting.php:37
+msgid "To authenticate via SFTP using an SSH key, leave the password field empty and supply your private SSH key. This method enhances security by using key-based authentication."
+msgstr "Om te authenticeren via SFTP met een SSH-sleutel, laat het wachtwoordveld leeg en voer uw privé SSH-sleutel in. Deze methode verhoogt de beveiliging door gebruik te maken van authenticatie op basis van sleutels."
+
+#: src/Module/Deployer/SftpDeployer/HostSetting.php:21
+msgid "Host"
+msgstr "Host"
+
+#: src/Module/Deployer/SftpDeployer/HostSetting.php:26
+msgid "The SFTP server's hostname or IP address."
+msgstr "De hostnaam of het IP-adres van de SFTP server."
+
+#: src/Module/Deployer/SftpDeployer/NetworkSetting.php:28
+#: src/Setting/Advanced/HttpNetworkSetting.php:28
+msgid "Network"
+msgstr "Netwerk"
+
+#: src/Module/Deployer/SftpDeployer/PasswordSetting.php:27
+#: src/Setting/Advanced/HttpAuthenticationPasswordSetting.php:27
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: src/Module/Deployer/SftpDeployer/PortSetting.php:21
+msgid "Port"
+msgstr "Poort"
+
+#: src/Module/Deployer/SftpDeployer/PortSetting.php:26
+msgid "The SFTP server's port number."
+msgstr "Het poortnummer van de SFTP server."
+
+#: src/Module/Deployer/SftpDeployer/SftpDeployerModule.php:64
+msgid "SFTP Server (beta)"
+msgstr "SFTP server (beta)"
+
+#: src/Module/Deployer/SftpDeployer/SftpSetting.php:28
+msgid "SFTP Server"
+msgstr "SFTP server"
+
+#. translators: 1: Current working directory.
+#: src/Module/Deployer/SftpDeployer/SftpStatusEndpoint.php:95
+msgid "Connection established (entry directory: \"%s\")."
+msgstr "Connectie geslaagd (initiële map: \"%s\")."
+
+#: src/Module/Deployer/SftpDeployer/SshKeyPasswordSetting.php:27
+msgid "SSH Key Password"
+msgstr "SSH-sleutel wachtwoord"
+
+#: src/Module/Deployer/SftpDeployer/SshKeySetting.php:27
+msgid "SSH Key"
+msgstr "SSH-sleutel"
+
+#. translators: %s: Example prefix.
+#: src/Module/Deployer/SftpDeployer/TargetDirectorySetting.php:28
+msgid "The path to the directory on the SFTP server where the static version of your site is deployed.<br>Example: <code>%s</code>."
+msgstr "Het pad naar de map op de SFTP server waar de statische versie van uw site gepubliceerd wordt.<br>Voorbeeld: <code>%s</code>."
+
+#: src/Module/Deployer/SftpDeployer/TimeoutSetting.php:21
+msgid "Timeout"
+msgstr "Time-out"
+
+#: src/Module/Deployer/SftpDeployer/TimeoutSetting.php:26
+msgid "The maximum number of seconds to wait for an SFTP command before timing out."
+msgstr "De maximale tijd in seconden om te wachten op een SFTP-commando voordat de time-out optreedt."
+
+#: src/Module/Deployer/SftpDeployer/UsernameSetting.php:21
+#: src/Setting/Advanced/HttpAuthenticationUsernameSetting.php:21
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: src/Module/Deployer/ZipfileDeployer/ZipfileDeployerModule.php:64
+msgid "Zipfile"
+msgstr "Zip-bestand"
+
+#: src/Module/Deployer/ZipfileDeployer/ZipfileSetting.php:22
+msgid "Download Zipfile"
+msgstr "Download zip-bestand"
+
+#. translators: 1: Download label translated, 2: Link to Publication List.
+#: src/Module/Deployer/ZipfileDeployer/ZipfileSetting.php:29
+msgid "Download the relevant publication from the <a href=\"%2$s\">publication overview</a> by choosing <em>%1$s</em>."
+msgstr "Download de relevante publicatie vanuit het <a href=\"%2$s\">publicatieoverzicht</a> door <em>%1$s</em> te kiezen."
+
+#. translators: 1: Plugin Name.
+#: src/Module/EnsureMigrated.php:55
+msgid "The %1$s database is being upgraded; please try again later."
+msgstr "De %1$s database wordt geüpgraded; probeer het later opnieuw."
+
+#. translators: 1: Plugin Name.
+#: src/Module/EnsureMigrated.php:80
+msgid "%1$s was unable to upgrade the database."
+msgstr "%1$s kon de database niet upgraden."
+
+#. translators: 1: Link to Retry, 2: Link to Contact.
+#: src/Module/EnsureMigrated.php:86
+msgid "Please try the upgrade again by <a href=\"%1$s\">clicking here</a>. If the problem persists, <a href=\"%2$s\" target=\"_blank\" rel=\"noopener\">contact Staatic support</a> and provide the following details:"
+msgstr "Probeer de upgrade opnieuw door <a href=\"%1$s\">hier te klikken</a>. Als het probleem aanhoudt, <a href=\"%2$s\" target=\"_blank\" rel=\"noopener\">neem contact op met Staatic support</a> en verstrek de volgende details:"
+
+#: src/Module/EnsureMigrated.php:95
+msgid "Current version"
+msgstr "Huidige versie"
+
+#: src/Module/EnsureMigrated.php:96
+msgid "Target version"
+msgstr "Doelversie"
+
+#. translators: 1: Reset link.
+#: src/Module/EnsureMigrated.php:102
+msgid "Alternatively, you can %1$s to recreate the plugin's tables, which will also delete any existing publication data."
+msgstr "Als alternatief kunt u %1$s om de tabellen van de plugin opnieuw aan te maken, wat ook alle bestaande publicatiegegevens zal verwijderen."
+
+#: src/Module/EnsureMigrated.php:109
+msgid "This will delete all past publication data. Are you sure that you want to reset the database?"
+msgstr "Dit zal alle voorgaande publicatiegegevens verwijderen. Weet u zeker dat u de database wilt resetten?"
+
+#: src/Module/EnsureMigrated.php:110
+msgid "reset the database"
+msgstr "de database resetten"
+
+#: src/Module/RegisterSettings.php:35
+msgid "Welcome"
+msgstr "Welkom"
+
+#: src/Module/RegisterSettings.php:36
+msgid "Build"
+msgstr "Build"
+
+#: src/Module/RegisterSettings.php:38
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#. translators: %s: Publication ID.
+#: src/Publication/BackgroundPublisher.php:60
+msgid "Ignoring publication #%s; publication already started"
+msgstr "Publicatie van #%s genegeerd; publicatie is al gestart"
+
+#: src/Publication/BackgroundPublisher.php:98
+msgid "Cannot cancel publication; publication has already finished"
+msgstr "Kan publicatie niet annuleren; publicatie is al afgerond"
+
+#: src/Publication/BackgroundPublisher.php:104
+msgid "Canceling publication"
+msgstr "Annuleren van publicatie"
+
+#. translators: %s: Publication task.
+#: src/Publication/BackgroundPublisher.php:182
+msgid "Current publication is unknown during task %s"
+msgstr "Huidige publicatie is onbekend tijdens taak %s"
+
+#. translators: %s: Publication ID, %2$s: Publication task.
+#: src/Publication/BackgroundPublisher.php:203
+msgid "Unable to find publication #%1$s for task %2$s"
+msgstr "Kan publicatie #%1$s voor taak %2$s niet vinden"
+
+#. translators: %s: Publication ID, %2$s: Publication task.
+#: src/Publication/BackgroundPublisher.php:214
+msgid "Using publication task timeout value of %d seconds"
+msgstr "Gebruikt publicatietaak-timeout waarde van %d seconden"
+
+#: src/Publication/BackgroundPublisher.php:232
+msgid "Task failed due to a timeout or fatal error; consider increasing \"Publication Task Timeout\" under Staatic > Settings > Advanced."
+msgstr "De taak is mislukt vanwege een timeout of fatale fout; overweer om de \"Publicatie taak-time-out\" te verhogen onder Staatic > Instellingen > Geavanceerd."
+
+#. translators: %s: Publication ID.
+#: src/Publication/PublicationCleanup.php:37
+msgid "Cleaning up publication #%s"
+msgstr "Opschonen van publicatie #%s"
+
+#. translators: %s: Publication ID.
+#: src/Publication/PublicationCleanup.php:50
+msgid "Marking publication #%s as failed (no longer running)"
+msgstr "Publicatie #%s als mislukt markeren (niet langer actief)"
+
+#: src/Publication/PublicationManager.php:125
+msgid "Please add one or more URLs or paths."
+msgstr "Voeg alstublieft één of meer URL's of paden toe."
+
+#: src/Publication/PublicationStatus.php:85
+msgid "Pending"
+msgstr "In afwachting"
+
+#: src/Publication/PublicationStatus.php:86
+msgid "In Progress"
+msgstr "Verwerken"
+
+#: src/Publication/PublicationStatus.php:87
+msgid "Finished"
+msgstr "Afgerond"
+
+#: src/Publication/PublicationStatus.php:88
+msgid "Canceled"
+msgstr "Geannuleerd"
+
+#: src/Publication/PublicationStatus.php:89
+msgid "Failed"
+msgstr "Mislukt"
+
+#: src/Publication/Task/CrawlTask.php:22
+msgid "Crawling WordPress site"
+msgstr "Crawlen van WordPress site"
+
+#: src/Publication/Task/DeployTask.php:22
+msgid "Deploying WordPress site"
+msgstr "Live-zetten van WordPress site"
+
+#: src/Publication/Task/FinishCrawlerTask.php:22
+msgid "Finishing crawler"
+msgstr "Afronden van crawler"
+
+#: src/Publication/Task/FinishDeploymentTask.php:22
+msgid "Finishing deployment"
+msgstr "Afronden van live-zetten"
+
+#: src/Publication/Task/FinishTask.php:22
+msgid "Finishing"
+msgstr "Afronden"
+
+#: src/Publication/Task/InitializeCrawlerTask.php:23
+msgid "Initializing crawler"
+msgstr "Initiëren van crawler"
+
+#: src/Publication/Task/InitiateDeploymentTask.php:22
+msgid "Initializing deployment"
+msgstr "Initiëren van live-zetten"
+
+#: src/Publication/Task/PostProcessTask.php:22
+msgid "Post-processing"
+msgstr "Nabewerking"
+
+#: src/Publication/Task/SetupTask.php:26
+msgid "Setting up"
+msgstr "Voorbereiden"
+
+#: src/Publication/Task/SetupTask.php:66
+msgid "No deployment method has been selected yet"
+msgstr "Er is nog geen pulicatiemethode geselecteerd"
+
+#: src/Publication/Task/SetupTask.php:86
+msgid "Deployment method did not register \"staatic_deployment_strategy\" hook"
+msgstr "Publicatiemethode registreerde \"staatic_deployment_strategy\" hook niet"
+
+#. translators: %s: Error message.
+#: src/Publication/Task/SetupTask.php:99
+msgid "Deployment has not been configured correctly: %s"
+msgstr "Publicatie is niet correct ingesteld: %s"
+
+#. translators: 1: Additional path.
+#: src/Service/AdditionalPaths.php:36
+msgid "Path \"%1$s\" should be absolute."
+msgstr "Pad \"%1$s\" dient absoluut te zijn."
+
+#. translators: 1: Additional path.
+#: src/Service/AdditionalPaths.php:46
+msgid "Path \"%1$s\" is not readable."
+msgstr "Pad \"%1$s\" is niet leesbaar."
+
+#. translators: 1: Additional path.
+#: src/Service/AdditionalPaths.php:58
+msgid "Path \"%1$s\" is the WordPress installation directory."
+msgstr "Pad \"%1$s\" is de WordPress installatiedirectory."
+
+#. translators: 1: Additional path.
+#: src/Service/AdditionalPaths.php:76
+msgid "Path \"%1$s\" is not convertible to a URL path."
+msgstr "Pad \"%1$s\" kan niet worden omgezet naar een URL-pad."
+
+#. translators: 1: Redirect origin.
+#: src/Service/AdditionalRedirects.php:34
+msgid "Redirect \"%1$s\" has a malformed origin."
+msgstr "Doorverwijzing \"%1$s\" heeft een onjuist gevormde origin."
+
+#. translators: 1: Redirect origin.
+#: src/Service/AdditionalRedirects.php:44
+msgid "Redirect \"%1$s\" should not contain scheme or authority part."
+msgstr "Redirect \"%1$s\" should not contain scheme or authority part."
+
+#. translators: 1: Redirect origin.
+#: src/Service/AdditionalRedirects.php:54
+msgid "Redirect \"%1$s\" does not have an absolute origin path."
+msgstr "Doorverwijzing \"%1$s\" heeft geen absoluut origin-pad."
+
+#. translators: 1: Redirect origin, 2: Redirect URL.
+#: src/Service/AdditionalRedirects.php:66
+msgid "Redirect \"%1$s\" has a malformed redirect URL: %2$s."
+msgstr "Doorverwijzing \"%1$s\" heeft een onjuist gevormde omleidings-URL: %2$s."
+
+#. translators: 1: Redirect origin, 2: HTTP status code.
+#: src/Service/AdditionalRedirects.php:77
+msgid "Redirect \"%1$s\" has an invalid HTTP status code: \"%2$s\"."
+msgstr "Doorverwijzing \"%1$s\" heeft een ongeldige HTTP-statuscode: \"%2$s\"."
+
+#. translators: 1: URL.
+#: src/Service/AdditionalUrls.php:35
+#: src/Service/ExcludeUrls.php:31
+msgid "URL \"%1$s\" is not part of this site."
+msgstr "URL \"%1$s\" is geen onderdeel van deze site."
+
+#: src/Service/Formatter.php:68
+msgid "now"
+msgstr "nu"
+
+#: src/Service/HealthChecks.php:28
+msgid "Permalink structure is not configured correctly"
+msgstr "Permalink-structuur is niet juist geconfigureerd"
+
+#: src/Service/HealthChecks.php:30
+msgid "<p>In order to successfully generate a static version of your WordPress site, a permalink structure other than Plain needs to be configured.</p>"
+msgstr "<p>Om succesvol een statische versie van uw WordPress site te genereren, dient een permalink-structuur anders dan Eenvoudig geconfigureerd te zijn.</p>"
+
+#. translators: 1: Link to Permalink Settings.
+#: src/Service/HealthChecks.php:33
+msgid "<p>Please ensure a <a href=\"%1$s\">Permalink Structure</a> other than Plain is selected.</p>"
+msgstr "<p>Zorg ervoor dat een <a href=\"%1$s\">permalink-structuur</a> anders dan Eenvoudig geselecteerd is.</p>"
+
+#: src/Service/HealthChecks.php:41
+msgid "Permalink structure appears to be configured correctly"
+msgstr "Permalink-structuur lijkt goed geconfigureerd te zijn"
+
+#: src/Service/HealthChecks.php:43
+msgid "<p>In order to successfully generate a static version of your WordPress site, a permalink structure compatible with static sites needs to be configured.</p>"
+msgstr "<p>Om succesvol een statische versie van uw WordPress site te genereren, dient een permalink-structuur die compatibel is met statische sites geconfigureerd te zijn.</p>"
+
+#: src/Service/HealthChecks.php:55
+msgid "Staatic work directory is not writable"
+msgstr "Staatic werkmap is niet schrijfbaar"
+
+#: src/Service/HealthChecks.php:57
+#: src/Service/HealthChecks.php:70
+msgid "<p>In order to successfully generate a static version of your WordPress site, the Staatic work directory needs to be writable.</p>"
+msgstr "<p>Om succesvol een statische versie van uw WordPress site te genereren, dient de Staatic werkmap schrijfbaar te zijn.</p>"
+
+#. translators: 1: Link to Advanced Settings.
+#: src/Service/HealthChecks.php:60
+msgid "<p>Please ensure that the Work Directory configured under <a href=\"%1$s\">Advanced Settings</a> is writable.</p>"
+msgstr "<p>Zorg ervoor dat de werkmap geconfigureerd onder <a href=\"%1$s\">geavanceerde instellingen</a> schrijfbaar is.</p>"
+
+#: src/Service/HealthChecks.php:68
+msgid "Staatic work directory is not writable and can't be created"
+msgstr "Staatic werkmap is niet schrijfbaar en kan niet gemaakt worden"
+
+#. translators: 1: Link to Advanced Settings.
+#: src/Service/HealthChecks.php:73
+msgid "<p>Please ensure that the Work Directory, configured under <a href=\"%1$s\">Advanced Settings</a>, is writable.</p>"
+msgstr "<p>Zorg ervoor dat de werkmap, geconfigureerd onder <a href=\"%1$s\">geavanceerde instellingen</a>, schrijfbaar is.</p>"
+
+#: src/Service/HealthChecks.php:81
+msgid "Staatic work directory is writable"
+msgstr "Staatic werkmap is schrijfbaar"
+
+#: src/Service/HealthChecks.php:83
+msgid "<p>The Staatic work directory is used by Staatic to write publication resources and other temporary files.</p>"
+msgstr "<p>De Staatic werkmap wordt gebruikt door Staatic om publicatiebronnen en andere tijdelijke bestanden te schrijven.</p>"
+
+#: src/Service/HealthChecks.php:90
+msgid "<p>The publication test task is used to verify the amount of time publication tasks are able to run without timing out. When the task times out too early, publications started from WP-Admin may not have enough time to finish and as a result fail.</p>"
+msgstr "<p>De publicatie-testtaak wordt gebruikt om de beschikbare tijd te controleren voor publicatietaken. Wanneer een taak vroegtijdig beëindigd wordt, kunnen publicaties die vanuit WP-Admin gestart worden mogelijk mislukken.</p>"
+
+#: src/Service/HealthChecks.php:96
+msgid "Publication test task has not yet started"
+msgstr "Publicatie-testtaak is nog niet gestart"
+
+#: src/Service/HealthChecks.php:98
+msgid "<p>Since the task has not yet started, the publication task run time could not be verified.</p>"
+msgstr "<p>Aangezien de taak nog niet gestart is kan de publicatie uitvoertijd niet gecontroleerd worden.</p>"
+
+#. translators: 1: Link to Trigger Test Request.
+#: src/Service/HealthChecks.php:101
+msgid "<p>Please ensure WP-Cron is functioning correctly. Alternatively, <a href=\"%1$s\">trigger the test manually</a>.</p>"
+msgstr "<p>Zorg ervoor dat WP-Cron correct functioneert. Als alternatief kan het testverzoek <a href=\"%1$s\">handmatig gestart worden</a>.</p>"
+
+#: src/Service/HealthChecks.php:115
+msgid "Publication test task has not yet finished"
+msgstr "Publicatie-testtaak is nog niet afgerond"
+
+#: src/Service/HealthChecks.php:117
+msgid "<p>Since the task has not yet finished, the publication task run time could not be verified.</p>"
+msgstr "<p>Aangezien de taak nog niet afgerond is kan de publicatie uitvoertijd niet gecontroleerd worden.</p>"
+
+#: src/Service/HealthChecks.php:126
+msgid "Publication test task reveals a low timeout value"
+msgstr "Publicatie-testtaak laat een lage timeout waarde zien"
+
+#. translators: 1: Test run time in seconds.
+#: src/Service/HealthChecks.php:130
+msgid "<p>The publication test task stopped after <strong>%1$s seconds</strong>. This can be caused by a variety of reasons, including a low PHP <code>maximum_execution_time</code> value or too strict web server request time limits.</p>"
+msgstr "<p>De publicatie-testtaak is gestopt na <strong>%1$s seconden</strong>. Dit kan veroorzaakt worden door verschillende redenen, waaronder een lage PHP <code>maximum_execution_time</code> waarde of te stricte webserver request tijdlimieten.</p>"
+
+#. translators: 1: Recommended minimum run time in seconds, 2: Link to Documentation.
+#: src/Service/HealthChecks.php:135
+msgid "<p>Please ensure that HTTP requests and PHP scripts are allowed to run at least %1$s seconds, or consider publishing using the <code>staatic publish</code> <a href=\"%2$s\" target=\"_blank\" rel=\"noopener\">WP-CLI command</a> instead.</p>"
+msgstr "<p>Zorg ervoor dat HTTP-verzoeken en PHP-scripts ten minste %1$s seconden uitgevoerd kunnen worden, of overweeg in plaats daarvan te publiceren met het <code>staatic publish</code> <a href=\"%2$s\" target=\"_blank\" rel=\"noopener\">WP-CLI commando</a>.</p>"
+
+#: src/Service/HealthChecks.php:144
+msgid "Publication task timeout appears to be in order"
+msgstr "Publicatie-testtaak timeout lijkt in orde te zijn"
+
+#: src/Service/HealthChecks.php:146
+msgid "<p>When starting a publication from within WP-Admin, Staatic executes the publication process in multiple separate tasks, which require enough time to complete successfully.</p>"
+msgstr "<p>Wanneer een publicatie gestart wordt vanuit WP-Admin, dan voert Staatic het publicatieproces uit in verschillende gescheiden taken, welke genoeg tijd vereisen om succesvol af te ronden.</p>"
+
+#: src/Service/HealthChecks.php:155
+msgid "<p>Loopback requests are used by the Staatic crawler component to generate the static version of your WordPress site.</p>"
+msgstr "<p>Loopback-verzoeken worden door het Staatic crawler component gebruikt om de statische versie van uw WordPress site te genereren.</p>"
+
+#: src/Service/HealthChecks.php:164
+msgid "Staatic is unable to perform loopback requests"
+msgstr "Staatic kan geen loopback-verzoeken uitvoeren"
+
+#. translators: 1: Error message.
+#: src/Service/HealthChecks.php:168
+msgid "<p>A test request resulted in the following error:</p><p><code>%1$s</code></p>"
+msgstr "<p>Een testverzoek resulteerde in de volgende fout:</p><p><code>%1$s</code></p>"
+
+#. translators: 1: Link to Advanced Settings.
+#: src/Service/HealthChecks.php:173
+msgid "<p>Please ensure that your server’s IP address is whitelisted and that HTTP authentication credentials are valid under <a href=\"%1$s\">Advanced Settings</a>, in case HTTP authentication is enabled.</p>"
+msgstr "<p>Zorg er alstublieft voor dat het IP adres van de server gewhitelist is, en dat de HTTP authenticatie inloggegevens onder <a href=\"%1$s\">geavanceerde instellingen</a> geldig zijn, in het geval HTTP authenticatie ingeschakeld is.</p>"
+
+#: src/Service/HealthChecks.php:181
+msgid "Staatic can perform loopback requests"
+msgstr "Staatic kan loopback-verzoeken uitvoeren"
+
+#. translators: 1: expands to 'Staatic'
+#: src/Service/HealthChecks.php:201
+msgid "This was reported by %1$s"
+msgstr "Dit werd gerapporteerd door %1$s"
+
+#. translators: 1: Error message, 2: Detected URL .
+#: src/Service/SiteUrlProvider.php:75
+msgid "<strong>Staatic was unable to determine the site's base URL</strong><br><br>Got \"<strong>%2$s</strong>\", which resulted in the following error: <em>%1$s</em> - please check the following locations and ensure the configured URL is valid:<br><ul><li>the value of <code>WP_HOME</code> in the <code>wp-config.php</code> file;</li><li>the value of <code>home</code> in the <code>wp_options</code> database table;</li><li>the value of the <code>STAATIC_SITE_URL</code> environment variable;</li><li>any <code>staatic_site_url</code> or <code>home_url</code> filter hook implementation.</li></ul>"
+msgstr "<strong>Staatic kon de basis-URL van de site niet bepalen</strong><br><br>Kreeg \"<strong>%2$s</strong>\", wat resulteerde in de volgende fout: <em>%1$s</em> - controleer de volgende locaties en zorg ervoor dat de geconfigureerde URL geldig is:<br><ul><li>de waarde van <code>WP_HOME</code> in het <code>wp-config.php</code> bestand;</li><li>de waarde van <code>home</code> in de <code>wp_options</code> database tabel;</li><li>de waarde van de <code>STAATIC_SITE_URL</code> omgevingsvariabele;</li><li>elke implementatie van de <code>staatic_site_url</code> of <code>home_url</code> filter hook.</li></ul>"
+
+#: src/Setting/Advanced/BackgroundProcessTimeout.php:21
+msgid "Publication Task Timeout"
+msgstr "Publicatietaak time-out"
+
+#: src/Setting/Advanced/BackgroundProcessTimeout.php:26
+msgid "The number of seconds before publication tasks triggered from WP-Admin timeout.<br>Only change this value to troubleshoot publication issues. Alternatively use the <code>staatic publish</code> WP-CLI command."
+msgstr "Het aantal seconden voordat een publicatietaak voortkomend uit WP-Admin onderbroken wordt.<br>Pas deze waarde alleen aan om problemen met publicaties op te lossen. Gebruik als alternatief het <code>staatic publish</code> WP-CLI commando."
+
+#: src/Setting/Advanced/CrawlerDomParserSetting.php:36
+msgid "This determines which HTML DOM parser is used while transforming your site.<br>If you are experiencing issues with the generated static HTML, you can try a different parser."
+msgstr "Dit bepaald welke HTML DOM parser gebruikt wordt bij het transformeren van uw site.<br>Indien u problemen ervaart met de gegenereerde HTML, dan kunt u een andere parser proberen."
+
+#: src/Setting/Advanced/CrawlerLowercaseUrlsSetting.php:26
+msgid "Enforce lowercase URLs"
+msgstr "Forceer kleine letters in URL's"
+
+#: src/Setting/Advanced/CrawlerLowercaseUrlsSetting.php:31
+msgid "If enabled, automatically converts all URLs to lowercase for consistent formatting and to prevent case-sensitive duplicate content."
+msgstr "Indien ingeschakeld zullen alle URL's automatisch omgezet worden naar kleine letters voor consistente opmaak en om hoofdlettergevoelige dubbele inhoud te voorkomen."
+
+#: src/Setting/Advanced/CrawlerProcessNotFoundSetting.php:21
+msgid "Process not found resources"
+msgstr "Verwerk \"niet-gevonden\" bronnen"
+
+#: src/Setting/Advanced/CrawlerProcessNotFoundSetting.php:26
+msgid "Process page not found resources"
+msgstr "Verwerk \"pagina-niet-gevonden\" bronnen"
+
+#: src/Setting/Advanced/CrawlerProcessNotFoundSetting.php:31
+msgid "If enabled, in addition to the configured page not found page, other resources with a 404 status code will be included in the build as well."
+msgstr "Indien ingeschakeld zullen, in aanvulling op de ingestelde pagina niet gevonden pagina, andere bronnen met een 404 statuscode ook onderdeel van de build worden."
+
+#: src/Setting/Advanced/CrawlerSetting.php:28
+msgid "Crawler"
+msgstr "Crawler"
+
+#: src/Setting/Advanced/HttpAuthenticationSetting.php:28
+msgid "HTTP Authentication"
+msgstr "HTTP-authenticatie"
+
+#: src/Setting/Advanced/HttpAuthenticationSetting.php:33
+msgid "If your WordPress installation is protected with HTTP authentication, enter the relevant credentials."
+msgstr "Indien uw WordPress-installatie beveiligd is met HTTP-authenticatie, vul de inloggegevens dan hier in."
+
+#: src/Setting/Advanced/HttpConcurrencySetting.php:21
+msgid "HTTP Concurrency"
+msgstr "HTTP-concurrency"
+
+#: src/Setting/Advanced/HttpConcurrencySetting.php:26
+msgid "The number of simultaneous HTTP connections allowed."
+msgstr "Het aantal gelijktijdige toegestane HTTP connecties."
+
+#: src/Setting/Advanced/HttpDelaySetting.php:21
+msgid "HTTP Delay"
+msgstr "HTTP-vertraging"
+
+#: src/Setting/Advanced/HttpDelaySetting.php:26
+msgid "The number of milliseconds for HTTP requests to be delayed."
+msgstr "Het aantal milliseconden dat HTTP verzoeken vertraagd worden."
+
+#: src/Setting/Advanced/HttpTimeoutSetting.php:21
+msgid "HTTP Timeout"
+msgstr "HTTP-time-out"
+
+#: src/Setting/Advanced/HttpTimeoutSetting.php:26
+msgid "The number of seconds for HTTP connections and requests to timeout."
+msgstr "Het aantal seconden dat HTTP verbindingen en verzoeken een time-out genereren."
+
+#: src/Setting/Advanced/HttpToHttpsSetting.php:21
+msgid "Downgrade HTTPS to HTTP"
+msgstr "Downgrade HTTPS naar HTTP"
+
+#: src/Setting/Advanced/HttpToHttpsSetting.php:31
+msgid "This option can be enabled in cases where WordPress is behind a HTTPS terminating load balancer preventing crawling to succeed otherwise."
+msgstr "Deze optie kan ingeschakeld worden in gevallen waarbij WordPress achter een HTTPS-terminerende loadbalancer staat waardoor het crawlen anders niet slaagt."
+
+#: src/Setting/Advanced/LoggingLevelSetting.php:31
+msgid "Logging"
+msgstr "Logging"
+
+#: src/Setting/Advanced/LoggingLevelSetting.php:36
+msgid "Raising logging levels aids in troubleshooting but can slow down publication."
+msgstr "Verhogen van logniveaus helpt bij het oplossen van problemen, maar kan het publiceren vertragen."
+
+#: src/Setting/Advanced/LoggingLevelSetting.php:54
+msgid "Extensive logging"
+msgstr "Uitgebreide logging"
+
+#: src/Setting/Advanced/LoggingLevelSetting.php:55
+msgid "Detailed logging"
+msgstr "Gedetailleerde logging"
+
+#: src/Setting/Advanced/LoggingLevelSetting.php:56
+msgid "Minimal logging"
+msgstr "Minimale logging"
+
+#: src/Setting/Advanced/LoggingLevelSetting.php:57
+msgid "No logging"
+msgstr "Geen logging"
+
+#: src/Setting/Advanced/OverrideSiteUrlSetting.php:21
+msgid "Custom Origin URL"
+msgstr "Aangepaste origin-URL"
+
+#. translators: 1: The default origin URL.
+#: src/Setting/Advanced/OverrideSiteUrlSetting.php:28
+msgid "Optionally specify a custom URL for your dynamic WordPress site.<br>If left blank, <code>%s</code> will be used as the default URL."
+msgstr "Specificeer optioneel een aangepaste URL voor uw dynamische WordPress-site.<br>Indien leeg gelaten, zal <code>%s</code> worden gebruikt als standaard URL."
+
+#: src/Setting/Advanced/PageNotFoundPathSetting.php:27
+msgid "Page Not Found Path"
+msgstr "Pagina-niet-gevonden-pad"
+
+#: src/Setting/Advanced/PageNotFoundPathSetting.php:32
+msgid "This should be any path generating a 404 page not found page, e.g. /404_not_found/."
+msgstr "Dit zou een willekeurig pad moeten zijn dat een 404 pagina niet gevonden oplevert, bijv. /404_niet_gevonden/."
+
+#: src/Setting/Advanced/SslVerifyBehaviorSetting.php:30
+msgid "Verification"
+msgstr "Verificatie"
+
+#: src/Setting/Advanced/SslVerifyBehaviorSetting.php:35
+msgid "Set to \"Enabled\" to enable SSL certificate verification and use the default CA bundle provided by operating system.<br>Set to \"Disabled\" to disable certificate verification (this is insecure!).<br>Set to \"Enabled using custom certificate\" to provide the path to a CA bundle to enable verification using a custom certificate."
+msgstr "Kies \"Ingeschakeld\" voor SSL-certificaatverificatie op basis van de standaard CA-bundle van het besturingssysteem.<br>Kies \"Uitgeschakeld\" om certificaatverificatie uit te schakelen (dit is niet veilig!).<br> Kies \"Ingeschakeld met handmatig certificaat\" om het pad naar de CA-bundle op te geven en verificatie op basis van dat certificaat in te schakelen."
+
+#: src/Setting/Advanced/SslVerifyPathSetting.php:21
+msgid "CA Bundle Path"
+msgstr "CA-bundle pad"
+
+#: src/Setting/Advanced/SslVerifyPathSetting.php:26
+msgid "In case \"Verification\" is set to \"Enabled using custom certificate\" this should be the path to the certificate, e.g. \"/path/to/cert.pem\"."
+msgstr "Indien \"Verificatie\" op \"Ingeschakeld met handmatig certificaat\" is gezet, dan zou dit het pad naar het certificaat moeten zijn, bijv. \"/pad/naar/cert.pem\"."
+
+#. translators: %s: CA bundle path.
+#: src/Setting/Advanced/SslVerifyPathSetting.php:37
+msgid "The specified CA Bundle Path \"%s\" does not exist."
+msgstr "Het opgegeven CA-bundle pad \"%s\" bestaat niet."
+
+#: src/Setting/Advanced/SslVerifySetting.php:28
+msgid "SSL Certificates"
+msgstr "SSL certificaten"
+
+#: src/Setting/Advanced/UninstallDataSetting.php:21
+msgid "Delete Data"
+msgstr "Verwijder data"
+
+#: src/Setting/Advanced/UninstallDataSetting.php:26
+msgid "Delete plugin data"
+msgstr "Verwijder plugin data"
+
+#: src/Setting/Advanced/UninstallDataSetting.php:31
+msgid "This will delete the plugin's database tables when uninstalling the plugin.<br><em>Note: the work directory currently needs to be deleted manually.</em>"
+msgstr "Hiermee worden de databasetabellen van de plugin verwijderd bij het verwijderen van de plugin.<br><em>Let op: de werkmap dient momenteel handmatig verwijderd te worden.</em>"
+
+#: src/Setting/Advanced/UninstallSetting.php:28
+msgid "Plugin Uninstall"
+msgstr "Plugin verwijderen"
+
+#: src/Setting/Advanced/UninstallSettingsSetting.php:21
+msgid "Delete Settings"
+msgstr "Verwijder instellingen"
+
+#: src/Setting/Advanced/UninstallSettingsSetting.php:26
+msgid "Delete plugin settings"
+msgstr "Verwijder plugin instellingen"
+
+#: src/Setting/Advanced/UninstallSettingsSetting.php:31
+msgid "This will delete all plugin's settings when uninstalling the plugin."
+msgstr "Hiermee worden de instellingen van de plugin verwijderd bij het verwijderen van de plugin."
+
+#: src/Setting/Advanced/WorkDirectorySetting.php:22
+msgid "Work Directory"
+msgstr "Werkmap"
+
+#: src/Setting/Advanced/WorkDirectorySetting.php:27
+msgid "Temporary files created during publications are stored in this directory."
+msgstr "Tijdelijke bestanden die gegenereerd worden tijdens het publiceren worden opgeslagen in deze map."
+
+#: src/Setting/Build/AdditionalPathsSetting.php:25
+msgid "Additional Paths"
+msgstr "Additionele paden"
+
+#. translators: %s: Example additional paths.
+#: src/Setting/Build/AdditionalPathsSetting.php:32
+msgid "Optionally add (filesystem) paths that need to be included in the build.<br>%s"
+msgstr "Optioneel kunt u hier (bestandssysteem) paden toevoegen om mee te nemen in de build.<br>%s"
+
+#: src/Setting/Build/AdditionalRedirectsSetting.php:23
+msgid "Additional Redirects"
+msgstr "Additionele doorverwijzingen"
+
+#. translators: %s: Example additional redirects.
+#: src/Setting/Build/AdditionalRedirectsSetting.php:30
+msgid "Optionally add redirects that need to be included in the build.<br>%s"
+msgstr "Optioneel kunt u hier doorverwijzingen toevoegen om mee te nemen in de build.<br>%s"
+
+#: src/Setting/Build/AdditionalUrlsSetting.php:29
+msgid "Additional URLs"
+msgstr "Additionele URL's"
+
+#. translators: %s: Example additional URLs.
+#: src/Setting/Build/AdditionalUrlsSetting.php:41
+msgid "Optionally add (absolute or relative) URLs that need to be included in the build.<br>%s"
+msgstr "Optioneel kunt u hier (absolute of relatieve) URL's toevoegen om mee te nemen in de build.<br>%s"
+
+#: src/Setting/Build/DestinationUrlSetting.php:28
+msgid "The destination URL determines how links within your static site are constructed."
+msgstr "De bestemmings-URL bepaalt hoe links binnen uw statische site opgebouwd worden."
+
+#. translators: %s: Destination URL.
+#: src/Setting/Build/DestinationUrlSetting.php:46
+#: src/Setting/Build/PreviewUrlSetting.php:52
+msgid "The specified destination URL \"%s\" is invalid; using \"/\" instead."
+msgstr "De opgegeven bestemmings-URL \"%s\" is ongeldig; in plaats daarvan wordt \"/\" gebruikt."
+
+#: src/Setting/Build/ExcludeUrlsSetting.php:29
+msgid "Excluded URLs"
+msgstr "Uitgezonderde URL's"
+
+#. translators: %s: Example exclude URLs.
+#: src/Setting/Build/ExcludeUrlsSetting.php:41
+msgid "Optionally add URLs that need to be excluded from the build.<br>%s"
+msgstr "Optioneel kunt u hier URL's toevoegen om uit te zonderen van de build.<br>%s"
+
+#: src/Setting/Build/PreviewUrlSetting.php:23
+msgid "Preview URL"
+msgstr "Preview-URL"
+
+#: src/Setting/Build/PreviewUrlSetting.php:28
+msgid "The preview URL determines how links within your <strong>preview</strong> site are constructed."
+msgstr "De preview-URL bepaalt hoe links binnen uw <strong>preview</strong> site opgebouwd worden."
+
+#: src/Setting/Deployment/DeploymentMethodSetting.php:27
+msgid "Deployment Method"
+msgstr "Publicatiemethode"
+
+#: src/Setting/Deployment/DeploymentMethodSetting.php:32
+msgid "Deploy static site to"
+msgstr "Publiceer statische site naar"
+
+#: src/Setting/Deployment/DeploymentMethodSetting.php:37
+msgid "Choose where and how you want to publish the static version of your site."
+msgstr "Kies waar en hoe u de statische versie van uw site wilt publiceren."
+
+#~ msgid "The publication will be canceled as soon as possible."
+#~ msgstr "The publicatie wordt zo spoedig mogelijk geannuleerd."
+
+#~ msgid "The specified retain path \"%s\" does not exist."
+#~ msgstr "Het opgegeven bewaarpad \"%s\" bestaat niet."
+
+#~ msgid "Staatic for WordPress Premium"
+#~ msgstr "Staatic voor WordPress Premium"
+
+#~ msgid "First of all, thank you for choosing Staatic to make your WordPress site blazing fast and bulletproof."
+#~ msgstr "Allereerst, hartelijk dank voor het kiezen voor Staatic om uw WordPress-site super snel en veilig te maken."
+
+#~ msgid "If you would like to support ongoing development of Staatic, please consider going Premium."
+#~ msgstr "Als u de toekomstige ontwikkeling van Staatic wilt ondersteunen, overweeg dan om Premium te gaan."
+
+#~ msgid "In addition to helping the authors maintain Staatic, Staatic for WordPress Premium adds <strong>additional functionality</strong>."
+#~ msgstr "Naast het feit dat u de makers helpt om Staatic te onderhouden, biedt Staatic voor WordPress Premium <strong>extra functionaliteiten</strong>."
+
+#~ msgid "Additional features include (but not limited to):"
+#~ msgstr "Extra functionaliteiten zijn onder andere:"
+
+#~ msgid "Quick publications, publishing <strong>only changed content</strong>"
+#~ msgstr "Snelle publicaties, publiceren van <strong>enkel gewijzigde content</strong>"
+
+#~ msgid "<strong>Automated</strong> publications based on changed content or a schedule"
+#~ msgstr "<strong>Automatische</strong> publicaties op basis van gewijzigde content of een schema"
+
+#~ msgid "<strong>Form submission</strong> handling"
+#~ msgstr "<strong>Formulierinzending</strong> verwerking"
+
+#~ msgid "<strong>Search</strong> integration"
+#~ msgstr "<strong>Zoek</strong>integratie"
+
+#~ msgid "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Click here to learn more about Staatic for WordPress Premium</a>"
+#~ msgstr "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Klik hier voor meer informatie over Staatic voor WordPress Premium</a>"
+
+#~ msgid "In case you need further assistance, feel free to open a topic on our <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">support forums</a>."
+#~ msgstr "Indien u verdere ondersteuning nodig heeft, voel u dan niet bezwaard om een topic te openen op onze <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">support forums</a>."
+
+#~ msgid "If you like Staatic for WordPress and want to support future development, a positive <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">review</a> would be greatly appreciated."
+#~ msgstr "Indien u Staatic voor WordPress leuk vindt en toekomstige ontwikkeling wilt ondersteunen, dan zou een positieve <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">beoordeling</a> zeer gewaardeerd worden."
+
+#~ msgid "Path \"%1$s\" is not within web root \"%2$s\"."
+#~ msgstr "Pad \"%1$s\" bevindt zich niet binnen de webroot \"%2$s\"."
+
+#~ msgid "Web root"
+#~ msgstr "Webroot"
+
+#~ msgid "Skipped \"%1$s\": Path is not readable."
+#~ msgstr "\"%1$s\" overgeslagen: pad is niet leesbaar."
+
+#~ msgid "Skipped \"%1$s\": Path is not web accessible."
+#~ msgstr "\"%1$s\" overgeslagen: pad is niet toegankelijk vanaf het internet."
+
+#~ msgid "Skipped \"%1$s\": Path is the WordPress installation directory."
+#~ msgstr "\"%1$s\" overgeslagen: pad is de WordPress installatiedirectory."
+
+#~ msgid "Skipped \"%1$s\": URL is is not part of this site."
+#~ msgstr "\"%1$s\" overgeslagen: URL is geen onderdeel van deze site."
+
+#~ msgid "Skipped \"%1$s\": URL is not part of this site."
+#~ msgstr "\"%1$s\" overgeslagen: URL is geen onderdeel van deze site."
+
+#~ msgid "The supplied additional path \"%s\" is not readable and therefore skipped"
+#~ msgstr "Het opgegeven additionele pad \"%s\" is niet bereikbaar en daarom overgeslagen"
+
+#~ msgid "The supplied additional path \"%s\" is not web accessible and therefore skipped"
+#~ msgstr "Het opgegeven additionele pad \"%s\" is niet toegankelijk vanaf het internet en daarom overgeslagen"
+
+#~ msgid "The supplied additional path \"%s\" is the WordPress installation directory and therefore skipped"
+#~ msgstr "Het opgegeven additionele pad \"%s\" is de installatiedirectory van WordPress en daarom overgeslagende installatiedirectory van WordPress"
+
+#~ msgid "The supplied additional redirect \"%s\" has a malformed origin and was therefore skipped"
+#~ msgstr "De opgegeven additionele doorverwijzing \"%s\" heeft een ongeldige bron en was daarom overgeslagen"
+
+#~ msgid "The supplied additional redirect \"%s\" has a malformed redirect URL and was therefore skipped"
+#~ msgstr "De opgegeven additionele doorverwijzing \"%s\" heeft een ongeldige doorverwijzings-URL en was daarom overgeslagen"
+
+#~ msgid "The supplied additional URL \"%s\" is not part of this site and therefore skipped"
+#~ msgstr "De opgegeven additionele URL \"%s\" is geen onderdeel van deze site er daarom overgeslagen"
+
+#~ msgid "The supplied excluded URL \"%s\" is not part of this site and therefore skipped"
+#~ msgstr "De opgegeven uitgezonderde URL \"%s\" is geen onderdeel van deze site er daarom overgeslagen"
+
+#~ msgid "<strong>Error</strong>: Missing form data."
+#~ msgstr "<strong>Fout</strong>: Ontbrekende formulier data."
+
+#~ msgid "<em style=\"font-style: italic;\">Live Publication: %s</em>"
+#~ msgstr "<em style=\"font-style: italic;\">Live publicatie: %s</em>"
+
+#~ msgid "Paths"
+#~ msgstr "Paden"
+
+#~ msgid "Publish Specific Paths"
+#~ msgstr "Publiceer specifieke paden"
+
+#~ msgid "<p>Please ensure that the configured Work Directory under <a href=\"%1$s\">Advanced Settings</a> is writable.</p>"
+#~ msgstr "<p>Zorg ervoor dat de geconfigureerde werkmap onder <a href=\"%1$s\">geavanceerde instellingen</a> schrijfbaar is.</p>"
+
+#~ msgid "Staatic Diagnostics"
+#~ msgstr "Staatic diagnostiek"
+
+#~ msgid "Environment Information"
+#~ msgstr "Omgevingsinformatie"
+
+#~ msgid "Dispatch"
+#~ msgstr "Verzenden"
+
+#~ msgid "Test Request"
+#~ msgstr "Test verzoek"
+
+#~ msgid "Export Diagnostics"
+#~ msgstr "Exporteer diagnostische gegevens"
+
+#~ msgid "Diagnostics"
+#~ msgstr "Diagnostiek"
+
+#~ msgid "Task failed due to a timeout or fatal error."
+#~ msgstr "Taak mislukt vanwege een timeout of fatale fout."
+
+#~ msgid "Work directory is not writable: \"%s\"."
+#~ msgstr "Werkmap is niet schrijfbaar: \"%s\"."
+
+#~ msgid "Staatic is unable to access your WordPress site<br><em>%1$s</em><br>%2$s"
+#~ msgstr "Staatic kan uw WordPress site niet bereiken<br><em>%1$s</em><br>%2$s"
+
+#~ msgid "<strong>Internal HTTP test request reveals a low request timeout (%s seconds).</strong><br>Please ensure that PHP scripts are allowed to run at least 120 seconds."
+#~ msgstr "<strong>Intern HTTP testverzoek toont een lage request timeout aan (%s seconden).</strong><br>Zorg ervoor dat PHP scripts ten minste 120 seconden kunnen uitvoeren."
+
+#~ msgid "Configuration Issues"
+#~ msgstr "Configuratieproblemen"
+
+#~ msgid "Some configuration issues have been found which require your attention:"
+#~ msgstr "Er zijn configuratieproblemen gevonden welke uw aandacht vereisen:"
+
+#~ msgid "HTML5-PHP (masterminds/html5)"
+#~ msgstr "HTML5-PHP (masterminds/html5)"
+
+#~ msgid "PHP DOM Wrapper (scotteh/php-dom-wrapper)"
+#~ msgstr "PHP DOM Wrapper (scotteh/php-dom-wrapper)"
+
+#~ msgid "%1$s during task %2$s: %3$s"
+#~ msgstr "%1$s tijdens taak %2$s: %3$s"
+
+#~ msgid "PHP error"
+#~ msgstr "PHP fout"
+
+#~ msgid "%1$s during %2$s task: %3$s"
+#~ msgstr "%1$s tijdens taak %2$s: %3$s"
+
+#~ msgid "Oops, this publication failed…"
+#~ msgstr "Oeps, deze publicatie is mislukt…"
+
+#~ msgid "During the processing of this publication, Staatic encountered the following error:"
+#~ msgstr "Tijdens het verwerken van deze publicatie kwam Staatic de volgende fout tegen:"
+
+#~ msgid "PHP error during task %1$s: %2$s"
+#~ msgstr "PHP fout tijdens taak %1$s: %2$s"
+
+#~ msgid "Publication failed during task %1$s with exception %2$s: %3$s"
+#~ msgstr "Publicatie mislukt tijdens taak %1$s met uitzondering %2$s: %3$s"
+
+#~ msgid "Amazon Authentication"
+#~ msgstr "Amazon authenticatie"
+
+#~ msgid "Amazon Web Services"
+#~ msgstr "Amazon Web Services"
+
+#~ msgid "Amazon S3"
+#~ msgstr "Amazon S3"
+
+#~ msgid "Unexpected error: %s."
+#~ msgstr "Onverwachte fout: %s."
+
+#~ msgid "This should be the URL of your published website, e.g. <code>https://www.domain.com</code>."
+#~ msgstr "Dit zou de URL van uw gepubliceerde website moeten zijn, bijv. <code>https://www.domein.nl</code>."
+
+#~ msgid "This should be the URL of your preview website, e.g. <code>https://preview.domain.com</code>."
+#~ msgstr "Dit zou de URL van uw preview-website moeten zijn, bijv. <code>https://preview.domein.nl</code>."
+
+#~ msgid "The publication has been deleted"
+#~ msgstr "De publicatie is verwijderd"
+
+#~ msgid "Add exclude URL"
+#~ msgstr "Uitgezonderde URL toevoegen"
+
+#~ msgid "Optionally add redirects that need to be included in the build (one redirect per line, in the format PATH REDIRECT_URL HTTP_STATUS_CODE).<br>Examples: %s."
+#~ msgstr "Optioneel kunt u hier doorverwijzingen toevoegen welke onderdeel moeten worden van de build (één doorverwijzing per regel, in het formaat PATH REDIRECT_URL HTTP_STATUS_CODE).<br>Voorbeelden: %s."
+
+#~ msgid "Publication Date"
+#~ msgstr "Publicatiedatum"
