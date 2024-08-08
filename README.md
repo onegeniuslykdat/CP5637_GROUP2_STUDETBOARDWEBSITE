@@ -1,5 +1,5 @@
 
-## CP3402 Team Brisbane 2023
+## CP5637 Group 2 2024
 Team Members:- 
 - Anthony Onyekwere
 - Victor Nwaokike
@@ -28,9 +28,9 @@ The file [a2.html](a2.html) includes:
 - Theme files [GitHub Repo](https://github.com/onegeniuslykdat/CP5637_GROUP2_STUDETBOARDWEBSITE)
 
 ## Presentation
-Link to our Production Site: [#####](#)
+Link to our Production Site: [JCUBSA Website](https://jcubstudentboardgroup2.cloudaccess.host)
 
-Link to our Presentation: [#####](#)
+Link to our Presentation: [Group 2 presentation](#)
 
 
     
