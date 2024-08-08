@@ -8,11 +8,11 @@ Team Members:-
 
 The following documentation files are aimed at helping new developers and site owners to continue the development of the website:
 
-* [Theme.md](theme.md)
-* [Deployment.md](deployment.md)
-* [Site.md](site.md)
+* [Theme.md](documents/theme.md)
+* [Deployment.md](documents/deployment.md)
+* [Site.md](documents/site.md)
 
-The file [a2.html](a2.html) includes:
+The file [a2.html](documents/a2.html) includes:
 
 * Team members' names with their LinkedIn  and Github accounts.
 * Website goals.
