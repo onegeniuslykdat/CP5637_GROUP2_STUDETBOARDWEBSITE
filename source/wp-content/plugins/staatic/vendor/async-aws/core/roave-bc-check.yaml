@@ -1,0 +1,3 @@
+parameters:
+    ignoreErrors:
+        - '#ReflectionClass "Staatic\Vendor\\PHPUnit\\Framework\\TestCase" could not be found in the located source#'

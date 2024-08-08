@@ -1,0 +1,66 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Page Templates Addon For The Events Calendar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-11 06:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.2.1"
+
+#: includes/epta-template/epta-template-1.php:44
+msgid "All Events"
+msgstr ""
+
+#: includes/epta-template/epta-template-1.php:122
+msgid "days"
+msgstr ""
+
+#: includes/epta-template/epta-template-1.php:126
+msgid "hours"
+msgstr ""
+
+#: includes/epta-template/epta-template-1.php:130
+msgid "min"
+msgstr ""
+
+#: includes/epta-template/epta-template-1.php:134
+msgid "sec"
+msgstr ""
+
+#: includes/epta-template/epta-template-1.php:223 includes/epta-template/epta-template-2.php:109
+msgid "Related Events"
+msgstr ""
+
+#: includes/epta-function.php:157
+msgid "Share This Event"
+msgstr ""
+
+#. Name of the plugin
+msgid "The Events Calendar Event Details Page Templates"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Design awesome single event page for The Events Calendar free plugin (by "
+"modern tribe) using Event Page Templates Addon."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://eventscalendaraddons.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Cool Plugins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://coolplugins.net/"
+msgstr ""

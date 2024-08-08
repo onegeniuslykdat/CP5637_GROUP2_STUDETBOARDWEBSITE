@@ -1,0 +1,128 @@
+Changelog: https://wordpress.org/plugins/template-events-calendar/#developers
+
+= Version 1.5.3 | JUL 10, 2020 =
+* Fixed: Broken links of pro plugin purchase.
+
+= Version 1.5.2 | JUL 08, 2020 =
+* Improved: Plugin name & minor text improvements.
+
+= Version 1.5.1 | FEB 14, 2020 =
+* Fixed: Category missing issue in classic editor.
+* Fixed: Deactivation form bug.
+* Updates: Minor textual changes.
+* Improved: Minor code improvements.
+
+= Version 1.5 | DEC 30, 2019 = 
+* Added: Integrated elementor widget support.
+* Added: Added visual composer element support.
+* Tweak: Minor changes.
+
+= Version 1.4.3 | DEC 20, 2019 =
+* Added: Integrate default value in Gutenberg block.
+* Added: Added esc_attr() in all attributes.
+* Improved: Minor security issues.
+* Fixed: Minor issues.
+
+= Version 1.4.2 | NOV 20, 2019 =
+* Integrated: Integrate not interested in rating div.
+* Fixed: Shortcode Block JS error.
+* Fixed: Order by(ASC/DESC) bug.
+* Fixed: Undefined variable: feat_img_url in timeline view.
+* Improved: Sanitize feedback form.
+
+= Version 1.4.1 | OCT 22, 2019 =
+* Added: New date formats.
+* Added: Default image selection setting for no-image event.
+* Added: Minor improvements in shortcode generator.
+* Improved: Minor code improvements.
+
+= Version 1.4 | AUG 26, 2019 =
+* Added: Integrated feedback form on plugin deactivation.
+* Improved: Folder structure.
+* Improved: File paths.
+* Improved: Minor code improvements.
+
+= Version 1.3.3 | JUN 10, 2019 =
+* Added: Integrated social share buttons in all styles.
+* Added: Integrated links on images in list template style 2.
+* Added: Integrated settings for No events found message in extra settings.
+* Fixed: Minor bug fixes.
+
+= Version 1.3.2 | MAR 22, 2019 =
+* Fixed: Conflict with auto optimize plugin.
+* Removed: Wrong block editor hook.
+
+= Version 1.3.1 | JAN 28, 2019 =
+* Fixed: Custom CSS not working bug.
+* Improved: Timeline layout image position.
+* Improved: Minor styles changes.
+
+= Version 1.3 | JAN 14, 2019 =
+* Added: Integrated shortcode block for Gutenberg.
+* Added: Integrated multiple date format in block.
+* Fixed: Compatibility issues with Gutenberg.
+* Improved: Optimized overall code and added checks and comments.
+* Improved: Managed code according to the template settings.
+* Improved: changed designs naming convention(style-1,style-2) etc.
+* Improved: Updated settings framework.
+* Improved: Overall styles improvements.
+* Improved: Created layout based separated CSS files.
+* Improved: Removed extra styles and classes.
+* Improved: Optimized all CSS.
+
+= Version 1.2.2 | NOV 13, 2018 =
+* Fixed: Added missing events Start date check.
+
+= Version 1.2.1 | NOV 12, 2018 =
+* Fixed: Evens list wrong order bug fixed.
+
+= Version 1.2 | NOV 01, 2018 =
+* Added: Integrated brand new modern list and classic list designs.
+* Fixed: Fixed conflict with Gravity Form.
+* Fixed: Event end date problem (Added ongoing events in future event list).
+* Fixed: Hide review box bug.
+* Improved: Added titan framework assets only on TECT settings page.
+* Improved: Minor CSS changes.
+
+= Version 1.1 | AUG 03, 2018 =
+* Fixed: Read more link issue.
+
+= Version 1.0.9 | AUG 03, 2018 =
+* Fixed: Missing events images bug.
+* Improved: Fixed compatibility issue with The Events Calendar version 4.6.21.
+
+= Version 1.0.8 | JUL 04, 2018 =
+* Fixed: Fixed conflict with the Events Calendar Category Colors plugin.
+
+= Version 1.0.7 | JUN 13, 2018 =
+* Fixed: Fixed conflict with gravity form.
+* Fixed: Fixed Conflict with siteorigin CSS.
+* Improved: minor CSS.
+
+= Version 1.0.6 | DEC 05, 2017 =
+* Fixed: Disabled color-picker problem with WordPress version 4.9 .
+* Fixed: Updated text domain of ('There are no upcoming events at this time.') text.
+* Improved: minor code improvements.
+
+= Version 1.0.5 | OCT 27, 2017 =
+* Fixed: PHP 7.17 compatibility issue.
+
+= Version 1.0.4 | OCT 01, 2017 =
+* Fixed: Query overriding problem.
+
+= Version 1.0.3 | SEP 13, 2017 =
+* Fixed: Rating popup issue.
+
+= Version 1.0.2 | JUN 17, 2017 =
+* Minor changes.
+
+= Version 1.0.1 | MAY 05, 2017 =
+* If you are already using version 1.0 Please re-activate the plugin and add new shortcodes.
+* Renamed the shortcode of plugin.
+* Renamed the plugin.
+* Changed all funcations names according new name.
+* Changed prefix and readme description according to new name.
+* Fixed: Minor CSS changes.
+
+= Version 1.0 | MAY 01, 2017 =
+* Initial plugin release.
