@@ -1,0 +1,588 @@
+.tribe-report-panel {
+	overflow: visible;
+	padding: 0;
+	position: relative;
+
+	&.welcome-panel {
+		background: none;
+		overflow: visible;
+
+		&:before {
+			content: none;
+		}
+	}
+
+	.about-description {
+		width: 66%;
+	}
+
+	.about-description a {
+		color: inherit;
+	}
+
+	.welcome-panel-content {
+		border: 1px solid #c3c4c7;
+		min-height: initial;
+	}
+
+	.welcome-panel-column-container {
+		display: grid;
+		gap: unset;
+		grid-template-columns: 25% 50% 25%;
+		grid-template-areas:
+			"first middle last"
+			"extra extra last";
+		margin-top: 0px;
+		padding: 0px;
+		position: initial;
+		*zoom: 1;
+
+		@media screen and (max-width: 768px) {
+			grid-template-columns: 1fr;
+			grid-template-areas:
+				"first"
+				"middle"
+				"last"
+				"extra";
+		}
+	}
+
+	.welcome-panel-column {
+		display: inline-block;
+		max-width: none;
+		padding: 20px 10px;
+		width: auto;
+
+		@media screen and (max-width: 768px) {
+			padding: 20px 0;
+		}
+
+		@media screen and (min-width: 1024px) {
+			padding: 20px var(--tec-spacer-5);
+		}
+
+		h3 {
+			@media screen and (max-width: 768px) {
+				display: inline-block;
+				padding-left: 15px;
+			}
+		}
+
+		ul {
+			@media screen and (max-width: 768px) {
+				padding: 0 15px;
+			}
+		}
+
+		li {
+			line-height: 1.4em;
+			margin-bottom: 6px;
+			padding: 0;
+
+			@media screen and (max-width: 870px) {
+				display: list-item;
+			}
+		}
+
+		.tribe-event-meta-note {
+			div {
+				padding: 0 0 0 15px;
+
+				@media screen and (max-width: 768px) {
+					padding: 0 15px;
+				}
+			}
+		}
+	}
+
+	.welcome-panel-first {
+		grid-area: first;
+	}
+
+	.welcome-panel-extra {
+		grid-area: extra;
+	}
+
+	.welcome-panel-middle {
+		grid-area: middle;
+
+		> div {
+			@media screen and (max-width: 768px) {
+				padding: 0 15px;
+			}
+		}
+	}
+
+	.welcome-panel-last {
+		display: inline-block;
+		grid-area: last;
+		width: auto;
+		@media screen and (max-width: 768px) {
+			width: 100%;
+		}
+	}
+}
+
+.tribe-report-page {
+	.welcome-panel-content h3 {
+		margin-top: 0;
+	}
+
+	h4.tickets-summary {
+		margin: 0;
+	}
+
+	.tickets_checkin {
+		min-width: 87px;
+		text-align: center;
+		white-space: nowrap;
+	}
+
+	.tickets_uncheckin {
+		display: none;
+	}
+
+	.tickets_checked {
+		td {
+			opacity: 0.6;
+		}
+
+		td.check_in {
+			opacity: 1;
+		}
+
+		.tickets_checkin {
+			display: none;
+		}
+
+		.tickets_uncheckin {
+			display: block;
+			opacity: 1;
+		}
+
+		.inline .tickets_uncheckin {
+			display: inline;
+		}
+	}
+
+	.cancelled {
+		font-style: italic;
+	}
+
+	.cancelled {
+		.check_in {
+			font-style: normal;
+		}
+	}
+
+	.column-attendee_id,
+	.column-order_id {
+		width: 70px;
+	}
+
+	td[class*='column'] {
+		word-break: break-word;
+	}
+
+	td.column-status {
+		font-size: 13px;
+		width: 80px;
+	}
+
+	.column-security {
+		width: 130px;
+	}
+
+	.column-check_in {
+		min-width: 90px;
+		width: auto;
+	}
+
+	.attendees-actions {
+		input.print,
+		a.email,
+		a.export {
+			float: left;
+			margin: 1px 8px 0 0;
+		}
+	}
+}
+
+.tribe-attendees-email {
+	.tribe-attendees-email-message {
+		float: left;
+		margin: 0;
+	}
+
+	.button-primary {
+		margin-top: 3px;
+	}
+}
+
+.tribe-attendees-email-message {
+	ul {
+		font-size: 13px;
+		line-height: 1.5;
+		margin: 0.5em 0;
+		padding: 2px;
+
+		li:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	@media screen and (max-width: 782px) {
+		.notice-dismiss {
+			padding: 9px;
+		}
+	}
+}
+
+#attendees_email_wrapper {
+	margin-top: 10px;
+	overflow: hidden;
+	padding: 20px;
+
+	label {
+		display: block;
+
+		span {
+			display: inline-block;
+			width: 105px;
+		}
+	}
+
+	select,
+	input[type='text'] {
+		width: 285px;
+	}
+
+	.attendees_or {
+		display: block;
+		font-size: 20px;
+		margin: 20px 0;
+		text-align: center;
+	}
+}
+
+.wp-list-table {
+	font-size: 14px;
+
+	td.check_in {
+		.delete {
+			text-align: center;
+		}
+	}
+}
+
+.welcome-panel {
+	.welcome-panel-content {
+		margin: 0;
+		*zoom: 1;
+
+		@media screen and (max-width: 768px) {
+			margin-left: 0;
+			max-width: 100%;
+		}
+	}
+}
+
+/*
+ * Preserves utility of modal windows, especially the "Email Attendees" modal, in views above the
+ * mobile view but under the upper limits of "tablet" views. The weird class names and !important declarations
+ * are unfortunately needed to override Thickbox's inline styles.
+ */
+@media screen and (max-width: 782px) {
+	#TB_window {
+		height: auto !important;
+	}
+
+	#plugin-information-title {
+		height: auto !important;
+		overflow: hidden !important;
+	}
+
+	#plugin-information-footer {
+		position: relative !important;
+	}
+}
+
+/*
+ * Preserves utility of modal windows in mobile view. !important declarations
+ * are unfortunately needed to override Thickbox's inline styles.
+ */
+@media screen and (max-width: 440px) {
+	#TB_window {
+		left: 0 !important;
+		margin-left: 0 !important;
+		width: 100% !important;
+	}
+
+	#TB_iframeContent {
+		width: 100% !important;
+	}
+}
+
+table.orders {
+	tr {
+		&.refunded,
+		&.denied,
+		&.pending {
+			font-style: italic;
+		}
+	}
+}
+
+.tec-admin__upsell-tec-tickets-manual-attendees {
+	.tec-admin__upsell-content {
+		padding: 0px;
+	}
+	.tec-admin__upsell-text {
+		color: #1d2327;
+	}
+}
+
+.tec-tc-report-page {
+	p.search-box {
+		display: flex;
+	}
+	select, input {
+		margin: 0 5px;
+	}
+
+	@media screen and (max-width: 768px) {
+		p.search-box {
+			flex-direction: column;
+		}
+		select, input {
+			margin: 5px 0;
+		}
+	}
+}
+
+.tec-tickets__admin-orders-report-container {
+	padding: 20px;
+}
+
+.tec-tickets__admin-orders-report-type-heading {
+	align-items: center;
+	display: flex;
+	margin-bottom: 8px;
+}
+
+.tec-tickets__admin-orders-report-type-heading-label {
+	font-size: 14px;
+	font-weight: 700;
+	margin-right: 8px;
+}
+
+.tec-tickets__admin-orders-report-type-heading-border {
+	border-bottom: 1px solid #DCDCDE;
+	flex: 1;
+	height: 1px;
+}
+
+.tec-tickets__admin-orders-report-type-heading-total {
+	margin-left: 8px;
+}
+
+.tec-tickets__admin-orders-report-type-heading-total-label {
+	font-size: 13px;
+}
+
+.tec-tickets__admin-orders-report-type-heading-total-amount {
+	font-size: 12px;
+}
+
+.tec-tickets__admin-orders-report-type-list {
+	margin: 8px 0;
+	padding: 0 15px;
+
+	@media (--viewport-medium) {
+		padding: 0;
+	}
+}
+
+.tec-tickets__admin-orders-report-type-complete {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 8px;
+}
+
+.tec-tickets__admin-orders-report-type-complete-label {
+	font-size: 13px;
+}
+
+.tec-tickets__admin-orders-report-type-complete-amount {
+	font-size: 12px;
+}
+
+.tec-tickets__admin-orders-report-type-cancelled {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 12px;
+}
+
+.tec-tickets__admin-orders-report-type-cancelled-label {
+	font-size: 13px;
+}
+
+.tec-tickets__admin-orders-report-type-cancelled-amount {
+	font-size: 12px;
+}
+
+.tec-tickets__admin-orders-report-totals-row {
+	border-top: 1px solid #ccc;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 15px;
+	padding-top: 12px;
+
+	@media (--viewport-medium) {
+		margin: 0;
+	}
+}
+
+.tec-tickets__admin-orders-report-totals-title {
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.tec-tickets__admin-orders-report-totals-amount {
+	font-size: 12px;
+}
+
+h3.tec-tickets__admin-orders-report-overview-title {
+	margin-bottom: 10px;
+}
+
+.tec-tickets__admin-orders-report-overview-ticket-type {
+	align-items: center;
+	display: flex;
+	padding: 0 2px;
+
+	@media (--viewport-medium) {
+		padding: 0;
+	}
+}
+
+.tec-tickets__admin-orders-report-overview-ticket-type-label {
+	color: #000000;
+	font-size: var(--tec-font-size-2);
+	font-weight: var(--tec-font-weight-bold);
+	padding-right: var(--tec-spacer-1);
+}
+
+.tec-tickets__admin-orders-report-overview-ticket-type-icon {
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 20px;
+	margin-right: var(--tec-spacer-0);
+	width: 20px;
+}
+
+.tec-tickets__admin-orders-report-overview-ticket-type-icon--default {
+	background-image: url( '../icons/icon-ticket-left.svg' );
+}
+
+.tec-tickets__admin-orders-report-overview-ticket-type-icon--rsvp {
+	background-image: url( '../icons/icon-rsvp-left.svg' );
+}
+
+.tec-tickets__admin-orders-report-overview-ticket-type-icon--series_pass {
+	background-image: url( '../icons/icon-pass-left.svg' );
+}
+
+.tec-tickets__admin-orders-report-overview--border {
+	border-bottom: 1px solid #DCDCDE;
+	flex: 1;
+	height: 1px;
+}
+
+ul.tec-tickets__admin-orders-report-overview-ticket-type-list {
+	margin: 0;
+	padding: var(--tec-spacer-0) var(--tec-spacer-2) var(--tec-spacer-3) var(--tec-spacer-5) !important;
+}
+
+.tec-tickets__admin-orders-report-overview-ticket-type-list-item {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 0;
+}
+
+.tec-tickets__admin-orders-report-overview-ticket-type-list-item-ticket-name,
+.tec-tickets__admin-orders-report-overview-ticket-type-list-item-ticket-price {
+	font-size: var(--tec-font-size-2);
+}
+
+.tec-tickets__admin-orders-report-overview-ticket-type-list-item-ticket-name {
+	color: #000000;
+	width: 50%;
+}
+
+.tec-tickets__admin-orders-report-overview-ticket-type-list-item-ticket-id {
+	color: #646970;
+}
+
+.tec-tickets__admin-orders-report-overview-ticket-type-list-item-stat {
+	font-size: var(--tec-font-size-1);
+}
+
+.tec-tickets__admin-orders-report-overview-ticket-totals {
+	border-top: 1px solid #DCDCDE;
+	display: flex;
+	justify-content: space-between;
+	padding: var(--tec-spacer-1) 0 0 var(--tec-spacer-5) !important;
+	margin: var(--tec-spacer-0) var(--tec-spacer-3) 0;
+
+	@media (--viewport-medium) {
+		margin: var(--tec-spacer-0) 0 0;
+	}
+}
+
+.tec-tickets__admin-orders-report-overview-ticket-totals-title {
+	color: #1D2327;
+	font-size: var(--tec-font-size-2);
+	font-weight: var(--tec-font-weight-bold);
+	margin-right: var(--tec-spacer-0);
+}
+
+.tec-tickets__admin-orders-report-overview-ticket-totals-stat {
+	font-size: var(--tec-font-size-1);
+	padding-right: var(--tec-spacer-2);
+}
+
+.tec-tickets__admin-orders-report__sales-overview__title {
+	margin-bottom: var(--tec-spacer-1);
+}
+
+.tec-tickets__admin-orders-report__sales-overview__by-status {
+	margin-bottom: var(--tec-spacer-1);
+}
+
+.tec-tickets__admin-orders-report__sales-overview__list__item {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: var(--tec-spacer-1);
+	font-size: var(--tec-font-size-2);
+}
+
+.tec-tickets__admin-orders-report__sales-overview__total {
+	margin-top: var(--tec-spacer-1);
+	.tec-tickets__admin-orders-report__sales-overview__list__item-label {
+		font-weight: var(--tec-font-weight-bold);
+		font-size: var(--tec-font-size-2);
+		line-height: var(--tec-line-height-2);
+	}
+}
+
+.tec-tickets__admin-orders-report__sales-overview__data {
+	padding: 0 var(--tec-spacer-4);
+
+	@media (--viewport-medium) {
+		padding: var(--tec-spacer-1) 0;
+	}
+}

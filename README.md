@@ -27,10 +27,9 @@ The file [a2.html](documents/a2.html) includes:
 
 - Theme files [GitHub Repo](https://github.com/onegeniuslykdat/CP5637_GROUP2_STUDETBOARDWEBSITE)
 
-## Presentation
+## Live site
 Link to our Production Site: [JCUBSA Website](https://jcubstudentboardgroup2.cloudaccess.host)
 
-Link to our Presentation: [Group 2 presentation](#)
 
 
     
