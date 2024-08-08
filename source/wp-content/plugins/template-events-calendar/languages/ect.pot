@@ -1,0 +1,244 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Events Shortcodes For The Events Calendar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-05 09:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Domain: ect"
+
+#: includes/events-shortcode.php:322 includes/events-shortcode.php:325
+#: includes/events-shortcode.php:342
+#, php-format
+msgid "%1$s - %2$s"
+msgstr ""
+
+#: includes/events-shortcode.php:349 includes/events-shortcode.php:351
+#, php-format
+msgid "%s"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"<a href=\"http://wordpress.org/plugins/the-events-calendar/\">📅 The Events "
+"Calendar Addon</a> - Events Shortcodes Addon provides events list & timeline "
+"templates and shortcode generator for The Events Calendar (by Modern Tribe) "
+"plugin."
+msgstr ""
+
+#: events-calendar-templates.php:136
+msgid ""
+"<strong>Important Update</strong>:- <strong>Events Shortcodes & "
+"Templates</strong> plugin has integrated new settings panel. Please save "
+"your settings and check events views."
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:202
+msgid "All (Upcoming + Past)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:104
+msgid "All Categories"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:214
+msgid "ASC"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:129
+msgid "Categories"
+msgstr ""
+
+#. Author of the plugin
+msgid "Cool Plugins"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:185
+msgid "d.F (01. January)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:184
+msgid "d.FY (01. January 2019)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:188
+msgid "d.Ml (01. Jan Monday)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:169
+msgid "Date Format"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:174
+msgid "Default (01 January 2019)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:143
+msgid "Default List Layout"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:215
+msgid "DESC"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:179
+msgid "dF (01 January)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:189
+msgid "dFT (01 January 8:00am-5:00pm)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:177
+msgid "dM (01 Jan))"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:178
+msgid "dMl (01 Jan Monday)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:234
+msgid "Enable Social Share Buttons?"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:264
+msgid "End Date | format(YY-MM-DD)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:210
+msgid "Events Order"
+msgstr ""
+
+#. Name of the plugin
+msgid "Events Shortcodes For The Events Calendar"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:176
+msgid "Fd,Y (January 01, 2019)"
+msgstr ""
+
+#: admin/ect-codestar-settings.php:204 includes/events-shortcode.php:158
+msgid "Find out more"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:182
+msgid "Full (01 January 2019 8:00am-5:00pm)"
+msgstr ""
+
+#: events-calendar-templates.php:146
+msgid ""
+"Hi! We checked that you are using <strong>Elementor Page Builder</strong>.\n"
+"\t\t\t\t\t<br/>Please try latest <a target=\"_blank\" href=\"https:"
+"//wordpress.org/plugins/events-widgets-for-elementor-and-the-events-"
+"calendar/\"><strong>The Events Calendar Widgets For Elementor</strong></a> "
+"plugin developed by <a href=\"https://coolplugins.net\">Cool Plugins</a>\n"
+"\t\t\t\t\t   & <br/> represent The Events Calendar events in the Elementor "
+"page builder pages."
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:222
+msgid "Hide Venue"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://coolplugins.net/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://eventscalendaraddons.com/"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:183
+msgid "jMl (1 Jan Monday)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:186
+msgid "ldF (Monday 01 January)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:246
+msgid "Limit the events"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:180
+msgid "Md (Jan 01)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:175
+msgid "Md,Y (Jan 01, 2019)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:181
+msgid "Md,YT (Jan 01, 2019 8:00am-5:00pm)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:187
+msgid "Mdl (Jan 01 Monday)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:145
+msgid "Minimal List"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:226
+#: admin/elementor/ect-elementor-shortcode.php:238
+msgid "NO"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:201
+msgid "Past Events"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:139
+msgid "Select Template"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:196
+msgid "Show Events"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:255
+msgid "Start Date | format(YY-MM-DD)"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:158
+msgid "Style 1"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:159
+msgid "Style 2"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:160
+msgid "Style 3"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:154
+msgid "Template Style"
+msgstr ""
+
+#: includes/events-shortcode.php:267
+msgid "There are no upcoming events at this time."
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:144
+msgid "Timeline Layout"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:200
+msgid "Upcoming Events"
+msgstr ""
+
+#: admin/elementor/ect-elementor-shortcode.php:227
+#: admin/elementor/ect-elementor-shortcode.php:239
+msgid "Yes"
+msgstr ""

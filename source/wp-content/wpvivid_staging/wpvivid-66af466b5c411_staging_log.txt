@@ -1,0 +1,342 @@
+Log created: 2024-08-04 09:14:19
+Type: staging
+[2024-08-04 09:14:19][notice]Start creating staging site.
+[2024-08-04 09:14:19][notice]server info fcgi:On max execution time: 900 wp version:6.6.1 php version:8.1.29 db version:5.7.44 php ini:safe_mode: memory_limit:256M memory_get_usage:8.86 MB memory_get_peak_usage:8.90 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2024-08-04 09:14:19][notice]Start processing core.
+[2024-08-04 09:14:19][notice]Prepare to copy core files.
+[2024-08-04 09:14:19][notice]Retrieve the files required to copy.
+[2024-08-04 09:14:19][notice]Create a cache file.
+[2024-08-04 09:14:19][notice]Copying files starts from: 0
+[2024-08-04 09:14:19][notice]Copying files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01
+[2024-08-04 09:14:22][notice]The count of copied files: 500
+[2024-08-04 09:14:22][notice]The next copying files starts from:500
+[2024-08-04 09:14:27][notice]The count of copied files: 500
+[2024-08-04 09:14:27][notice]The next copying files starts from:1000
+[2024-08-04 09:14:28][notice]The count of copied files: 500
+[2024-08-04 09:14:28][notice]The next copying files starts from:1500
+[2024-08-04 09:14:30][notice]The count of copied files: 500
+[2024-08-04 09:14:30][notice]The next copying files starts from:2000
+[2024-08-04 09:14:31][notice]The count of copied files: 500
+[2024-08-04 09:14:31][notice]The next copying files starts from:2500
+[2024-08-04 09:14:34][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-includes/css/dist/patterns/style-rtl.min.css to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-includes/css/dist/patterns/style-rtl.min.css.
+[2024-08-04 09:14:34][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-includes/css/dist/patterns/style.min.css to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-includes/css/dist/patterns/style.min.css.
+[2024-08-04 09:14:34][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-includes/css/dist/patterns/style.css to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-includes/css/dist/patterns/style.css.
+[2024-08-04 09:14:34][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-includes/css/dist/patterns/style-rtl.css to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-includes/css/dist/patterns/style-rtl.css.
+[2024-08-04 09:14:34][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-includes/css/dist/components/style-rtl.min.css to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-includes/css/dist/components/style-rtl.min.css.
+[2024-08-04 09:14:34][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-includes/css/dist/components/style.min.css to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-includes/css/dist/components/style.min.css.
+[2024-08-04 09:14:34][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-includes/css/dist/components/style.css to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-includes/css/dist/components/style.css.
+[2024-08-04 09:14:34][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-includes/css/dist/components/style-rtl.css to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-includes/css/dist/components/style-rtl.css.
+[2024-08-04 09:14:34][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-includes/css/dist/widgets/style-rtl.min.css to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-includes/css/dist/widgets/style-rtl.min.css.
+[2024-08-04 09:14:34][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/w[2024-08-04 09:14:39][notice]Start processing wp-content.
+[2024-08-04 09:14:39][notice]Prepare to copy wp-content files.
+[2024-08-04 09:14:39][notice]Retrieve the files required to copy.
+[2024-08-04 09:14:39][notice]Create a cache file.
+[2024-08-04 09:14:39][notice]Copying files starts from: 0
+[2024-08-04 09:14:39][notice]Copying files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content
+[2024-08-04 09:14:39][notice]Copying wp-content files is completed.
+[2024-08-04 09:14:42][notice]Start processing plugins.
+[2024-08-04 09:14:42][notice]Prepare to copy plugins files.
+[2024-08-04 09:14:42][notice]Retrieve the files required to copy.
+[2024-08-04 09:14:42][notice]Create a cache file.
+[2024-08-04 09:14:42][notice]Copying files starts from: 0
+[2024-08-04 09:14:42][notice]Copying files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/plugins to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/plugins
+[2024-08-04 09:14:42][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/plugins/all-in-one-wp-migration/LICENSE to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/plugins/all-in-one-wp-migration/LICENSE.
+[2024-08-04 09:14:42][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/plugins/all-in-one-wp-migration/functions.php to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/plugins/all-in-one-wp-migration/functions.php.
+[2024-08-04 09:14:42][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/plugins/all-in-one-wp-migration/all-in-one-wp-migration.php to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/plugins/all-in-one-wp-migration/all-in-one-wp-migration.php.
+[2024-08-04 09:14:42][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/plugins/all-in-one-wp-migration/loader.php to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/plugins/all-in-one-wp-migration/loader.php.
+[2024-08-04 09:14:42][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/plugins/all-in-one-wp-migration/readme.txt to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/plugins/all-in-one-wp-migration/readme.txt.
+[2024-08-04 09:14:42][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/plugins/all-in-one-wp-migration/changelog.txt to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/plugins/all-in-one-wp-migration/changelog.txt.
+[2024-08-04 09:14:42][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/plugins/all-in-one-wp-migration/uninstall.php to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/plugins/all-in-one-wp-migration/uninstall.php.
+[2024-08-04 09:14:42][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/plugins/all-in-one-wp-migration/deprecated.php to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/plugins/all-in-one-wp-migration/deprecated.php.
+[2024-08-04 09:14:42][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-notification.php to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-notification.php.
+[2024-08-04 09:14:42][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-feedback.php to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/[2024-08-04 09:14:45][notice]Start processing theme.
+[2024-08-04 09:14:45][notice]Prepare to copy theme files.
+[2024-08-04 09:14:45][notice]Retrieve the files required to copy.
+[2024-08-04 09:14:45][notice]Create a cache file.
+[2024-08-04 09:14:45][notice]Copying files starts from: 0
+[2024-08-04 09:14:45][notice]Copying files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/themes to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/themes
+[2024-08-04 09:14:45][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2 to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2.
+[2024-08-04 09:14:45][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/LICENSE.md to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/LICENSE.md.
+[2024-08-04 09:14:45][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.otf.woff2 to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.otf.woff2.
+[2024-08-04 09:14:45][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.otf.woff2 to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.otf.woff2.
+[2024-08-04 09:14:45][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2 to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2.
+[2024-08-04 09:14:45][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/themes/twentytwentytwo/assets/fonts/inter/Inter.ttf to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/themes/twentytwentytwo/assets/fonts/inter/Inter.ttf.
+[2024-08-04 09:14:45][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/themes/twentytwentytwo/assets/fonts/inter/LICENSE.txt to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/themes/twentytwentytwo/assets/fonts/inter/LICENSE.txt.
+[2024-08-04 09:14:45][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/themes/twentytwentytwo/assets/fonts/SourceSerif4Variable-Italic.ttf.woff2 to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/themes/twentytwentytwo/assets/fonts/SourceSerif4Variable-Italic.ttf.woff2.
+[2024-08-04 09:14:45][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/themes/twentytwentytwo/assets/fonts/dm-sans/DMSans-BoldItalic.ttf to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/themes/twentytwentytwo/assets/fonts/dm-sans/DMSans-BoldItalic.ttf.
+[2024-08-04 09:14:45][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/themes/twentytwentytwo/assets/fonts/dm-sans/LICENSE.txt to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/themes/twentytwentytwo/assets/fonts/dm-sans/LICENSE.txt.
+[2024-08-04 09:14:45][warning]Failed to copy files from /mnt/d[2024-08-04 09:14:47][notice]Start processing upload.
+[2024-08-04 09:14:47][notice]Prepare to copy upload files.
+[2024-08-04 09:14:47][notice]Retrieve the files required to copy.
+[2024-08-04 09:14:47][notice]Create a cache file.
+[2024-08-04 09:14:48][notice]Copying files starts from: 0
+[2024-08-04 09:14:48][notice]Copying files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/uploads to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/uploads
+[2024-08-04 09:14:48][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480.zip to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480.zip.
+[2024-08-04 09:14:48][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480/wp-content/uploads/2024/07/JCUB-Student-Board-Logos-150x150.png to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480/wp-content/uploads/2024/07/JCUB-Student-Board-Logos-150x150.png.
+[2024-08-04 09:14:48][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480/wp-content/uploads/2024/07/cropped-JCUB-Student-Board-Logos-2-32x32.png to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480/wp-content/uploads/2024/07/cropped-JCUB-Student-Board-Logos-2-32x32.png.
+[2024-08-04 09:14:48][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480/wp-content/uploads/2024/07/JCUB-Student-Board-Logos-300x300.png to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480/wp-content/uploads/2024/07/JCUB-Student-Board-Logos-300x300.png.
+[2024-08-04 09:14:48][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480/wp-content/uploads/2024/07/cropped-JCUB-Student-Board-Logos-2-192x192.png to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480/wp-content/uploads/2024/07/cropped-JCUB-Student-Board-Logos-2-192x192.png.
+[2024-08-04 09:14:48][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480/wp-content/uploads/2024/07/cropped-JCUB-Student-Board-Logos-2-180x180.png to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480/wp-content/uploads/2024/07/cropped-JCUB-Student-Board-Logos-2-180x180.png.
+[2024-08-04 09:14:48][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480/wp-content/uploads/2024/07/cropped-JCUB-Student-Board-Logos-2-270x270.png to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480/wp-content/uploads/2024/07/cropped-JCUB-Student-Board-Logos-2-270x270.png.
+[2024-08-04 09:14:48][warning]Failed to copy files from /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480/wp-content/uploads/2024/07/JCUB-Student-Board-Logos.png to /mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01/wp-content/uploads/simply-static/temp-files/simply-static-1-1722555480/wp-content/uploads/2024/07/JCUB-Student-Board-Logos.png.
+[2024-[2024-08-04 09:14:50][notice]Start processing db.
+[2024-08-04 09:14:50][notice]Prepare to copy database.
+[2024-08-04 09:14:50][notice]Retrieve the tables required to copy.
+[2024-08-04 09:14:50][notice]Copying rbw_actionscheduler_actions is completed.
+[2024-08-04 09:14:54][notice]Start processing db.
+[2024-08-04 09:14:54][notice]Prepare to copy database.
+[2024-08-04 09:14:54][notice]Copying rbw_actionscheduler_claims is completed.
+[2024-08-04 09:14:58][notice]Start processing db.
+[2024-08-04 09:14:58][notice]Prepare to copy database.
+[2024-08-04 09:14:58][notice]Copying rbw_actionscheduler_groups is completed.
+[2024-08-04 09:15:01][notice]Start processing db.
+[2024-08-04 09:15:01][notice]Prepare to copy database.
+[2024-08-04 09:15:01][notice]Copying rbw_actionscheduler_logs is completed.
+[2024-08-04 09:15:05][notice]Start processing db.
+[2024-08-04 09:15:05][notice]Prepare to copy database.
+[2024-08-04 09:15:05][notice]Copying rbw_commentmeta is completed.
+[2024-08-04 09:15:08][notice]Start processing db.
+[2024-08-04 09:15:08][notice]Prepare to copy database.
+[2024-08-04 09:15:08][notice]Copying rbw_comments is completed.
+[2024-08-04 09:15:11][notice]Start processing db.
+[2024-08-04 09:15:11][notice]Prepare to copy database.
+[2024-08-04 09:15:11][notice]Copying rbw_links is completed.
+[2024-08-04 09:15:14][notice]Start processing db.
+[2024-08-04 09:15:14][notice]Prepare to copy database.
+[2024-08-04 09:15:14][notice]Copying rbw_options is completed.
+[2024-08-04 09:15:18][notice]Start processing db.
+[2024-08-04 09:15:18][notice]Prepare to copy database.
+[2024-08-04 09:15:18][notice]Copying rbw_postmeta is completed.
+[2024-08-04 09:15:21][notice]Start processing db.
+[2024-08-04 09:15:21][notice]Prepare to copy database.
+[2024-08-04 09:15:21][notice]Copying rbw_posts is completed.
+[2024-08-04 09:15:24][notice]Start processing db.
+[2024-08-04 09:15:24][notice]Prepare to copy database.
+[2024-08-04 09:15:24][notice]Copying rbw_simply_static_pages is completed.
+[2024-08-04 09:15:27][notice]Start processing db.
+[2024-08-04 09:15:27][notice]Prepare to copy database.
+[2024-08-04 09:15:27][notice]Copying rbw_staatic_builds is completed.
+[2024-08-04 09:15:30][notice]Start processing db.
+[2024-08-04 09:15:30][notice]Prepare to copy database.
+[2024-08-04 09:15:30][notice]Copying rbw_staatic_crawl_queue is completed.
+[2024-08-04 09:15:33][notice]Start processing db.
+[2024-08-04 09:15:33][notice]Prepare to copy database.
+[2024-08-04 09:15:33][notice]Copying rbw_staatic_deployments is completed.
+[2024-08-04 09:15:36][notice]Start processing db.
+[2024-08-04 09:15:36][notice]Prepare to copy database.
+[2024-08-04 09:15:36][notice]Copying rbw_staatic_known_urls is completed.
+[2024-08-04 09:15:39][notice]Start processing db.
+[2024-08-04 09:15:39][notice]Prepare to copy database.
+[2024-08-04 09:15:39][notice]Copying rbw_staatic_log_entries is completed.
+[2024-08-04 09:15:42][notice]Start processing db.
+[2024-08-04 09:15:42][notice]Prepare to copy database.
+[2024-08-04 09:15:42][notice]Copying rbw_staatic_publications is completed.
+[2024-08-04 09:15:45][notice]Start processing db.
+[2024-08-04 09:15:45][notice]Prepare to copy database.
+[2024-08-04 09:15:45][notice]Copying rbw_staatic_results is completed.
+[2024-08-04 09:15:48][notice]Start processing db.
+[2024-08-04 09:15:48][notice]Prepare to copy database.
+[2024-08-04 09:15:48][notice]Copying rbw_staatic_results_deployment is completed.
+[2024-08-04 09:15:52][notice]Start processing db.
+[2024-08-04 09:15:52][notice]Prepare to copy database.
+[2024-08-04 09:15:52][notice]Copying rbw_tec_events is completed.
+[2024-08-04 09:15:56][notice]Start processing db.
+[2024-08-04 09:15:56][notice]Prepare to copy database.
+[2024-08-04 09:15:56][notice]Copying rbw_tec_occurrences is completed.
+[2024-08-04 09:15:59][notice]Start processing db.
+[2024-08-04 09:15:59][notice]Prepare to copy database.
+[2024-08-04 09:15:59][notice]Copying rbw_term_relationships is completed.
+[2024-08-04 09:16:03][notice]Start processing db.
+[2024-08-04 09:16:03][notice]Prepare to copy database.
+[2024-08-04 09:16:03][notice]Copying rbw_term_taxonomy is completed.
+[2024-08-04 09:16:06][notice]Start processing db.
+[2024-08-04 09:16:06][notice]Prepare to copy database.
+[2024-08-04 09:16:06][notice]Copying rbw_termmeta is completed.
+[2024-08-04 09:16:09][notice]Start processing db.
+[2024-08-04 09:16:09][notice]Prepare to copy database.
+[2024-08-04 09:16:10][notice]Copying rbw_terms is completed.
+[2024-08-04 09:16:13][notice]Start processing db.
+[2024-08-04 09:16:13][notice]Prepare to copy database.
+[2024-08-04 09:16:13][notice]Copying rbw_usermeta is completed.
+[2024-08-04 09:16:15][notice]Start processing db.
+[2024-08-04 09:16:15][notice]Prepare to copy database.
+[2024-08-04 09:16:15][notice]Copying rbw_users is completed.
+[2024-08-04 09:16:18][notice]Start processing db.
+[2024-08-04 09:16:18][notice]Prepare to copy database.
+[2024-08-04 09:16:18][notice]Copying rbw_wpfm_backup is completed.
+[2024-08-04 09:16:21][notice]Start processing db.
+[2024-08-04 09:16:21][notice]Prepare to copy database.
+[2024-08-04 09:16:21][notice]Copying rbw_wpforms_logs is completed.
+[2024-08-04 09:16:24][notice]Start processing db.
+[2024-08-04 09:16:24][notice]Prepare to copy database.
+[2024-08-04 09:16:25][notice]Copying rbw_wpforms_payment_meta is completed.
+[2024-08-04 09:16:27][notice]Start processing db.
+[2024-08-04 09:16:27][notice]Prepare to copy database.
+[2024-08-04 09:16:27][notice]Copying rbw_wpforms_payments is completed.
+[2024-08-04 09:16:30][notice]Start processing db.
+[2024-08-04 09:16:30][notice]Prepare to copy database.
+[2024-08-04 09:16:30][notice]Copying rbw_wpforms_tasks_meta is completed.
+[2024-08-04 09:16:30][notice]Database copying is completed.
+[2024-08-04 09:16:34][notice]Start processing db_replace.
+[2024-08-04 09:16:34][notice]Prepare to replace database.
+[2024-08-04 09:16:34][notice]Retrieve the tables required to replace.
+[2024-08-04 09:16:35][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:16:35][notice]Replacing database tables is completed.
+[2024-08-04 09:16:35][notice]Replacing wpvividstg01_actionscheduler_actions is completed.
+[2024-08-04 09:16:39][notice]Start processing db_replace.
+[2024-08-04 09:16:39][notice]Prepare to replace database.
+[2024-08-04 09:16:39][notice]Replacing database tables is completed.
+[2024-08-04 09:16:39][notice]Replacing wpvividstg01_actionscheduler_claims is completed.
+[2024-08-04 09:16:42][notice]Start processing db_replace.
+[2024-08-04 09:16:42][notice]Prepare to replace database.
+[2024-08-04 09:16:42][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:16:42][notice]Replacing database tables is completed.
+[2024-08-04 09:16:42][notice]Replacing wpvividstg01_actionscheduler_groups is completed.
+[2024-08-04 09:16:45][notice]Start processing db_replace.
+[2024-08-04 09:16:45][notice]Prepare to replace database.
+[2024-08-04 09:16:45][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:16:45][notice]Replacing database tables is completed.
+[2024-08-04 09:16:45][notice]Replacing wpvividstg01_actionscheduler_logs is completed.
+[2024-08-04 09:16:48][notice]Start processing db_replace.
+[2024-08-04 09:16:48][notice]Prepare to replace database.
+[2024-08-04 09:16:48][notice]Replacing database tables is completed.
+[2024-08-04 09:16:48][notice]Replacing wpvividstg01_commentmeta is completed.
+[2024-08-04 09:16:53][notice]Start processing db_replace.
+[2024-08-04 09:16:53][notice]Prepare to replace database.
+[2024-08-04 09:16:53][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:16:53][notice]Replacing database tables is completed.
+[2024-08-04 09:16:53][notice]Replacing wpvividstg01_comments is completed.
+[2024-08-04 09:16:55][notice]Start processing db_replace.
+[2024-08-04 09:16:55][notice]Prepare to replace database.
+[2024-08-04 09:16:55][notice]Replacing database tables is completed.
+[2024-08-04 09:16:55][notice]Replacing wpvividstg01_links is completed.
+[2024-08-04 09:16:59][notice]Start processing db_replace.
+[2024-08-04 09:16:59][notice]Prepare to replace database.
+[2024-08-04 09:16:59][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:16:59][notice]Replacing database tables is completed.
+[2024-08-04 09:16:59][notice]UPDATE wpvividstg01_options SET option_name="wpvividstg01_user_roles" WHERE option_name="rbw_user_roles";
+[2024-08-04 09:16:59][notice]The length of UPDATE statement: 105
+[2024-08-04 09:16:59][notice]Replacing wpvividstg01_options is completed.
+[2024-08-04 09:17:02][notice]Start processing db_replace.
+[2024-08-04 09:17:02][notice]Prepare to replace database.
+[2024-08-04 09:17:02][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:17:02][notice]Replacing database tables is completed.
+[2024-08-04 09:17:02][notice]Replacing wpvividstg01_postmeta is completed.
+[2024-08-04 09:17:06][notice]Start processing db_replace.
+[2024-08-04 09:17:06][notice]Prepare to replace database.
+[2024-08-04 09:17:06][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:17:06][notice]Replacing database tables is completed.
+[2024-08-04 09:17:06][notice]Replacing wpvividstg01_posts is completed.
+[2024-08-04 09:17:08][notice]Start processing db_replace.
+[2024-08-04 09:17:08][notice]Prepare to replace database.
+[2024-08-04 09:17:08][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:17:08][notice]Replacing database tables is completed.
+[2024-08-04 09:17:08][notice]Replacing wpvividstg01_simply_static_pages is completed.
+[2024-08-04 09:17:12][notice]Start processing db_replace.
+[2024-08-04 09:17:12][notice]Prepare to replace database.
+[2024-08-04 09:17:12][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:17:12][notice]Replacing database tables is completed.
+[2024-08-04 09:17:12][notice]Replacing wpvividstg01_staatic_builds is completed.
+[2024-08-04 09:17:15][notice]Start processing db_replace.
+[2024-08-04 09:17:15][notice]Prepare to replace database.
+[2024-08-04 09:17:15][notice]Replacing database tables is completed.
+[2024-08-04 09:17:15][notice]Replacing wpvividstg01_staatic_crawl_queue is completed.
+[2024-08-04 09:17:19][notice]Start processing db_replace.
+[2024-08-04 09:17:19][notice]Prepare to replace database.
+[2024-08-04 09:17:19][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:17:19][notice]Replacing database tables is completed.
+[2024-08-04 09:17:19][notice]Replacing wpvividstg01_staatic_deployments is completed.
+[2024-08-04 09:17:25][notice]Start processing db_replace.
+[2024-08-04 09:17:25][notice]Prepare to replace database.
+[2024-08-04 09:17:25][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:17:25][notice]Replacing database tables is completed.
+[2024-08-04 09:17:25][notice]Replacing wpvividstg01_staatic_known_urls is completed.
+[2024-08-04 09:17:30][notice]Start processing db_replace.
+[2024-08-04 09:17:30][notice]Prepare to replace database.
+[2024-08-04 09:17:30][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:17:30][notice]Replacing database tables is completed.
+[2024-08-04 09:17:30][notice]Replacing wpvividstg01_staatic_log_entries is completed.
+[2024-08-04 09:17:33][notice]Start processing db_replace.
+[2024-08-04 09:17:33][notice]Prepare to replace database.
+[2024-08-04 09:17:33][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:17:33][notice]Replacing database tables is completed.
+[2024-08-04 09:17:33][notice]Replacing wpvividstg01_staatic_publications is completed.
+[2024-08-04 09:17:37][notice]Start processing db_replace.
+[2024-08-04 09:17:37][notice]Prepare to replace database.
+[2024-08-04 09:17:37][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:17:39][notice]Replacing database tables is completed.
+[2024-08-04 09:17:39][notice]Replacing wpvividstg01_staatic_results is completed.
+[2024-08-04 09:17:40][notice]Start processing db_replace.
+[2024-08-04 09:17:40][notice]Prepare to replace database.
+[2024-08-04 09:17:40][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:17:40][notice]Replacing database tables is completed.
+[2024-08-04 09:17:40][notice]Replacing wpvividstg01_staatic_results_deployment is completed.
+[2024-08-04 09:17:44][notice]Start processing db_replace.
+[2024-08-04 09:17:44][notice]Prepare to replace database.
+[2024-08-04 09:17:44][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:17:44][notice]Replacing database tables is completed.
+[2024-08-04 09:17:44][notice]Replacing wpvividstg01_tec_events is completed.
+[2024-08-04 09:17:48][notice]Start processing db_replace.
+[2024-08-04 09:17:48][notice]Prepare to replace database.
+[2024-08-04 09:17:48][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:17:48][notice]Replacing database tables is completed.
+[2024-08-04 09:17:48][notice]Replacing wpvividstg01_tec_occurrences is completed.
+[2024-08-04 09:17:51][notice]Start processing db_replace.
+[2024-08-04 09:17:51][notice]Prepare to replace database.
+[2024-08-04 09:17:51][Warning]Ignore table wpvividstg01_term_relationships
+[2024-08-04 09:17:51][notice]Replacing wpvividstg01_term_relationships is completed.
+[2024-08-04 09:17:54][notice]Start processing db_replace.
+[2024-08-04 09:17:54][notice]Prepare to replace database.
+[2024-08-04 09:17:54][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:17:54][notice]Replacing database tables is completed.
+[2024-08-04 09:17:54][notice]Replacing wpvividstg01_term_taxonomy is completed.
+[2024-08-04 09:17:58][notice]Start processing db_replace.
+[2024-08-04 09:17:58][notice]Prepare to replace database.
+[2024-08-04 09:17:58][notice]Replacing database tables is completed.
+[2024-08-04 09:17:58][notice]Replacing wpvividstg01_termmeta is completed.
+[2024-08-04 09:18:01][notice]Start processing db_replace.
+[2024-08-04 09:18:01][notice]Prepare to replace database.
+[2024-08-04 09:18:01][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:18:01][notice]Replacing database tables is completed.
+[2024-08-04 09:18:01][notice]Replacing wpvividstg01_terms is completed.
+[2024-08-04 09:18:05][notice]Start processing db_replace.
+[2024-08-04 09:18:05][notice]Prepare to replace database.
+[2024-08-04 09:18:05][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"rbw_","wpvividstg01_") WHERE meta_key LIKE "rbw\_%";
+[2024-08-04 09:18:05][notice]The length of UPDATE statement: 112
+[2024-08-04 09:18:05][notice]Replacing wpvividstg01_usermeta is completed.
+[2024-08-04 09:18:09][notice]Start processing db_replace.
+[2024-08-04 09:18:09][notice]Prepare to replace database.
+[2024-08-04 09:18:09][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:18:09][notice]Replacing database tables is completed.
+[2024-08-04 09:18:09][notice]Replacing wpvividstg01_users is completed.
+[2024-08-04 09:18:13][notice]Start processing db_replace.
+[2024-08-04 09:18:13][notice]Prepare to replace database.
+[2024-08-04 09:18:13][notice]Replacing database tables is completed.
+[2024-08-04 09:18:13][notice]Replacing wpvividstg01_wpfm_backup is completed.
+[2024-08-04 09:18:16][notice]Start processing db_replace.
+[2024-08-04 09:18:16][notice]Prepare to replace database.
+[2024-08-04 09:18:16][notice]Replacing database tables is completed.
+[2024-08-04 09:18:16][notice]Replacing wpvividstg01_wpforms_logs is completed.
+[2024-08-04 09:18:20][notice]Start processing db_replace.
+[2024-08-04 09:18:20][notice]Prepare to replace database.
+[2024-08-04 09:18:20][notice]Replacing database tables is completed.
+[2024-08-04 09:18:20][notice]Replacing wpvividstg01_wpforms_payment_meta is completed.
+[2024-08-04 09:18:23][notice]Start processing db_replace.
+[2024-08-04 09:18:23][notice]Prepare to replace database.
+[2024-08-04 09:18:23][notice]Replacing database tables is completed.
+[2024-08-04 09:18:23][notice]Replacing wpvividstg01_wpforms_payments is completed.
+[2024-08-04 09:18:27][notice]Start processing db_replace.
+[2024-08-04 09:18:27][notice]Prepare to replace database.
+[2024-08-04 09:18:27][notice]Start replacing the table prefix from 0 row.
+[2024-08-04 09:18:27][notice]Replacing database tables is completed.
+[2024-08-04 09:18:27][notice]Replacing wpvividstg01_wpforms_tasks_meta is completed.
+[2024-08-04 09:18:27][notice]UPDATE wpvividstg01_options SET option_value = '' WHERE option_name = 'rewrite_rules'
+[2024-08-04 09:18:27][notice]INSERT INTO wpvividstg01_options (option_name,option_value) VALUES ('wpvivid_staging_finish',1)
+[2024-08-04 09:18:27][notice]INSERT INTO wpvividstg01_options (option_name,option_value) VALUES ('wpvivid_staging_data','a:6:{s:2:\"id\";s:21:\"wpvivid-66af466b5c411\";s:4:\"name\";s:68:\"/mnt/data/vhosts/casite-1486937.cloudaccess.net/httpdocs/mystaging01\";s:6:\"prefix\";s:13:\"wpvividstg01_\";s:16:\"parent_admin_url\";s:79:\"https://jcubstudentboardgroup2.cloudaccess.host/wp-admin/admin.php?page=WPvivid\";s:13:\"live_site_url\";s:47:\"https://jcubstudentboardgroup2.cloudaccess.host\";s:21:\"live_site_staging_url\";s:87:\"https://jcubstudentboardgroup2.cloudaccess.host/wp-admin/admin.php?page=WPvivid_Staging\";}')
+[2024-08-04 09:18:27][notice]UPDATE wpvividstg01_options SET option_value = '0' WHERE option_name = 'blog_public'
+[2024-08-04 09:18:27][notice]DELETE FROM wpvividstg01_options WHERE option_name = 'wpvivid_backup_list'
+[2024-08-04 09:18:27][notice]UPDATE wpvividstg01_options SET option_value = '/{2c1e43be1d87e764eedb573a17bf70457d8c8176694447d852995c57d58b92ce}year{2c1e43be1d87e764eedb573a17bf70457d8c8176694447d852995c57d58b92ce}/{2c1e43be1d87e764eedb573a17bf70457d8c8176694447d852995c57d58b92ce}monthnum{2c1e43be1d87e764eedb573a17bf70457d8c8176694447d852995c57d58b92ce}/{2c1e43be1d87e764eedb573a17bf70457d8c8176694447d852995c57d58b92ce}day{2c1e43be1d87e764eedb573a17bf70457d8c8176694447d852995c57d58b92ce}/{2c1e43be1d87e764eedb573a17bf70457d8c8176694447d852995c57d58b92ce}postname{2c1e43be1d87e764eedb573a17bf70457d8c8176694447d852995c57d58b92ce}/' WHERE option_name = 'permalink_structure'
+[2024-08-04 09:18:27][notice]UPDATE wpvividstg01_options SET option_value = '' WHERE option_name = 'upload_path'
+[2024-08-04 09:18:27][notice]Replacing database is completed.
+[2024-08-04 09:18:27][notice]Creating staging site is completed.
+[2024-08-04 09:18:31][notice]Access staging site failed.
