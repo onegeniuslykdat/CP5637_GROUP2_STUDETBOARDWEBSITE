@@ -2,11 +2,10 @@
 
 ## Introduction
 Welcome to the Student Board WordPress theme documentation. This theme is designed to help schools quickly and easily create their own student service websites. Student Board is an improvement based on the following theme:
-- **Theme URL**: [Variations](https://en-au.wordpress.org/themes/variations/)
-- **Author**: Tyler Moore
-- **Author URL**: [Tyler Moore](https://en-au.wordpress.org/themes/author/conutant/)
-- **Version**: 4.3.2
+- **Theme URL**: [JCUB Student Board_Variations](https://jcubstudentboardgroup2.cloudaccess.host/wp-admin/themes.php?theme=jcub-student-board_variations)
+- **Version**: 1.0.0
 - **Required PHP Version**: 5.7
+
 This guide provides detailed insights into the theme structure and functionality, aiming to help developers and contributors easily understand it.
 
 ## Theme Overview
@@ -19,7 +18,7 @@ Student Board is a WordPress theme with a clean design, developed for educationa
 - **Search Functionality**: Provides powerful search functionality to help users quickly find needed information.
 - **Compatible with Multiple Plugins**: Compatible with common WordPress plugins like WP Form 7, The Event, etc., optimizing your performance.
 
-## Features (Please ensure you have downloaded the corresponding plugins: Event Tickets, Events Shortcodes For The Events Calendar, The Events Calendar. For detailed information, please refer to [site.md](https://github.com/onegeniuslykdat/CP5637_GROUP2_STUDETBOARDWEBSITE/blob/main/documents/site.md#plugins))
+## Features (Please ensure you have downloaded the corresponding plugins: Event Tickets, Events Shortcodes For The Events Calendar, The Events Calendar. For detailed information, please refer to [site.md](site.md#plugins))
 - **Responsive Design**: Ensures the best user experience on various devices.
 - **Customizable Color Scheme**: Easily modify the main color scheme through the WordPress customizer.
 - **Tool Areas**:
