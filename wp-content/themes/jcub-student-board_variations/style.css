@@ -9,3 +9,7 @@ This is the child theme for Variations theme, generated with Generate Child Them
 
 (optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
 */
+
+body {
+    background-color: lightblue !important;
+}
