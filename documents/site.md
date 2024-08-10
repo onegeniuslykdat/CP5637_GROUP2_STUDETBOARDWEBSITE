@@ -83,7 +83,8 @@ The following pluggins are used in this website
 | [Events](https://theeventscalendar.com/knowledgebase/guide/event-tickets/) | Events helps to create custom post types specif to events. We have used this to create event categories and events. |
 | [WP File Manager](https://wordpress.org/plugins/wp-file-manager/) | File Manager allows you to edit, delete, upload, download, zip, copy and paste files and folders directly from the WordPress backend. |
 | [WPForms](https://wpforms.com/) | WPForms is popular for creating custom forms. We have used it to create the contact and join us forms, which have helped to enhance the respective pages with data collection. |
-
+| [Simply Static](https://docs.simplystatic.com/) | Simply Static is static site generator to create fast and secure static versions of your WordPress website. We have used it to create the publish files for our staging environment on GitHub Pages. |
+| [WP Go Maps](https://www.wpgmaps.com/) | WP Go Maps is the easiest Google Maps plugin to use in order to create custom Google Maps or a map block with high quality markers containing locations, descriptions, images and links. We have used it to create the map block on our contact page. |
 
 
 
