@@ -28,7 +28,7 @@ The file [a2.html](documents/a2.html) includes:
 - Project links to the production and staging site, GitHub repository, Project board and Slack.
 - Login in details for WordPress for both the Production and Staging site.
 
-## GitHub Classroom, Slack and Trello Board
+## GitHub, Slack and Trello Board
 
 - GitHub: [GitHub Repo](https://github.com/onegeniuslykdat/CP5637_GROUP2_STUDETBOARDWEBSITE)
 - Slack Channel [JCU](https://app.slack.com/client/T1HPNSNKT/C078QLM30R4)
