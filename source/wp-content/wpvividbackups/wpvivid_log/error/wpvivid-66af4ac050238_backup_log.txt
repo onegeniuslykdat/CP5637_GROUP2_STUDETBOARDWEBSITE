@@ -1,2 +1,0 @@
-[2024-08-04 09:56:21][error]Backup the file ends with an error Too many resumption attempts.
-[2024-08-04 09:56:21][error]Too many resumption attempts.
